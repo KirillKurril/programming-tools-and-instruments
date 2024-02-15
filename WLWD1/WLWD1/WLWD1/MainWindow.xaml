@@ -1,0 +1,102 @@
+﻿<Window x:Class="WLWD1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WLWD1"
+        mc:Ignorable="d"
+        Title="Calculator" Height="450" Width="340">
+    <Window.Resources>
+        <Style x:Key="NumberButton" TargetType="Button">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Background" Value="#ffffff" />
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                    BorderBrush="{TemplateBinding BorderBrush}"
+                    BorderThickness="{TemplateBinding BorderThickness}"
+                    Padding="{TemplateBinding Padding}"
+                    CornerRadius="5">
+                            <ContentPresenter HorizontalAlignment ="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="DarkNumberButton" TargetType="Button" BasedOn="{StaticResource NumberButton}">
+            <Setter Property="Background" Value="#fcf8f6" />
+        </Style>
+    </Window.Resources>
+    <Grid x:Name="MainRoot" Background="#f8f2ed">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="116*"/>
+            <RowDefinition Height="41*"/>
+            <RowDefinition Height="371*"/>
+        </Grid.RowDefinitions>
+        <TextBox Grid.Row="0" Grid.Column="0" Name="Screen" Background="#f8f2ed" Grid.ColumnSpan="2"></TextBox>
+        <Grid Grid.Column="0" Grid.ColumnSpan="2" Margin="0,98,0,0" Grid.RowSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0">MC</Button>
+            <Button Grid.Column="1">MR</Button>
+            <Button Grid.Column="2">M+</Button>
+            <Button Grid.Column="3">M-</Button>
+            <Button Grid.Column="4">MS</Button>
+            <Button Grid.Column="5">M⟡</Button>
+        </Grid>
+        <Grid Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Margin="0,35,0,0" Grid.RowSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Row="0" Grid.Column="0" Style="{StaticResource DarkNumberButton}">%</Button>
+            <Button Grid.Row="0" Grid.Column="1" Style="{StaticResource DarkNumberButton}">CE</Button>
+            <Button Grid.Row="0" Grid.Column="2" Style="{StaticResource DarkNumberButton}">C</Button>
+            <Button Grid.Row="0" Grid.Column="3" Style="{StaticResource DarkNumberButton}">←</Button>
+            <Button Grid.Row="1" Grid.Column="0" Style="{StaticResource DarkNumberButton}">1/x</Button>
+            <Button Grid.Row="1" Grid.Column="1" Style="{StaticResource DarkNumberButton}">x²</Button>
+            <Button Grid.Row="1" Grid.Column="2" Style="{StaticResource DarkNumberButton}">√</Button>
+            <Button Grid.Row="1" Grid.Column="3" Style="{StaticResource DarkNumberButton}">/</Button>
+            <Button Grid.Row="2" Grid.Column="0" Style="{StaticResource NumberButton}">7</Button>
+            <Button Grid.Row="2" Grid.Column="1" Style="{StaticResource NumberButton}">8</Button>
+            <Button Grid.Row="2" Grid.Column="2" Style="{StaticResource NumberButton}">9</Button>              
+            <Button Grid.Row="2" Grid.Column="3" Style="{StaticResource DarkNumberButton}">x</Button>
+            <Button Grid.Row="3" Grid.Column="0" Style="{StaticResource DarkNumberButton}">4</Button>
+            <Button Grid.Row="3" Grid.Column="1" Style="{StaticResource DarkNumberButton}">5</Button>
+            <Button Grid.Row="3" Grid.Column="2" Style="{StaticResource DarkNumberButton}">6</Button>              
+            <Button Grid.Row="3" Grid.Column="3" Style="{StaticResource DarkNumberButton}">-</Button>
+            <Button Grid.Row="4" Grid.Column="0" Style="{StaticResource DarkNumberButton}">1</Button>
+            <Button Grid.Row="4" Grid.Column="1" Style="{StaticResource DarkNumberButton}">2</Button>
+            <Button Grid.Row="4" Grid.Column="2" Style="{StaticResource DarkNumberButton}">3</Button>              
+            <Button Grid.Row="4" Grid.Column="3" Style="{StaticResource DarkNumberButton}">+</Button>
+            <Button Grid.Row="5" Grid.Column="0" Style="{StaticResource DarkNumberButton}">±</Button>
+            <Button Grid.Row="5" Grid.Column="1" Style="{StaticResource DarkNumberButton}">0</Button>
+            <Button Grid.Row="5" Grid.Column="2" Style="{StaticResource DarkNumberButton}">,</Button>
+            <Button Grid.Row="5" Grid.Column="3" Style="{StaticResource DarkNumberButton}"
+                    Background="#4c5f6b" HorizontalContentAlignment="Right" Content="="></Button>
+        </Grid>
+    </Grid>
+</Window>
