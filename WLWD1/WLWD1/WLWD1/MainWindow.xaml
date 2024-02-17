@@ -12,6 +12,7 @@
             <Setter Property="VerticalContentAlignment" Value="Center"/>
             <Setter Property="Background" Value="#ffffff" />
             <Setter Property="Padding" Value="10"/>
+            <Setter Property="FontSize" Value="16"/>
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
@@ -29,6 +30,12 @@
         <Style x:Key="ActionButton" TargetType="Button" BasedOn="{StaticResource NumberButton}">
             <Setter Property="Background" Value="#fcf8f6" />
         </Style>
+        <Style x:Key="MemoryButton" TargetType="Button">
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+            <Setter Property="VerticalAlignment" Value="Stretch"/>
+            <Setter Property="Background" Value="#f8f2ed"/>
+            <Setter Property="BorderThickness" Value="0"/>
+        </Style>
     </Window.Resources>
     <Grid x:Name="MainRoot" Background="#f8f2ed">
         <Grid.ColumnDefinitions>
@@ -40,22 +47,48 @@
             <RowDefinition Height="41*"/>
             <RowDefinition Height="371*"/>
         </Grid.RowDefinitions>
-        <TextBox Grid.Row="0" Grid.Column="0" Name="Screen" Background="#f8f2ed" Grid.ColumnSpan="2"></TextBox>
-        <Grid Grid.Column="0" Grid.ColumnSpan="2" Margin="0,98,0,0" Grid.RowSpan="2">
+        <TextBox Grid.Row="0" Grid.Column="0" Name="Screen" Background="#f8f2ed" Grid.ColumnSpan="2" IsReadOnly="True">
+            <TextBox.Style>
+                <Style BasedOn="{StaticResource {x:Type TextBox}}" TargetType="{x:Type TextBox}">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type TextBox}">
+                                <Border x:Name="Bd" 
+                                        BorderBrush="{TemplateBinding BorderBrush}" 
+                                        BorderThickness="{TemplateBinding BorderThickness}" 
+                                        Background="{TemplateBinding Background}" 
+                                        SnapsToDevicePixels="true">
+                                    <ScrollViewer x:Name="PART_ContentHost" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsEnabled" Value="false">
+                                        <Setter Property="Background" TargetName="Bd" Value="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+                                        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Setter Property="FontSize" Value="18"/>
+                    <Setter Property="HorizontalContentAlignment" Value="Right"/>
+                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                </Style>
+            </TextBox.Style>
+        </TextBox>
+        <Grid Grid.Column="0" Grid.ColumnSpan="2" Margin="0,90,0,0" Grid.RowSpan="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
-                <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Button Grid.Column="0">MC</Button>
-            <Button Grid.Column="1">MR</Button>
-            <Button Grid.Column="2">M+</Button>
-            <Button Grid.Column="3">M-</Button>
-            <Button Grid.Column="4">MS</Button>
-            <Button Grid.Column="5">M⟡</Button>
+            <Button Grid.Column="0" Click="MemoryClear" Style="{StaticResource MemoryButton}">MC</Button>
+            <Button Grid.Column="1" Click="MemoryGet" Style="{StaticResource MemoryButton}">MR</Button>
+            <Button Grid.Column="2" Click="MemoryAdd" Style="{StaticResource MemoryButton}">M+</Button>
+            <Button Grid.Column="3" Click="MemorySub" Style="{StaticResource MemoryButton}">M-</Button>
+            <Button Grid.Column="4" Click="MemorySet" Style="{StaticResource MemoryButton}">MS</Button>
+            <!--<ComboBox Grid.Column="5" SelectionChanged="ComboBox_SelectionChanged" IsReadOnly="True" Background="#f8f2ed">M⟡</ComboBox>-->
         </Grid>
         <Grid Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Margin="0,35,0,0" Grid.RowSpan="2">
             <Grid.RowDefinitions>
@@ -72,31 +105,32 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Button Grid.Row="0" Grid.Column="0" Style="{StaticResource ActionButton}">%</Button>
-            <Button Grid.Row="0" Grid.Column="1" Style="{StaticResource ActionButton}">CE</Button>
-            <Button Grid.Row="0" Grid.Column="2" Style="{StaticResource ActionButton}">C</Button>
-            <Button Grid.Row="0" Grid.Column="3" Style="{StaticResource ActionButton}">←</Button>
-            <Button Grid.Row="1" Grid.Column="0" Style="{StaticResource ActionButton}">1/x</Button>
-            <Button Grid.Row="1" Grid.Column="1" Style="{StaticResource ActionButton}">x²</Button>
-            <Button Grid.Row="1" Grid.Column="2" Style="{StaticResource ActionButton}">√</Button>
-            <Button Grid.Row="1" Grid.Column="3" Style="{StaticResource ActionButton}">/</Button>
+            <Button Grid.Row="0" Grid.Column="0" Click="Percent" Style="{StaticResource ActionButton}">%</Button>
+            <Button Grid.Row="0" Grid.Column="1" Click="ClearEntry" Style="{StaticResource ActionButton}">CE</Button>
+            <Button Grid.Row="0" Grid.Column="2" Click="Clear" Style="{StaticResource ActionButton}">C</Button>
+            <Button Grid.Row="0" Grid.Column="3" Click="RemoveLastSymbol" Style="{StaticResource ActionButton}">←</Button>
+            <Button Grid.Row="1" Grid.Column="0" Click="Reciprocal" Style="{StaticResource ActionButton}">1/x</Button>
+            <Button Grid.Row="1" Grid.Column="1" Click="SquarePower" Style="{StaticResource ActionButton}">x²</Button>
+            <Button Grid.Row="1" Grid.Column="2" Click="SquareRoot" Style="{StaticResource ActionButton}">√</Button>
+            <Button Grid.Row="1" Grid.Column="3" Click="TwoOperandsAction" Style="{StaticResource ActionButton}">/</Button>
             <Button Grid.Row="2" Grid.Column="0" Click="NumberButtonClick" Style="{StaticResource NumberButton}">7</Button>
             <Button Grid.Row="2" Grid.Column="1" Click="NumberButtonClick" Style="{StaticResource NumberButton}">8</Button>
-            <Button Grid.Row="2" Grid.Column="2" Click="NumberButtonClick" Style="{StaticResource NumberButton}">9</Button>              
-            <Button Grid.Row="2" Grid.Column="3" Style="{StaticResource ActionButton}">x</Button>
+            <Button Grid.Row="2" Grid.Column="2" Click="NumberButtonClick" Style="{StaticResource NumberButton}">9</Button>
+            <Button Grid.Row="2" Grid.Column="3" Click="TwoOperandsAction" Style="{StaticResource ActionButton}">*</Button>
             <Button Grid.Row="3" Grid.Column="0" Click="NumberButtonClick" Style="{StaticResource NumberButton}">4</Button>
             <Button Grid.Row="3" Grid.Column="1" Click="NumberButtonClick" Style="{StaticResource NumberButton}">5</Button>
-            <Button Grid.Row="3" Grid.Column="2" Click="NumberButtonClick" Style="{StaticResource NumberButton}">6</Button>              
-            <Button Grid.Row="3" Grid.Column="3" Style="{StaticResource ActionButton}">-</Button>
+            <Button Grid.Row="3" Grid.Column="2" Click="NumberButtonClick" Style="{StaticResource NumberButton}">6</Button>
+            <Button Grid.Row="3" Grid.Column="3" Click="TwoOperandsAction" Style="{StaticResource ActionButton}">-</Button>
             <Button Grid.Row="4" Grid.Column="0" Click="NumberButtonClick" Style="{StaticResource NumberButton}">1</Button>
             <Button Grid.Row="4" Grid.Column="1" Click="NumberButtonClick" Style="{StaticResource NumberButton}">2</Button>
-            <Button Grid.Row="4" Grid.Column="2" Click="NumberButtonClick" Style="{StaticResource NumberButton}">3</Button>              
-            <Button Grid.Row="4" Grid.Column="3" Style="{StaticResource ActionButton}">+</Button>
-            <Button Grid.Row="5" Grid.Column="0" Style="{StaticResource ActionButton}">±</Button>
+            <Button Grid.Row="4" Grid.Column="2" Click="NumberButtonClick" Style="{StaticResource NumberButton}">3</Button>
+            <Button Grid.Row="4" Grid.Column="3" Click="TwoOperandsAction" Style="{StaticResource ActionButton}">+</Button>
+            <Button Grid.Row="5" Grid.Column="0" Click="ChangeSign" Style="{StaticResource ActionButton}">±</Button>
             <Button Grid.Row="5" Grid.Column="1" Click="NumberButtonClick" Style="{StaticResource NumberButton}">0</Button>
-            <Button Grid.Row="5" Grid.Column="2" Style="{StaticResource ActionButton}">,</Button>
-            <Button Grid.Row="5" Grid.Column="3" Style="{StaticResource ActionButton}"
+            <Button Grid.Row="5" Grid.Column="2" Click="Comma" Style="{StaticResource ActionButton}">,</Button>
+            <Button Grid.Row="5" Grid.Column="3" Click="Equals" Style="{StaticResource ActionButton}"
                     Background="#4c5f6b" HorizontalContentAlignment="Right" Content="="></Button>
         </Grid>
+        <!--<ComboBox Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="415,32,0,0" Grid.Row="2" VerticalAlignment="Top" Width="120"/>-->
     </Grid>
 </Window>

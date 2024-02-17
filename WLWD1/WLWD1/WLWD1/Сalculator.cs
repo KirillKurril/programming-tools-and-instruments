@@ -8,20 +8,21 @@ namespace WLWD1
 {
     internal class Calculator
     {
-        private double firstOperand { get; set; }
-        private bool secondOperatorExpected { get; set; }
-
-        private char lastOperator;
-        private double memoryValue { get; set; }
+        public double firstOperand { get; set; }
+        public bool OperatorExpected { get; set; }
+        public double MemoryValue { get; set; }
+        public bool IsClear { get; set; }
+        public bool MemoryIsEmpty { get; set; }
+        public string LastPostfix { get; set; }
         public Calculator()
-            => (firstOperand, secondOperatorExpected, lastOperator) = (0, false, '\0');
+            => (firstOperand, OperatorExpected, MemoryValue, IsClear, MemoryIsEmpty, LastPostfix)
+            = (0, true, 0, true, true, "");
         public void ClearMemory()
-            => memoryValue = 0;
+            => MemoryValue = 0;
         public void AddMemory(double val)
-            => memoryValue += val;
+            => MemoryValue += val;
         public void SubstractMemory(double val)
-            => memoryValue -= val;
-
+            => MemoryValue -= val;
 
     }
 }
