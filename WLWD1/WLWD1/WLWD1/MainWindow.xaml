@@ -26,7 +26,7 @@
                 </Setter.Value>
             </Setter>
         </Style>
-        <Style x:Key="DarkNumberButton" TargetType="Button" BasedOn="{StaticResource NumberButton}">
+        <Style x:Key="ActionButton" TargetType="Button" BasedOn="{StaticResource NumberButton}">
             <Setter Property="Background" Value="#fcf8f6" />
         </Style>
     </Window.Resources>
@@ -72,30 +72,30 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Button Grid.Row="0" Grid.Column="0" Style="{StaticResource DarkNumberButton}">%</Button>
-            <Button Grid.Row="0" Grid.Column="1" Style="{StaticResource DarkNumberButton}">CE</Button>
-            <Button Grid.Row="0" Grid.Column="2" Style="{StaticResource DarkNumberButton}">C</Button>
-            <Button Grid.Row="0" Grid.Column="3" Style="{StaticResource DarkNumberButton}">←</Button>
-            <Button Grid.Row="1" Grid.Column="0" Style="{StaticResource DarkNumberButton}">1/x</Button>
-            <Button Grid.Row="1" Grid.Column="1" Style="{StaticResource DarkNumberButton}">x²</Button>
-            <Button Grid.Row="1" Grid.Column="2" Style="{StaticResource DarkNumberButton}">√</Button>
-            <Button Grid.Row="1" Grid.Column="3" Style="{StaticResource DarkNumberButton}">/</Button>
-            <Button Grid.Row="2" Grid.Column="0" Style="{StaticResource NumberButton}">7</Button>
-            <Button Grid.Row="2" Grid.Column="1" Style="{StaticResource NumberButton}">8</Button>
-            <Button Grid.Row="2" Grid.Column="2" Style="{StaticResource NumberButton}">9</Button>              
-            <Button Grid.Row="2" Grid.Column="3" Style="{StaticResource DarkNumberButton}">x</Button>
-            <Button Grid.Row="3" Grid.Column="0" Style="{StaticResource DarkNumberButton}">4</Button>
-            <Button Grid.Row="3" Grid.Column="1" Style="{StaticResource DarkNumberButton}">5</Button>
-            <Button Grid.Row="3" Grid.Column="2" Style="{StaticResource DarkNumberButton}">6</Button>              
-            <Button Grid.Row="3" Grid.Column="3" Style="{StaticResource DarkNumberButton}">-</Button>
-            <Button Grid.Row="4" Grid.Column="0" Style="{StaticResource DarkNumberButton}">1</Button>
-            <Button Grid.Row="4" Grid.Column="1" Style="{StaticResource DarkNumberButton}">2</Button>
-            <Button Grid.Row="4" Grid.Column="2" Style="{StaticResource DarkNumberButton}">3</Button>              
-            <Button Grid.Row="4" Grid.Column="3" Style="{StaticResource DarkNumberButton}">+</Button>
-            <Button Grid.Row="5" Grid.Column="0" Style="{StaticResource DarkNumberButton}">±</Button>
-            <Button Grid.Row="5" Grid.Column="1" Style="{StaticResource DarkNumberButton}">0</Button>
-            <Button Grid.Row="5" Grid.Column="2" Style="{StaticResource DarkNumberButton}">,</Button>
-            <Button Grid.Row="5" Grid.Column="3" Style="{StaticResource DarkNumberButton}"
+            <Button Grid.Row="0" Grid.Column="0" Style="{StaticResource ActionButton}">%</Button>
+            <Button Grid.Row="0" Grid.Column="1" Style="{StaticResource ActionButton}">CE</Button>
+            <Button Grid.Row="0" Grid.Column="2" Style="{StaticResource ActionButton}">C</Button>
+            <Button Grid.Row="0" Grid.Column="3" Style="{StaticResource ActionButton}">←</Button>
+            <Button Grid.Row="1" Grid.Column="0" Style="{StaticResource ActionButton}">1/x</Button>
+            <Button Grid.Row="1" Grid.Column="1" Style="{StaticResource ActionButton}">x²</Button>
+            <Button Grid.Row="1" Grid.Column="2" Style="{StaticResource ActionButton}">√</Button>
+            <Button Grid.Row="1" Grid.Column="3" Style="{StaticResource ActionButton}">/</Button>
+            <Button Grid.Row="2" Grid.Column="0" Click="NumberButtonClick" Style="{StaticResource NumberButton}">7</Button>
+            <Button Grid.Row="2" Grid.Column="1" Click="NumberButtonClick" Style="{StaticResource NumberButton}">8</Button>
+            <Button Grid.Row="2" Grid.Column="2" Click="NumberButtonClick" Style="{StaticResource NumberButton}">9</Button>              
+            <Button Grid.Row="2" Grid.Column="3" Style="{StaticResource ActionButton}">x</Button>
+            <Button Grid.Row="3" Grid.Column="0" Click="NumberButtonClick" Style="{StaticResource NumberButton}">4</Button>
+            <Button Grid.Row="3" Grid.Column="1" Click="NumberButtonClick" Style="{StaticResource NumberButton}">5</Button>
+            <Button Grid.Row="3" Grid.Column="2" Click="NumberButtonClick" Style="{StaticResource NumberButton}">6</Button>              
+            <Button Grid.Row="3" Grid.Column="3" Style="{StaticResource ActionButton}">-</Button>
+            <Button Grid.Row="4" Grid.Column="0" Click="NumberButtonClick" Style="{StaticResource NumberButton}">1</Button>
+            <Button Grid.Row="4" Grid.Column="1" Click="NumberButtonClick" Style="{StaticResource NumberButton}">2</Button>
+            <Button Grid.Row="4" Grid.Column="2" Click="NumberButtonClick" Style="{StaticResource NumberButton}">3</Button>              
+            <Button Grid.Row="4" Grid.Column="3" Style="{StaticResource ActionButton}">+</Button>
+            <Button Grid.Row="5" Grid.Column="0" Style="{StaticResource ActionButton}">±</Button>
+            <Button Grid.Row="5" Grid.Column="1" Click="NumberButtonClick" Style="{StaticResource NumberButton}">0</Button>
+            <Button Grid.Row="5" Grid.Column="2" Style="{StaticResource ActionButton}">,</Button>
+            <Button Grid.Row="5" Grid.Column="3" Style="{StaticResource ActionButton}"
                     Background="#4c5f6b" HorizontalContentAlignment="Right" Content="="></Button>
         </Grid>
     </Grid>

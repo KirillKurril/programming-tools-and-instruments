@@ -12,17 +12,23 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WLWD1;
+
 
 namespace WLWD1
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
+        private Calculator calculator;
         public MainWindow()
         {
             InitializeComponent();
+            calculator = new Calculator();
+        }
+
+        private void NumberButtonClick()
+        {
+            if(calculator.se)
         }
     }
 }
