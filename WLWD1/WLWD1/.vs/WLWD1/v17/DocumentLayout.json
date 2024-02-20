@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Uni\\programming-tools-and-instruments\\WLWD1\\WLWD1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D4A6177-197A-4549-9EC6-728B5F83164D}|WLWD1\\WLWD1.csproj|D:\\Uni\\programming-tools-and-instruments\\WLWD1\\WLWD1\\wlwd1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D4A6177-197A-4549-9EC6-728B5F83164D}|WLWD1\\WLWD1.csproj|solutionrelative:wlwd1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D4A6177-197A-4549-9EC6-728B5F83164D}|WLWD1\\WLWD1.csproj|d:\\uni\\programming-tools-and-instruments\\wlwd1\\wlwd1\\wlwd1\\\u0441alculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D4A6177-197A-4549-9EC6-728B5F83164D}|WLWD1\\WLWD1.csproj|solutionrelative:wlwd1\\\u0441alculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D4A6177-197A-4549-9EC6-728B5F83164D}|WLWD1\\WLWD1.csproj|d:\\uni\\programming-tools-and-instruments\\wlwd1\\wlwd1\\wlwd1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D4A6177-197A-4549-9EC6-728B5F83164D}|WLWD1\\WLWD1.csproj|solutionrelative:wlwd1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Uni\\programming-tools-and-instruments\\WLWD1\\WLWD1\\WLWD1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WLWD1\\MainWindow.xaml",
+              "ToolTip": "D:\\Uni\\programming-tools-and-instruments\\WLWD1\\WLWD1\\WLWD1\\MainWindow.xaml",
+              "RelativeToolTip": "WLWD1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-17T08:39:01.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Uni\\programming-tools-and-instruments\\WLWD1\\WLWD1\\WLWD1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WLWD1\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Uni\\programming-tools-and-instruments\\WLWD1\\WLWD1\\WLWD1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WLWD1\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAM0AAAAAAAAAAADwv9MAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T18:36:37.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\u0421alculator.cs",
+              "DocumentMoniker": "D:\\Uni\\programming-tools-and-instruments\\WLWD1\\WLWD1\\WLWD1\\\u0421alculator.cs",
+              "RelativeDocumentMoniker": "WLWD1\\\u0421alculator.cs",
+              "ToolTip": "D:\\Uni\\programming-tools-and-instruments\\WLWD1\\WLWD1\\WLWD1\\\u0421alculator.cs",
+              "RelativeToolTip": "WLWD1\\\u0421alculator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T18:44:03.765Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
