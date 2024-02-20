@@ -16,7 +16,8 @@ public partial class ProgressBarPage : ContentPage
         cancellationToken = cancellationTokenSource.Token;
 
 		integrator.ProgressChanged += (sender, percent)
-			=> { Bar.Progress = percent;
+			=> { 
+                Bar.Progress = percent;
 				Status.Text = "Вычисление";
 			};
 
@@ -34,7 +35,7 @@ public partial class ProgressBarPage : ContentPage
             }
             catch (OperationCanceledException)
             {
-                Status.Text = "Вычисление";
+                Status.Text = "Вычисление прервано";
                 Bar.Progress = 0;
             }
         });

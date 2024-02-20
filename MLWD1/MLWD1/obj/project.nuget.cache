@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jbtHZSkhRKQmp29ilIxNU7n7IdvPVKzl4cZsiuKT96vvG+HIxZ5hBMkOQoHExrfZeCUD95z97mFUbpEzW8pjcw==",
+  "dgSpecHash": "zJgIohm68zcacHcF3DsLF+v/hBQes58vDho/6c34kztO7peZG6tYd9kTXrj6F+lJDUgXXwTLJZsHPMZoCp6aEw==",
   "success": true,
   "projectFilePath": "C:\\Uni\\programming-tools-and-instruments\\MLWD1\\MLWD1\\MLWD1.csproj",
   "expectedPackageFiles": [
@@ -29,6 +29,9 @@
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsappsdk\\1.3.230724000\\microsoft.windowsappsdk.1.3.230724000.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\ncalc\\1.3.8\\ncalc.1.3.8.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\syncfusion.licensing\\24.2.7\\syncfusion.licensing.24.2.7.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\syncfusion.maui.core\\24.2.7\\syncfusion.maui.core.24.2.7.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\syncfusion.maui.progressbar\\24.2.7\\syncfusion.maui.progressbar.24.2.7.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\xamarin.android.glide\\4.15.1.2\\xamarin.android.glide.4.15.1.2.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\xamarin.android.glide.annotations\\4.15.1.2\\xamarin.android.glide.annotations.4.15.1.2.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.15.1.2\\xamarin.android.glide.disklrucache.4.15.1.2.nupkg.sha512",

@@ -79,6 +79,10 @@
               "version": "[8.0.2, )",
               "autoReferenced": true
             },
+            "Syncfusion.Maui.ProgressBar": {
+              "target": "Package",
+              "version": "[24.2.7, )"
+            },
             "ncalc": {
               "target": "Package",
               "version": "[1.3.8, )"
@@ -125,6 +129,10 @@
               "target": "Package",
               "version": "[8.0.2, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Maui.ProgressBar": {
+              "target": "Package",
+              "version": "[24.2.7, )"
             },
             "ncalc": {
               "target": "Package",
@@ -173,6 +181,10 @@
               "version": "[8.0.2, )",
               "autoReferenced": true
             },
+            "Syncfusion.Maui.ProgressBar": {
+              "target": "Package",
+              "version": "[24.2.7, )"
+            },
             "ncalc": {
               "target": "Package",
               "version": "[1.3.8, )"
@@ -214,6 +226,10 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.6, )"
+            },
+            "Syncfusion.Maui.ProgressBar": {
+              "target": "Package",
+              "version": "[24.2.7, )"
             },
             "ncalc": {
               "target": "Package",

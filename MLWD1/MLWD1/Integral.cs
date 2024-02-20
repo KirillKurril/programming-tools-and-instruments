@@ -1,6 +1,5 @@
 ﻿using System.Diagnostics;
 using System.Data;
-using System.Diagnostics;
 using System.Threading;
 
 namespace MLWD1
@@ -10,13 +9,13 @@ namespace MLWD1
         public event EventHandler<double> CalculationCompleted;
         public event EventHandler<double> ProgressChanged;
 
-        private int bottom = 0;
-        private int top = 1;
-        private double step = 0.000001;
+        private int bottom;
+        private int top;
+        private double step;
 
-        public Integrator() { }
+        public Integrator() => (bottom, top, step) = (0, 1, 0.00005);
 
-        public async Task CalculateIntegral(CancellationToken token)
+        public async Task /*void*/ CalculateIntegral(CancellationToken token)
         {
             double progress = bottom;
             double result = 0;
@@ -33,7 +32,7 @@ namespace MLWD1
                     result += Math.Sin(progress) * step;
                     progress += step;
 
-                    double percent = (progress - bottom) / (top - bottom);
+                    double percent = Math.Floor((progress - bottom) / (top - bottom) * 100) / 100;
 
                     OnProgressChanged(percent);
                 }
