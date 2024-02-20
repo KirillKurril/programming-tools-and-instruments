@@ -33,29 +33,27 @@ namespace MLWD1
             }
         }
         public event PropertyChangedEventHandler? PropertyChanged;
-        public Integrator() => (bottom, top, Result, step) = (0, 1, 0, 0.000001);
+        public Integrator() => (bottom, top, Result, step) = (0, 1, 0, 0.002);
 
         public async Task CalculateIntegral(CancellationToken token)
         {
             Progress = bottom;
             Result = 0;
 
-            await Task.Run(() =>
+
+            while (Progress < top)
             {
-                while (Progress < top)
+                await Task.Delay(1, token);
+                if (token.IsCancellationRequested)
                 {
-                    if (token.IsCancellationRequested)
-                    {
-                        token.ThrowIfCancellationRequested();
-                    }
-
-                    Result += Math.Sin(Progress) * step;
-                    Progress += step;
-
-                    double percent = Math.Floor((Progress - bottom) / (top - bottom) * 100) / 100;
-
+                    token.ThrowIfCancellationRequested();
                 }
-            }, token);
+
+                Result += Math.Sin(Progress) * step;
+                Progress += step;
+
+                double percent = Math.Floor((Progress - bottom) / (top - bottom) * 100) / 100;
+            }
         }
         public void OnPropertyChanged([CallerMemberName] string propertyName = "")
         {
