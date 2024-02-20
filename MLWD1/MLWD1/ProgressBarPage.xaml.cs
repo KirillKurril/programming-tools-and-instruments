@@ -12,23 +12,22 @@ public partial class ProgressBarPage : ContentPage
 	{
 		InitializeComponent();
         integrator = new Integrator();
+        cancellationTokenSource = new CancellationTokenSource();
+        cancellationToken = cancellationTokenSource.Token;
+
+        StartButton.IsEnabled = true;
+        CancelButton.IsEnabled = false;
+
+        Status.BindingContext = integrator;
+        Status.SetBinding(Label.TextProperty, "Result", stringFormat: "Результат вычислений: {0}");
+
+        Binding percentBinding = new Binding { Source = integrator, Path = "Progress" };
+        Bar.SetBinding(ProgressBar.ProgressProperty, percentBinding);
     }
 
 	private async void StartProgressBar(object sender, EventArgs e)
     {
-        cancellationTokenSource = new CancellationTokenSource();
-        cancellationToken = cancellationTokenSource.Token;
-
-        StartButton.IsEnabled = false;
-        CancelButton.IsEnabled = true;
-
-        Status.BindingContext = integrator;
-        Status.SetBinding(Label.TextProperty, "Result", stringFormat: "Результат вычислений: {0}");
-        Status.Text = "Вычисление";
-
-        Binding percentBinding = new Binding { Source = integrator, Path = "Progress" };
-        Bar.SetBinding(ProgressBar.ProgressProperty, percentBinding);
-            
+      
             try
             {
                 await integrator.CalculateIntegral(cancellationToken);

@@ -33,7 +33,7 @@ namespace MLWD1
             }
         }
         public event PropertyChangedEventHandler? PropertyChanged;
-        public Integrator() => (bottom, top, Result, step) = (0, 1, 0, 0.00001);
+        public Integrator() => (bottom, top, Result, step) = (0, 1, 0, 0.000001);
 
         public async Task CalculateIntegral(CancellationToken token)
         {
