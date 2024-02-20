@@ -29,265 +29,265 @@
     <AppXManifest Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-20T14:35:39.538</Modified>
+      <Modified>2024-02-20T20:17:07.265</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-02-20T14:11:04.537</Modified>
+      <Modified>2024-02-20T20:15:59.991</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MLWD1.runtimeconfig.json">
       <PackagePath>MLWD1.runtimeconfig.json</PackagePath>
-      <Modified>2024-02-20T13:39:10.228</Modified>
+      <Modified>2024-02-20T18:38:34.015</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MLWD1.dll">
       <PackagePath>MLWD1.dll</PackagePath>
-      <Modified>2024-02-20T14:35:33.411</Modified>
+      <Modified>2024-02-20T20:17:06.600</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MLWD1.exe</PackagePath>
-      <Modified>2024-02-20T14:35:33.681</Modified>
+      <Modified>2024-02-20T20:17:06.606</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2024-02-19T12:25:19.309</Modified>
+      <Modified>2024-02-20T16:16:27.713</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.009</Modified>
+      <Modified>2024-02-20T16:16:34.594</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.042</Modified>
+      <Modified>2024-02-20T16:16:34.595</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.088</Modified>
+      <Modified>2024-02-20T16:16:34.596</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.163</Modified>
+      <Modified>2024-02-20T16:16:34.596</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.456</Modified>
+      <Modified>2024-02-20T16:16:34.597</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2024-02-19T12:25:19.299</Modified>
+      <Modified>2024-02-20T16:16:34.545</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2024-02-19T12:25:19.301</Modified>
+      <Modified>2024-02-20T16:16:34.547</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-02-19T12:25:49.539</Modified>
+      <Modified>2024-02-20T16:16:34.549</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-02-19T12:25:50.641</Modified>
+      <Modified>2024-02-20T16:16:34.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-02-19T12:25:50.693</Modified>
+      <Modified>2024-02-20T16:16:34.551</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-02-19T12:25:50.756</Modified>
+      <Modified>2024-02-20T16:16:34.552</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-02-19T12:25:50.845</Modified>
+      <Modified>2024-02-20T16:16:34.553</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-02-19T12:25:51.185</Modified>
+      <Modified>2024-02-20T16:16:34.554</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.826</Modified>
+      <Modified>2024-02-20T16:16:34.554</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.841</Modified>
+      <Modified>2024-02-20T16:16:34.555</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.900</Modified>
+      <Modified>2024-02-20T16:16:34.556</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.855</Modified>
+      <Modified>2024-02-20T16:16:34.557</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.869</Modified>
+      <Modified>2024-02-20T16:16:34.557</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.731</Modified>
+      <Modified>2024-02-20T16:16:34.558</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.746</Modified>
+      <Modified>2024-02-20T16:16:34.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.815</Modified>
+      <Modified>2024-02-20T16:16:34.560</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.768</Modified>
+      <Modified>2024-02-20T16:16:34.561</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.785</Modified>
+      <Modified>2024-02-20T16:16:34.561</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.563</Modified>
+      <Modified>2024-02-20T16:16:34.562</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.576</Modified>
+      <Modified>2024-02-20T16:16:34.563</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.589</Modified>
+      <Modified>2024-02-20T16:16:34.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.605</Modified>
+      <Modified>2024-02-20T16:16:34.565</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.626</Modified>
+      <Modified>2024-02-20T16:16:34.566</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.636</Modified>
+      <Modified>2024-02-20T16:16:34.567</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.650</Modified>
+      <Modified>2024-02-20T16:16:34.567</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.719</Modified>
+      <Modified>2024-02-20T16:16:34.568</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.667</Modified>
+      <Modified>2024-02-20T16:16:34.569</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.685</Modified>
+      <Modified>2024-02-20T16:16:34.570</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-02-19T12:25:50.093</Modified>
+      <Modified>2024-02-20T16:16:34.571</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-02-19T12:25:50.117</Modified>
+      <Modified>2024-02-20T16:16:34.572</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-02-19T12:25:50.144</Modified>
+      <Modified>2024-02-20T16:16:34.573</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-02-19T12:25:50.191</Modified>
+      <Modified>2024-02-20T16:16:34.573</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-02-19T12:25:50.279</Modified>
+      <Modified>2024-02-20T16:16:34.574</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.997</Modified>
+      <Modified>2024-02-20T16:16:34.575</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-02-19T12:25:50.012</Modified>
+      <Modified>2024-02-20T16:16:34.576</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-02-19T12:25:50.026</Modified>
+      <Modified>2024-02-20T16:16:34.577</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-02-19T12:25:50.044</Modified>
+      <Modified>2024-02-20T16:16:34.577</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-02-19T12:25:50.076</Modified>
+      <Modified>2024-02-20T16:16:34.578</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.914</Modified>
+      <Modified>2024-02-20T16:16:34.579</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.928</Modified>
+      <Modified>2024-02-20T16:16:34.580</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.945</Modified>
+      <Modified>2024-02-20T16:16:34.580</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.961</Modified>
+      <Modified>2024-02-20T16:16:34.581</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.984</Modified>
+      <Modified>2024-02-20T16:16:34.582</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-02-19T12:25:50.305</Modified>
+      <Modified>2024-02-20T16:16:34.583</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-02-19T12:25:50.336</Modified>
+      <Modified>2024-02-20T16:16:34.583</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-02-19T12:25:50.375</Modified>
+      <Modified>2024-02-20T16:16:34.584</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-02-19T12:25:50.430</Modified>
+      <Modified>2024-02-20T16:16:34.585</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-02-19T12:25:50.594</Modified>
+      <Modified>2024-02-20T16:16:34.586</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.540</Modified>
+      <Modified>2024-02-20T16:16:34.587</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.559</Modified>
+      <Modified>2024-02-20T16:16:34.588</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.588</Modified>
+      <Modified>2024-02-20T16:16:34.589</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.633</Modified>
+      <Modified>2024-02-20T16:16:34.590</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-02-19T12:25:49.831</Modified>
+      <Modified>2024-02-20T16:16:34.593</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD1\MLWD1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MLWD1.deps.json">
       <PackagePath>MLWD1.deps.json</PackagePath>
-      <Modified>2024-02-20T13:39:10.039</Modified>
+      <Modified>2024-02-20T18:38:33.812</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

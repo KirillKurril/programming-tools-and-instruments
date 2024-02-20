@@ -1,49 +1,66 @@
 ﻿using System.Diagnostics;
 using System.Data;
 using System.Threading;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
 
 namespace MLWD1
 {
-    public class Integrator
+    public class Integrator : INotifyPropertyChanged
     {
-        public event EventHandler<double> CalculationCompleted;
-        public event EventHandler<double> ProgressChanged;
-
         private int bottom;
         private int top;
+        private double progress;
         private double step;
+        private double result;
 
-        public Integrator() => (bottom, top, step) = (0, 1, 0.00005);
-
-        public async Task /*void*/ CalculateIntegral(CancellationToken token)
+        public double Progress
         {
-            double progress = bottom;
-            double result = 0;
+            get => progress;
+            set
+            {
+                progress = value;
+                OnPropertyChanged();
+            }
+        }
+        public double Result
+        {
+            get => result;
+            set
+            {
+                result = value;
+                OnPropertyChanged();
+            }
+        }
+        public event PropertyChangedEventHandler? PropertyChanged;
+        public Integrator() => (bottom, top, Result, step) = (0, 1, 0, 0.00001);
+
+        public async Task CalculateIntegral(CancellationToken token)
+        {
+            Progress = bottom;
+            Result = 0;
 
             await Task.Run(() =>
             {
-                while (progress < top)
+                while (Progress < top)
                 {
                     if (token.IsCancellationRequested)
                     {
                         token.ThrowIfCancellationRequested();
                     }
 
-                    result += Math.Sin(progress) * step;
-                    progress += step;
+                    Result += Math.Sin(Progress) * step;
+                    Progress += step;
 
-                    double percent = Math.Floor((progress - bottom) / (top - bottom) * 100) / 100;
+                    double percent = Math.Floor((Progress - bottom) / (top - bottom) * 100) / 100;
 
-                    OnProgressChanged(percent);
                 }
             }, token);
-
-            OnCalculationCompleted(result);
         }
-        private void OnCalculationCompleted(double result)
-            => CalculationCompleted?.Invoke(this, result);
+        public void OnPropertyChanged([CallerMemberName] string propertyName = "")
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
 
-        private void OnProgressChanged(double percent)
-            => ProgressChanged?.Invoke(this, percent);
     }
 }

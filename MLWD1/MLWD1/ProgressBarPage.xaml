@@ -33,14 +33,16 @@
                 x:Name="StartButton"
                 Clicked="StartProgressBar"
                 Text="Start"
-                Grid.Column="0"/>
+                Grid.Column="0"
+                IsEnabled="True"/>
 
             <Button
                 Margin="45"
                 x:Name="CancelButton"
                 Clicked="CancelProgressBar"
                 Text="Cancel"
-                Grid.Column="1"/>
+                Grid.Column="1"
+                IsEnabled="False"/>
         </Grid>
     </Grid>
 </ContentPage>
