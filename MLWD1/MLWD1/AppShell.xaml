@@ -18,5 +18,11 @@
             ContentTemplate="{DataTemplate local:ProgressBarPage}"
             Route="ProgressBarPage"/>
     </FlyoutItem>
+    <FlyoutItem Title="SQLiteDemo" Route="SQLiteDemo">
+        <ShellContent
+        Title="SQLiteDemo"
+        ContentTemplate="{DataTemplate local:SQLiteDemo}"
+        Route="SQLiteDemo"/>
+    </FlyoutItem>
 
 </Shell>

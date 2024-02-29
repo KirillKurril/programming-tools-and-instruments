@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MLWD.MainPage"
+             Title="Calculator">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="NumberButton" TargetType="Button">
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="Background" Value="#ffffff" />
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="Padding" Value="5"/>
+                <Setter Property="BorderColor" Value="#ece5e2"/>
+                <Setter Property="BorderWidth" Value="2"/>
+                <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+                <Setter Property="CornerRadius" Value="2"/>
+            </Style>
+            <Style x:Key="ActionButton" TargetType="Button" BasedOn="{StaticResource NumberButton}">
+                <Setter Property="Background" Value="#fcf8f6" />
+            </Style>
+            <Style x:Key="MemoryButton" TargetType="Button">
+                <Setter Property="Background" Value="#f8f2ed"/>
+                <Setter Property="BorderWidth" Value="0"/>
+                <Setter Property="TextColor" Value="#0b0b0b"/>
+            </Style>
+            <Style x:Key ="ScreenStyle" TargetType="Label">
+                <Setter Property="HorizontalTextAlignment" Value="End"/>
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="FontSize" Value="Large"/>
+                <Setter Property="Background" Value="#f8f2ed"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <Grid x:Name="MainRoot" Background="#f9f1ed" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="116*"/>
+            <RowDefinition Height="41*"/>
+            <RowDefinition Height="371*"/>
+        </Grid.RowDefinitions>
+        <Label x:Name="Screen" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Style="{StaticResource ScreenStyle}"/>
+        <Grid Grid.Column="0" Grid.ColumnSpan="2" Margin="0,90,0,0" Grid.RowSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Clicked="MemoryClear" Text="MC" Style="{StaticResource MemoryButton}"/>
+            <Button Grid.Column="1" Clicked="MemoryGet" Text="MR" Style="{StaticResource MemoryButton}"/>
+            <Button Grid.Column="2" Clicked="MemoryAdd" Text="M+" Style="{StaticResource MemoryButton}"/>
+            <Button Grid.Column="3" Clicked="MemorySub" Text="M-" Style="{StaticResource MemoryButton}"/>
+            <Button Grid.Column="4" Clicked="MemorySet" Text="MS" Style="{StaticResource MemoryButton}"/>
+            <Button Grid.Column="5" Clicked="TwoPower" Text="2^x" Style="{StaticResource MemoryButton}"/>
+        </Grid>
+        <Grid Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Margin="0,35,0,0" Grid.RowSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Row="0" Grid.Column="0" Clicked="Percent" Text="%" Style="{StaticResource ActionButton}"/>
+            <Button Grid.Row="0" Grid.Column="1" Clicked="ClearEntry" Text="CE" Style="{StaticResource ActionButton}"/>
+            <Button Grid.Row="0" Grid.Column="2" Clicked="Clear" Text="C" Style="{StaticResource ActionButton}"/>
+            <Button Grid.Row="0" Grid.Column="3" Clicked="RemoveLastSymbol" Text="←" Style="{StaticResource ActionButton}"/>
+            <Button Grid.Row="1" Grid.Column="0" Clicked="Reciprocal" Text="1/x" Style="{StaticResource ActionButton}"/>
+            <Button Grid.Row="1" Grid.Column="1" Clicked="SquarePower" Text="x²" Style="{StaticResource ActionButton}"/>
+            <Button Grid.Row="1" Grid.Column="2" Clicked="SquareRoot" Text="√" Style="{StaticResource ActionButton}"/>
+            <Button Grid.Row="1" Grid.Column="3" Clicked="TwoOperandsAction" Text="/" Style="{StaticResource ActionButton}"/>
+            <Button Grid.Row="2" Grid.Column="0" Clicked="NumberButtonClick" Text="7" Style="{StaticResource NumberButton}"/>
+            <Button Grid.Row="2" Grid.Column="1" Clicked="NumberButtonClick" Text="8" Style="{StaticResource NumberButton}"/>
+            <Button Grid.Row="2" Grid.Column="2" Clicked="NumberButtonClick" Text="9" Style="{StaticResource NumberButton}"/>
+            <Button Grid.Row="2" Grid.Column="3" Clicked="TwoOperandsAction" Text="*" Style="{StaticResource ActionButton}"/>
+            <Button Grid.Row="3" Grid.Column="0" Clicked="NumberButtonClick" Text="4" Style="{StaticResource NumberButton}"/>
+            <Button Grid.Row="3" Grid.Column="1" Clicked="NumberButtonClick" Text="5" Style="{StaticResource NumberButton}"/>
+            <Button Grid.Row="3" Grid.Column="2" Clicked="NumberButtonClick" Text="6" Style="{StaticResource NumberButton}"/>
+            <Button Grid.Row="3" Grid.Column="3" Clicked="TwoOperandsAction" Text="-" Style="{StaticResource ActionButton}"/>
+            <Button Grid.Row="4" Grid.Column="0" Clicked="NumberButtonClick" Text="1" Style="{StaticResource NumberButton}"/>
+            <Button Grid.Row="4" Grid.Column="1" Clicked="NumberButtonClick" Text="2" Style="{StaticResource NumberButton}"/>
+            <Button Grid.Row="4" Grid.Column="2" Clicked="NumberButtonClick" Text="3" Style="{StaticResource NumberButton}"/>
+            <Button Grid.Row="4" Grid.Column="3" Clicked="TwoOperandsAction" Text="+" Style="{StaticResource ActionButton}"/>
+            <Button Grid.Row="5" Grid.Column="0" Clicked="ChangeSign" Text="±" Style="{StaticResource ActionButton}"/>
+            <Button Grid.Row="5" Grid.Column="1" Clicked="NumberButtonClick" Text="0" Style="{StaticResource NumberButton}"/>
+            <Button Grid.Row="5" Grid.Column="2" Clicked="Comma" Text="," Style="{StaticResource ActionButton}"/>
+            <Button Grid.Row="5" Grid.Column="3" Clicked="Equals" Text="=" Background="#4c5f6b" />
+        </Grid>
+        <!--<ComboBox Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="415,32,0,0" Grid.Row="2" VerticalAlignment="Top" Width="120"/>-->
+    </Grid>
+
+</ContentPage>
