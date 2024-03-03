@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "MLWD\\MauiProgram.cs",
               "ToolTip": "D:\\Uni\\programming-tools-and-instruments\\MLWD\\MLWD\\MauiProgram.cs",
               "RelativeToolTip": "MLWD\\MauiProgram.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAyAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-03T17:33:34.809Z",
               "EditorCaption": ""
@@ -88,7 +88,8 @@
               "RelativeToolTip": "MLWD\\Services\\IDbService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T17:19:27.953Z"
+              "WhenOpened": "2024-03-03T17:19:27.953Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -113,7 +114,8 @@
               "RelativeToolTip": "MLWD\\Rates.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T17:17:48.145Z"
+              "WhenOpened": "2024-03-03T17:17:48.145Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -125,7 +127,8 @@
               "RelativeToolTip": "MLWD\\CurrencyConverter.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T16:59:24.927Z"
+              "WhenOpened": "2024-03-03T16:59:24.927Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -137,7 +140,8 @@
               "RelativeToolTip": "MLWD\\SQLiteDemo.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-03T16:59:18.694Z"
+              "WhenOpened": "2024-03-03T16:59:18.694Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -147,9 +151,10 @@
               "RelativeDocumentMoniker": "MLWD\\CurrencyConverter.xaml",
               "ToolTip": "D:\\Uni\\programming-tools-and-instruments\\MLWD\\MLWD\\CurrencyConverter.xaml",
               "RelativeToolTip": "MLWD\\CurrencyConverter.xaml",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAABYAAAADAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAxwBYAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-03T16:55:09.81Z"
+              "WhenOpened": "2024-03-03T16:55:09.81Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -159,9 +164,10 @@
               "RelativeDocumentMoniker": "MLWD\\MLWD.csproj",
               "ToolTip": "D:\\Uni\\programming-tools-and-instruments\\MLWD\\MLWD\\MLWD.csproj",
               "RelativeToolTip": "MLWD\\MLWD.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-03T16:54:43.561Z"
+              "WhenOpened": "2024-03-03T16:54:43.561Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -173,7 +179,8 @@
               "RelativeToolTip": "MLWD\\SQLiteDemo.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T16:52:21.178Z"
+              "WhenOpened": "2024-03-03T16:52:21.178Z",
+              "EditorCaption": ""
             }
           ]
         }
