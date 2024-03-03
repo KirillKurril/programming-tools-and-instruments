@@ -22,6 +22,6 @@ namespace MLWD.Entities
 
         public string Name { get; set; }
 
-        public string HallName { get; set; }
+        public int HallId { get; set; }
     }
 }

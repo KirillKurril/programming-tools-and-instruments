@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MLWD.CurrencyConverter"
+             Title="CurrencyConverter">
+    <StackLayout>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackLayout Grid.Column="0">
+                <Picker x:Name="ConvertFromPicker"/>
+                <Editor x:Name="ConvertFromEditor"/>
+            </StackLayout>
+            <StackLayout Grid.Column="2">
+                <Picker x:Name="ConvertToPicker"/>
+                <Editor x:Name="ConvertToEditor"/>
+            </StackLayout>
+        </Grid>
+    </StackLayout>
+</ContentPage>

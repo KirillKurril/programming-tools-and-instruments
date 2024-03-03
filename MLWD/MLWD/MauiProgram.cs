@@ -1,4 +1,8 @@
 ﻿using Microsoft.Extensions.Logging;
+using System.Net.Http;
+using MLWD.Services;
+using MLWD.Entities;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 
 namespace MLWD
 {
@@ -16,10 +20,14 @@ namespace MLWD
                 });
 
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
-
+            builder.Services.AddTransient<IDbService<MuseumHall, Exhibit>, MuseumDataBase>();
+            builder.Services.AddSingleton<SQLiteDemo>();
+            builder.Services.TryAddTransient<IRateService, RateService>();
+            builder.Services.AddHttpClient<IRateService>(opt => opt.BaseAddress = new Uri("https://www.nbrb.by/api/exrates/rates"));
             return builder.Build();
+
         }
     }
 }

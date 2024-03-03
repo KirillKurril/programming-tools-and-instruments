@@ -24,5 +24,10 @@
         ContentTemplate="{DataTemplate local:SQLiteDemo}"
         Route="SQLiteDemo"/>
     </FlyoutItem>
-
+    <FlyoutItem Title="Currency Converter" Route="CurrencyConverter">
+        <ShellContent
+     Title="Currency Converter"
+     ContentTemplate="{DataTemplate local:CurrencyConverter}"
+     Route="CurrencyConverter"/>
+    </FlyoutItem>
 </Shell>

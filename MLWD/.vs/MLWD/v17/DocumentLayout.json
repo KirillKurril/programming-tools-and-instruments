@@ -1,0 +1,183 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Uni\\programming-tools-and-instruments\\MLWD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C67A009-2AC9-4FAA-857D-E622ED2D3D2C}|MLWD\\MLWD.csproj|d:\\uni\\programming-tools-and-instruments\\mlwd\\mlwd\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C67A009-2AC9-4FAA-857D-E622ED2D3D2C}|MLWD\\MLWD.csproj|solutionrelative:mlwd\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C67A009-2AC9-4FAA-857D-E622ED2D3D2C}|MLWD\\MLWD.csproj|d:\\uni\\programming-tools-and-instruments\\mlwd\\mlwd\\rateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C67A009-2AC9-4FAA-857D-E622ED2D3D2C}|MLWD\\MLWD.csproj|solutionrelative:mlwd\\rateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C67A009-2AC9-4FAA-857D-E622ED2D3D2C}|MLWD\\MLWD.csproj|d:\\uni\\programming-tools-and-instruments\\mlwd\\mlwd\\services\\irateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C67A009-2AC9-4FAA-857D-E622ED2D3D2C}|MLWD\\MLWD.csproj|solutionrelative:mlwd\\services\\irateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C67A009-2AC9-4FAA-857D-E622ED2D3D2C}|MLWD\\MLWD.csproj|d:\\uni\\programming-tools-and-instruments\\mlwd\\mlwd\\currencyconverter.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C67A009-2AC9-4FAA-857D-E622ED2D3D2C}|MLWD\\MLWD.csproj|solutionrelative:mlwd\\currencyconverter.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C67A009-2AC9-4FAA-857D-E622ED2D3D2C}|MLWD\\MLWD.csproj|d:\\uni\\programming-tools-and-instruments\\mlwd\\mlwd\\currencyconverter.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0C67A009-2AC9-4FAA-857D-E622ED2D3D2C}|MLWD\\MLWD.csproj|solutionrelative:mlwd\\currencyconverter.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C67A009-2AC9-4FAA-857D-E622ED2D3D2C}|MLWD\\MLWD.csproj|d:\\uni\\programming-tools-and-instruments\\mlwd\\mlwd\\sqlitedemo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C67A009-2AC9-4FAA-857D-E622ED2D3D2C}|MLWD\\MLWD.csproj|solutionrelative:mlwd\\sqlitedemo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C67A009-2AC9-4FAA-857D-E622ED2D3D2C}|MLWD\\MLWD.csproj|d:\\uni\\programming-tools-and-instruments\\mlwd\\mlwd\\rates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C67A009-2AC9-4FAA-857D-E622ED2D3D2C}|MLWD\\MLWD.csproj|solutionrelative:mlwd\\rates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C67A009-2AC9-4FAA-857D-E622ED2D3D2C}|MLWD\\MLWD.csproj|d:\\uni\\programming-tools-and-instruments\\mlwd\\mlwd\\mlwd.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0C67A009-2AC9-4FAA-857D-E622ED2D3D2C}|MLWD\\MLWD.csproj|solutionrelative:mlwd\\mlwd.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C67A009-2AC9-4FAA-857D-E622ED2D3D2C}|MLWD\\MLWD.csproj|d:\\uni\\programming-tools-and-instruments\\mlwd\\mlwd\\services\\idbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C67A009-2AC9-4FAA-857D-E622ED2D3D2C}|MLWD\\MLWD.csproj|solutionrelative:mlwd\\services\\idbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C67A009-2AC9-4FAA-857D-E622ED2D3D2C}|MLWD\\MLWD.csproj|d:\\uni\\programming-tools-and-instruments\\mlwd\\mlwd\\sqlitedemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0C67A009-2AC9-4FAA-857D-E622ED2D3D2C}|MLWD\\MLWD.csproj|solutionrelative:mlwd\\sqlitedemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\Uni\\programming-tools-and-instruments\\MLWD\\MLWD\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MLWD\\MauiProgram.cs",
+              "ToolTip": "D:\\Uni\\programming-tools-and-instruments\\MLWD\\MLWD\\MauiProgram.cs",
+              "RelativeToolTip": "MLWD\\MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T17:33:34.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RateService.cs",
+              "DocumentMoniker": "D:\\Uni\\programming-tools-and-instruments\\MLWD\\MLWD\\RateService.cs",
+              "RelativeDocumentMoniker": "MLWD\\RateService.cs",
+              "ToolTip": "D:\\Uni\\programming-tools-and-instruments\\MLWD\\MLWD\\RateService.cs",
+              "RelativeToolTip": "MLWD\\RateService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T17:20:27.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IDbService.cs",
+              "DocumentMoniker": "D:\\Uni\\programming-tools-and-instruments\\MLWD\\MLWD\\Services\\IDbService.cs",
+              "RelativeDocumentMoniker": "MLWD\\Services\\IDbService.cs",
+              "ToolTip": "D:\\Uni\\programming-tools-and-instruments\\MLWD\\MLWD\\Services\\IDbService.cs",
+              "RelativeToolTip": "MLWD\\Services\\IDbService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T17:19:27.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRateService.cs",
+              "DocumentMoniker": "D:\\Uni\\programming-tools-and-instruments\\MLWD\\MLWD\\Services\\IRateService.cs",
+              "RelativeDocumentMoniker": "MLWD\\Services\\IRateService.cs",
+              "ToolTip": "D:\\Uni\\programming-tools-and-instruments\\MLWD\\MLWD\\Services\\IRateService.cs",
+              "RelativeToolTip": "MLWD\\Services\\IRateService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T17:18:25.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Rates.cs",
+              "DocumentMoniker": "D:\\Uni\\programming-tools-and-instruments\\MLWD\\MLWD\\Rates.cs",
+              "RelativeDocumentMoniker": "MLWD\\Rates.cs",
+              "ToolTip": "D:\\Uni\\programming-tools-and-instruments\\MLWD\\MLWD\\Rates.cs",
+              "RelativeToolTip": "MLWD\\Rates.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T17:17:48.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CurrencyConverter.xaml.cs",
+              "DocumentMoniker": "D:\\Uni\\programming-tools-and-instruments\\MLWD\\MLWD\\CurrencyConverter.xaml.cs",
+              "RelativeDocumentMoniker": "MLWD\\CurrencyConverter.xaml.cs",
+              "ToolTip": "D:\\Uni\\programming-tools-and-instruments\\MLWD\\MLWD\\CurrencyConverter.xaml.cs",
+              "RelativeToolTip": "MLWD\\CurrencyConverter.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T16:59:24.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SQLiteDemo.xaml",
+              "DocumentMoniker": "D:\\Uni\\programming-tools-and-instruments\\MLWD\\MLWD\\SQLiteDemo.xaml",
+              "RelativeDocumentMoniker": "MLWD\\SQLiteDemo.xaml",
+              "ToolTip": "D:\\Uni\\programming-tools-and-instruments\\MLWD\\MLWD\\SQLiteDemo.xaml",
+              "RelativeToolTip": "MLWD\\SQLiteDemo.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-03T16:59:18.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CurrencyConverter.xaml",
+              "DocumentMoniker": "D:\\Uni\\programming-tools-and-instruments\\MLWD\\MLWD\\CurrencyConverter.xaml",
+              "RelativeDocumentMoniker": "MLWD\\CurrencyConverter.xaml",
+              "ToolTip": "D:\\Uni\\programming-tools-and-instruments\\MLWD\\MLWD\\CurrencyConverter.xaml",
+              "RelativeToolTip": "MLWD\\CurrencyConverter.xaml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAABYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-03T16:55:09.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MLWD.csproj",
+              "DocumentMoniker": "D:\\Uni\\programming-tools-and-instruments\\MLWD\\MLWD\\MLWD.csproj",
+              "RelativeDocumentMoniker": "MLWD\\MLWD.csproj",
+              "ToolTip": "D:\\Uni\\programming-tools-and-instruments\\MLWD\\MLWD\\MLWD.csproj",
+              "RelativeToolTip": "MLWD\\MLWD.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-03T16:54:43.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SQLiteDemo.xaml.cs",
+              "DocumentMoniker": "D:\\Uni\\programming-tools-and-instruments\\MLWD\\MLWD\\SQLiteDemo.xaml.cs",
+              "RelativeDocumentMoniker": "MLWD\\SQLiteDemo.xaml.cs",
+              "ToolTip": "D:\\Uni\\programming-tools-and-instruments\\MLWD\\MLWD\\SQLiteDemo.xaml.cs",
+              "RelativeToolTip": "MLWD\\SQLiteDemo.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T16:52:21.178Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
