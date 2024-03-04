@@ -2,6 +2,6 @@
 {
     public interface IRateService
     {
-        IEnumerable<Rate> GetRates(DateTime date);
+        Task<IEnumerable<Rate>> GetRatesAsync(DateTime date);
     }
 }

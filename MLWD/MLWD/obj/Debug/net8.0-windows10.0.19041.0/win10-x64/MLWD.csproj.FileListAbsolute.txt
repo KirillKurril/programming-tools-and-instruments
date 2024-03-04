@@ -161,7 +161,6 @@ C:\Uni\programming-tools-and-instruments\MLWD\MLWD\obj\Debug\net8.0-windows10.0.
 C:\Uni\programming-tools-and-instruments\MLWD\MLWD\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MLWD.csproj.CoreCompileInputs.cache
 C:\Uni\programming-tools-and-instruments\MLWD\MLWD\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MLWD.sourcelink.json
 C:\Uni\programming-tools-and-instruments\MLWD\MLWD\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlC.stamp
-C:\Uni\programming-tools-and-instruments\MLWD\MLWD\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MLWD.csproj.CopyComplete
 C:\Uni\programming-tools-and-instruments\MLWD\MLWD\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MLWD.dll
 C:\Uni\programming-tools-and-instruments\MLWD\MLWD\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\refint\MLWD.dll
 C:\Uni\programming-tools-and-instruments\MLWD\MLWD\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MLWD.pdb
@@ -368,3 +367,10 @@ D:\Uni\programming-tools-and-instruments\MLWD\MLWD\obj\Debug\net8.0-windows10.0.
 D:\Uni\programming-tools-and-instruments\MLWD\MLWD\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\Uni\programming-tools-and-instruments\MLWD\MLWD\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\Uni\programming-tools-and-instruments\MLWD\MLWD\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Uni\programming-tools-and-instruments\MLWD\MLWD\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.Binder.dll
+C:\Uni\programming-tools-and-instruments\MLWD\MLWD\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Diagnostics.dll
+C:\Uni\programming-tools-and-instruments\MLWD\MLWD\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Uni\programming-tools-and-instruments\MLWD\MLWD\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Http.dll
+C:\Uni\programming-tools-and-instruments\MLWD\MLWD\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Uni\programming-tools-and-instruments\MLWD\MLWD\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
+C:\Uni\programming-tools-and-instruments\MLWD\MLWD\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MLWD.csproj.Up2Date
