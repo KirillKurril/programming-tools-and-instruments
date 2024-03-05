@@ -67,6 +67,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="CurrencyConverter.xaml.cs">
+	    <DependentUpon>CurrencyConverter.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="CurrencyConverter.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="CurrencyConverter.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

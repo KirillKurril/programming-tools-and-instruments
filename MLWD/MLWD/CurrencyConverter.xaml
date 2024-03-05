@@ -3,21 +3,38 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MLWD.CurrencyConverter"
              Title="CurrencyConverter">
-    <StackLayout>
+    <VerticalStackLayout Padding="20,10,20,0">
+        <DatePicker x:Name="datePicker" DateSelected="ConvertValueChanged" Date="{Binding SelectedDate}"/>
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="0.2*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <StackLayout Grid.Column="0">
-                <Picker x:Name="ConvertFromPicker"/>
-                <Editor x:Name="ConvertFromEditor"/>
+            <StackLayout Grid.Column="0" Spacing="10" Margin="0,10,0,0">
+                <FlexLayout  x:Name="FromCurrency" Direction="Row" Wrap="Wrap">
+                    <RadioButton Content="BYR" CheckedChanged="ConvertValueChanged"/>
+                    <RadioButton Content="RUB" CheckedChanged="ConvertValueChanged"/>
+                    <RadioButton Content="USD" CheckedChanged="ConvertValueChanged"/>
+                    <RadioButton Content="EUR" CheckedChanged="ConvertValueChanged"/>
+                    <RadioButton Content="CNY" CheckedChanged="ConvertValueChanged"/>                   <!--юань-->
+                    <RadioButton Content="GBP" CheckedChanged="ConvertValueChanged"/>                   <!--фунт стерлингов-->
+                    <RadioButton Content="CHF" CheckedChanged="ConvertValueChanged"/>                   <!--франк-->
+                </FlexLayout>
+                <Editor x:Name="FromEditor" TextChanged="ConvertValueChanged"/>
             </StackLayout>
-            <StackLayout Grid.Column="2">
-                <Picker x:Name="ConvertToPicker"/>
-                <Editor x:Name="ConvertToEditor"/>
+            <StackLayout Grid.Column="2" Spacing="10" Margin="0,10,0,0">
+                <FlexLayout  x:Name="ToCurrency" Direction="Row" Wrap="Wrap">
+                    <RadioButton Content="BYR" CheckedChanged="ConvertValueChanged"/>
+                    <RadioButton Content="RUB" CheckedChanged="ConvertValueChanged"/>
+                    <RadioButton Content="USD" CheckedChanged="ConvertValueChanged"/>
+                    <RadioButton Content="EUR" CheckedChanged="ConvertValueChanged"/>
+                    <RadioButton Content="CNY" CheckedChanged="ConvertValueChanged"/>                   <!--юань-->
+                    <RadioButton Content="GBP" CheckedChanged="ConvertValueChanged"/>                   <!--фунт стерлингов-->
+                    <RadioButton Content="CHF" CheckedChanged="ConvertValueChanged"/>                   <!--франк-->
+                </FlexLayout>
+                <Editor x:Name="ToEditor" IsReadOnly="True"/>
             </StackLayout>
         </Grid>
-    </StackLayout>
+    </VerticalStackLayout>
 </ContentPage>

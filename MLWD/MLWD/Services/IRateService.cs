@@ -2,6 +2,7 @@
 {
     public interface IRateService
     {
-        Task<IEnumerable<Rate>> GetRatesAsync(DateTime date);
+        Task GetRatesAsync(DateTime date);
+        public Task<double> Convert(double valueFrom, string fromCurrency, string toCurrency, DateTime date);
     }
 }

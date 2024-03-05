@@ -373,4 +373,4 @@ C:\Uni\programming-tools-and-instruments\MLWD\MLWD\bin\Debug\net8.0-windows10.0.
 C:\Uni\programming-tools-and-instruments\MLWD\MLWD\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Http.dll
 C:\Uni\programming-tools-and-instruments\MLWD\MLWD\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Uni\programming-tools-and-instruments\MLWD\MLWD\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
-C:\Uni\programming-tools-and-instruments\MLWD\MLWD\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MLWD.csproj.Up2Date
+C:\Uni\programming-tools-and-instruments\MLWD\MLWD\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MLWD.csproj.CopyComplete

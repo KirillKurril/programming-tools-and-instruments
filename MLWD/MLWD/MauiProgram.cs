@@ -25,7 +25,8 @@ namespace MLWD
             builder.Services.AddTransient<IDbService<MuseumHall, Exhibit>, MuseumDataBase>();
             builder.Services.AddSingleton<SQLiteDemo>();
             builder.Services.TryAddTransient<IRateService, RateService>();
-            builder.Services.AddHttpClient<IRateService, RateService>(opt => opt.BaseAddress = new Uri("https://www.nbrb.by/api/exrates/rates"));
+            builder.Services.AddHttpClient<IRateService, RateService>(opt => opt.BaseAddress = new Uri("https://api.nbrb.by/exrates/rates/")); 
+            builder.Services.AddSingleton<CurrencyConverter>();
             return builder.Build();
 
         }
