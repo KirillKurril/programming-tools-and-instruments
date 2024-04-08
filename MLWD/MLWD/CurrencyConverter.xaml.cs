@@ -7,6 +7,10 @@ public partial class CurrencyConverter : ContentPage
 {
 
     public IRateService converter;
+    public CurrencyConverter()
+    {
+
+    }
     public CurrencyConverter(IRateService converter)
     {
         InitializeComponent();

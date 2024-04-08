@@ -26,7 +26,7 @@ namespace MLWD
             builder.Services.AddSingleton<SQLiteDemo>();
             builder.Services.TryAddTransient<IRateService, RateService>();
             builder.Services.AddHttpClient<IRateService, RateService>(opt => opt.BaseAddress = new Uri("https://api.nbrb.by/exrates/rates/")); 
-            builder.Services.AddSingleton<CurrencyConverter>();
+            //builder.Services.AddSingleton<CurrencyConverter>();
             return builder.Build();
 
         }
