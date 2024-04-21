@@ -1,0 +1,16 @@
+E:\Uni\programming-tools-and-instruments\MLWD5\Persistense\bin\Debug\net8.0\Persistense.deps.json
+E:\Uni\programming-tools-and-instruments\MLWD5\Persistense\bin\Debug\net8.0\Persistense.dll
+E:\Uni\programming-tools-and-instruments\MLWD5\Persistense\bin\Debug\net8.0\Persistense.pdb
+E:\Uni\programming-tools-and-instruments\MLWD5\Persistense\bin\Debug\net8.0\Domain.dll
+E:\Uni\programming-tools-and-instruments\MLWD5\Persistense\bin\Debug\net8.0\Domain.pdb
+E:\Uni\programming-tools-and-instruments\MLWD5\Persistense\obj\Debug\net8.0\Persistense.csproj.AssemblyReference.cache
+E:\Uni\programming-tools-and-instruments\MLWD5\Persistense\obj\Debug\net8.0\Persistense.GeneratedMSBuildEditorConfig.editorconfig
+E:\Uni\programming-tools-and-instruments\MLWD5\Persistense\obj\Debug\net8.0\Persistense.AssemblyInfoInputs.cache
+E:\Uni\programming-tools-and-instruments\MLWD5\Persistense\obj\Debug\net8.0\Persistense.AssemblyInfo.cs
+E:\Uni\programming-tools-and-instruments\MLWD5\Persistense\obj\Debug\net8.0\Persistense.csproj.CoreCompileInputs.cache
+E:\Uni\programming-tools-and-instruments\MLWD5\Persistense\obj\Debug\net8.0\Persistense.sourcelink.json
+E:\Uni\programming-tools-and-instruments\MLWD5\Persistense\obj\Debug\net8.0\Persiste.21D28332.Up2Date
+E:\Uni\programming-tools-and-instruments\MLWD5\Persistense\obj\Debug\net8.0\Persistense.dll
+E:\Uni\programming-tools-and-instruments\MLWD5\Persistense\obj\Debug\net8.0\refint\Persistense.dll
+E:\Uni\programming-tools-and-instruments\MLWD5\Persistense\obj\Debug\net8.0\Persistense.pdb
+E:\Uni\programming-tools-and-instruments\MLWD5\Persistense\obj\Debug\net8.0\ref\Persistense.dll
