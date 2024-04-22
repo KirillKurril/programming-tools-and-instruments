@@ -1,0 +1,47 @@
+﻿namespace MLWD5.Domain.Entities
+{
+    public class Song : Entity
+    {
+        public Song() { }
+
+        public Song(int id,
+            string name = "not definded", 
+            string description = "not definded",
+            string text = "not definded",
+            int chartPosition = -1)
+        {
+            Id = id;
+            Name = name;
+            Description = description;
+            Text = text;
+            ChartPosition = chartPosition;
+        }
+        public void ChangeInfo(string? name = null,
+            string? description = null,
+            string? text = null,
+            int? chartPosition = null)
+        {
+            if (name != null)
+                Name = name;
+            if(description != null)
+                Description = description;
+            if (text != null)
+                Text = text;
+            if (chartPosition != null)
+                ChartPosition = chartPosition;
+        }
+
+        public int? ChartPosition { get; set; }
+        public string? Name { get; set; }
+        public string? Description { get; set; }
+        public string? Text { get; set; }
+
+        public int SingerId { get; set; }
+        public Singer? Singer { get; set; }
+
+        public void AddToSinger(int singerId)
+            => SingerId = singerId;
+        public void RemoveSinger()
+            => SingerId = 0;
+    }
+}

@@ -1,62 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\",
+  "WorkspaceRootPath": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85F52B55-8FBE-43B8-9539-CCF7C7B41E4B}|Persistense\\Persistense.csproj|e:\\uni\\programming-tools-and-instruments\\mlwd5\\persistense\\repository\\efunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85F52B55-8FBE-43B8-9539-CCF7C7B41E4B}|Persistense\\Persistense.csproj|solutionrelative:persistense\\repository\\efunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\songusecases\\queries\\getsongsbysingerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\songusecases\\queries\\getsongsbysingerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85F52B55-8FBE-43B8-9539-CCF7C7B41E4B}|Persistense\\Persistense.csproj|e:\\uni\\programming-tools-and-instruments\\mlwd5\\persistense\\persistense.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{85F52B55-8FBE-43B8-9539-CCF7C7B41E4B}|Persistense\\Persistense.csproj|solutionrelative:persistense\\persistense.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\songusecases\\queries\\getsongsbysingerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\songusecases\\queries\\getsongsbysingerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85F52B55-8FBE-43B8-9539-CCF7C7B41E4B}|Persistense\\Persistense.csproj|e:\\uni\\programming-tools-and-instruments\\mlwd5\\persistense\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85F52B55-8FBE-43B8-9539-CCF7C7B41E4B}|Persistense\\Persistense.csproj|solutionrelative:persistense\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\songusecases\\commands\\editsongcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\songusecases\\commands\\editsongcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{701ECAE7-6BBF-4BC1-8FA1-26F165DCA8C9}|Domain\\Domain.csproj|e:\\uni\\programming-tools-and-instruments\\mlwd5\\domain\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{701ECAE7-6BBF-4BC1-8FA1-26F165DCA8C9}|Domain\\Domain.csproj|solutionrelative:domain\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\songusecases\\commands\\editsongcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\songusecases\\commands\\editsongcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85F52B55-8FBE-43B8-9539-CCF7C7B41E4B}|Persistense\\Persistense.csproj|e:\\uni\\programming-tools-and-instruments\\mlwd5\\persistense\\repository\\fakesongrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85F52B55-8FBE-43B8-9539-CCF7C7B41E4B}|Persistense\\Persistense.csproj|solutionrelative:persistense\\repository\\fakesongrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\songusecases\\commands\\deletesongcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\songusecases\\commands\\deletesongcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{701ECAE7-6BBF-4BC1-8FA1-26F165DCA8C9}|Domain\\Domain.csproj|e:\\uni\\programming-tools-and-instruments\\mlwd5\\domain\\entities\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{701ECAE7-6BBF-4BC1-8FA1-26F165DCA8C9}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\songusecases\\commands\\deletesongcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\songusecases\\commands\\deletesongcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85F52B55-8FBE-43B8-9539-CCF7C7B41E4B}|Persistense\\Persistense.csproj|e:\\uni\\programming-tools-and-instruments\\mlwd5\\persistense\\repository\\fakesingerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85F52B55-8FBE-43B8-9539-CCF7C7B41E4B}|Persistense\\Persistense.csproj|solutionrelative:persistense\\repository\\fakesingerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\songusecases\\commands\\addsongtosingercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\songusecases\\commands\\addsongtosingercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{701ECAE7-6BBF-4BC1-8FA1-26F165DCA8C9}|Domain\\Domain.csproj|e:\\uni\\programming-tools-and-instruments\\mlwd5\\domain\\entities\\singer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{701ECAE7-6BBF-4BC1-8FA1-26F165DCA8C9}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\singer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\songusecases\\commands\\addsongtosingercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\songusecases\\commands\\addsongtosingercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{701ECAE7-6BBF-4BC1-8FA1-26F165DCA8C9}|Domain\\Domain.csproj|e:\\uni\\programming-tools-and-instruments\\mlwd5\\domain\\abstractions\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{701ECAE7-6BBF-4BC1-8FA1-26F165DCA8C9}|Domain\\Domain.csproj|solutionrelative:domain\\abstractions\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B94C2C97-6C09-4B4A-A3F4-67524F3C25BA}|MLWD5.Domain\\MLWD5.Domain.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.domain\\entities\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94C2C97-6C09-4B4A-A3F4-67524F3C25BA}|MLWD5.Domain\\MLWD5.Domain.csproj|solutionrelative:mlwd5.domain\\entities\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85F52B55-8FBE-43B8-9539-CCF7C7B41E4B}|Persistense\\Persistense.csproj|e:\\uni\\programming-tools-and-instruments\\mlwd5\\persistense\\repository\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85F52B55-8FBE-43B8-9539-CCF7C7B41E4B}|Persistense\\Persistense.csproj|solutionrelative:persistense\\repository\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\singerusecases\\commands\\addsingercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\singerusecases\\commands\\addsingercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85F52B55-8FBE-43B8-9539-CCF7C7B41E4B}|Persistense\\Persistense.csproj|e:\\uni\\programming-tools-and-instruments\\mlwd5\\persistense\\repository\\fakeunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85F52B55-8FBE-43B8-9539-CCF7C7B41E4B}|Persistense\\Persistense.csproj|solutionrelative:persistense\\repository\\fakeunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B94C2C97-6C09-4B4A-A3F4-67524F3C25BA}|MLWD5.Domain\\MLWD5.Domain.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.domain\\entities\\singer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94C2C97-6C09-4B4A-A3F4-67524F3C25BA}|MLWD5.Domain\\MLWD5.Domain.csproj|solutionrelative:mlwd5.domain\\entities\\singer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{701ECAE7-6BBF-4BC1-8FA1-26F165DCA8C9}|Domain\\Domain.csproj|e:\\uni\\programming-tools-and-instruments\\mlwd5\\domain\\abstractions\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{701ECAE7-6BBF-4BC1-8FA1-26F165DCA8C9}|Domain\\Domain.csproj|solutionrelative:domain\\abstractions\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85F52B55-8FBE-43B8-9539-CCF7C7B41E4B}|Persistense\\Persistense.csproj|e:\\uni\\programming-tools-and-instruments\\mlwd5\\persistense\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85F52B55-8FBE-43B8-9539-CCF7C7B41E4B}|Persistense\\Persistense.csproj|solutionrelative:persistense\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{701ECAE7-6BBF-4BC1-8FA1-26F165DCA8C9}|Domain\\Domain.csproj|e:\\uni\\programming-tools-and-instruments\\mlwd5\\domain\\entities\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{701ECAE7-6BBF-4BC1-8FA1-26F165DCA8C9}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\singerusecases\\queries\\getallsingersrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\singerusecases\\queries\\getallsingersrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,188 +58,162 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Persistense\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Persistense\\DependencyInjection.cs",
-              "ToolTip": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Persistense\\DependencyInjection.cs",
-              "RelativeToolTip": "Persistense\\DependencyInjection.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T19:53:23.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FakeUnitOfWork.cs",
-              "DocumentMoniker": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Persistense\\Repository\\FakeUnitOfWork.cs",
-              "RelativeDocumentMoniker": "Persistense\\Repository\\FakeUnitOfWork.cs",
-              "ToolTip": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Persistense\\Repository\\FakeUnitOfWork.cs",
-              "RelativeToolTip": "Persistense\\Repository\\FakeUnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T19:32:48.852Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FakeSongRepository.cs",
-              "DocumentMoniker": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Persistense\\Repository\\FakeSongRepository.cs",
-              "RelativeDocumentMoniker": "Persistense\\Repository\\FakeSongRepository.cs",
-              "ToolTip": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Persistense\\Repository\\FakeSongRepository.cs",
-              "RelativeToolTip": "Persistense\\Repository\\FakeSongRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T19:30:03.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FakeSingerRepository.cs",
-              "DocumentMoniker": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Persistense\\Repository\\FakeSingerRepository.cs",
-              "RelativeDocumentMoniker": "Persistense\\Repository\\FakeSingerRepository.cs",
-              "ToolTip": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Persistense\\Repository\\FakeSingerRepository.cs",
-              "RelativeToolTip": "Persistense\\Repository\\FakeSingerRepository.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAYwEUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T19:29:51.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EfUnitOfWork.cs",
-              "DocumentMoniker": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Persistense\\Repository\\EfUnitOfWork.cs",
-              "RelativeDocumentMoniker": "Persistense\\Repository\\EfUnitOfWork.cs",
-              "ToolTip": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Persistense\\Repository\\EfUnitOfWork.cs",
-              "RelativeToolTip": "Persistense\\Repository\\EfUnitOfWork.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T18:50:36.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EfRepository.cs",
-              "DocumentMoniker": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Persistense\\Repository\\EfRepository.cs",
-              "RelativeDocumentMoniker": "Persistense\\Repository\\EfRepository.cs",
-              "ToolTip": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Persistense\\Repository\\EfRepository.cs",
-              "RelativeToolTip": "Persistense\\Repository\\EfRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T18:17:48.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Persistense",
-              "DocumentMoniker": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Persistense\\Persistense.csproj",
-              "RelativeDocumentMoniker": "Persistense\\Persistense.csproj",
-              "ToolTip": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Persistense\\Persistense.csproj",
-              "RelativeToolTip": "Persistense\\Persistense.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-19T18:07:24.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Domain\\Abstractions\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "Domain\\Abstractions\\IUnitOfWork.cs",
-              "ToolTip": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Domain\\Abstractions\\IUnitOfWork.cs",
-              "RelativeToolTip": "Domain\\Abstractions\\IUnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Title": "GetSongsBySingerRequest.cs",
+              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Queries\\GetSongsBySingerRequest.cs",
+              "RelativeDocumentMoniker": "MLWD5.Application\\SongUseCases\\Queries\\GetSongsBySingerRequest.cs",
+              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Queries\\GetSongsBySingerRequest.cs",
+              "RelativeToolTip": "MLWD5.Application\\SongUseCases\\Queries\\GetSongsBySingerRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T18:05:02.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Domain\\Abstractions\\IRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Abstractions\\IRepository.cs",
-              "ToolTip": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Domain\\Abstractions\\IRepository.cs",
-              "RelativeToolTip": "Domain\\Abstractions\\IRepository.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAkwCQAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T18:03:21.618Z",
+              "WhenOpened": "2024-04-22T01:12:45.948Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GlobalUsing.cs",
-              "DocumentMoniker": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Domain\\GlobalUsing.cs",
-              "RelativeDocumentMoniker": "Domain\\GlobalUsing.cs",
-              "ToolTip": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Domain\\GlobalUsing.cs",
-              "RelativeToolTip": "Domain\\GlobalUsing.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAeAAAA",
+              "Title": "EditSongCommand.cs",
+              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Commands\\EditSongCommand.cs",
+              "RelativeDocumentMoniker": "MLWD5.Application\\SongUseCases\\Commands\\EditSongCommand.cs",
+              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Commands\\EditSongCommand.cs",
+              "RelativeToolTip": "MLWD5.Application\\SongUseCases\\Commands\\EditSongCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T18:16:26.873Z",
+              "WhenOpened": "2024-04-22T00:56:24.7Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Persistense\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Persistense\\Data\\AppDbContext.cs",
-              "ToolTip": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Persistense\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Persistense\\Data\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "DocumentIndex": 2,
+              "Title": "EditSongCommandHandler.cs",
+              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Commands\\EditSongCommandHandler.cs",
+              "RelativeDocumentMoniker": "MLWD5.Application\\SongUseCases\\Commands\\EditSongCommandHandler.cs",
+              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Commands\\EditSongCommandHandler.cs",
+              "RelativeToolTip": "MLWD5.Application\\SongUseCases\\Commands\\EditSongCommandHandler.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADgvxkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T18:14:45.44Z",
+              "WhenOpened": "2024-04-22T00:57:07.861Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Singer.cs",
-              "DocumentMoniker": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Domain\\Entities\\Singer.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Singer.cs",
-              "ToolTip": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Domain\\Entities\\Singer.cs",
-              "RelativeToolTip": "Domain\\Entities\\Singer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "DocumentIndex": 0,
+              "Title": "GetSongsBySingerHandler.cs",
+              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Queries\\GetSongsBySingerHandler.cs",
+              "RelativeDocumentMoniker": "MLWD5.Application\\SongUseCases\\Queries\\GetSongsBySingerHandler.cs",
+              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Queries\\GetSongsBySingerHandler.cs",
+              "RelativeToolTip": "MLWD5.Application\\SongUseCases\\Queries\\GetSongsBySingerHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T17:20:23.509Z",
+              "WhenOpened": "2024-04-22T00:43:43.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeleteSongCommandHandler.cs",
+              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Commands\\DeleteSongCommandHandler.cs",
+              "RelativeDocumentMoniker": "MLWD5.Application\\SongUseCases\\Commands\\DeleteSongCommandHandler.cs",
+              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Commands\\DeleteSongCommandHandler.cs",
+              "RelativeToolTip": "MLWD5.Application\\SongUseCases\\Commands\\DeleteSongCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T00:52:46.482Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Song.cs",
-              "DocumentMoniker": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Domain\\Entities\\Song.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Song.cs",
-              "ToolTip": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Domain\\Entities\\Song.cs",
-              "RelativeToolTip": "Domain\\Entities\\Song.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAoAAAA",
+              "Title": "DeleteSongCommand.cs",
+              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Commands\\DeleteSongCommand.cs",
+              "RelativeDocumentMoniker": "MLWD5.Application\\SongUseCases\\Commands\\DeleteSongCommand.cs",
+              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Commands\\DeleteSongCommand.cs",
+              "RelativeToolTip": "MLWD5.Application\\SongUseCases\\Commands\\DeleteSongCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T17:20:37.985Z",
+              "WhenOpened": "2024-04-22T00:52:16.715Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Entity.cs",
-              "DocumentMoniker": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Domain\\Entities\\Entity.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Entity.cs",
-              "ToolTip": "E:\\Uni\\programming-tools-and-instruments\\MLWD5\\Domain\\Entities\\Entity.cs",
-              "RelativeToolTip": "Domain\\Entities\\Entity.cs",
+              "DocumentIndex": 6,
+              "Title": "AddSongToSingerCommandHandler.cs",
+              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Commands\\AddSongToSingerCommandHandler.cs",
+              "RelativeDocumentMoniker": "MLWD5.Application\\SongUseCases\\Commands\\AddSongToSingerCommandHandler.cs",
+              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Commands\\AddSongToSingerCommandHandler.cs",
+              "RelativeToolTip": "MLWD5.Application\\SongUseCases\\Commands\\AddSongToSingerCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T00:47:11.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddSongToSingerCommand.cs",
+              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Commands\\AddSongToSingerCommand.cs",
+              "RelativeDocumentMoniker": "MLWD5.Application\\SongUseCases\\Commands\\AddSongToSingerCommand.cs",
+              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Commands\\AddSongToSingerCommand.cs",
+              "RelativeToolTip": "MLWD5.Application\\SongUseCases\\Commands\\AddSongToSingerCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T00:47:07.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Song.cs",
+              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Domain\\Entities\\Song.cs",
+              "RelativeDocumentMoniker": "MLWD5.Domain\\Entities\\Song.cs",
+              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Domain\\Entities\\Song.cs",
+              "RelativeToolTip": "MLWD5.Domain\\Entities\\Song.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T00:50:33.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddSingerCommand.cs",
+              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SingerUseCases\\Commands\\AddSingerCommand.cs",
+              "RelativeDocumentMoniker": "MLWD5.Application\\SingerUseCases\\Commands\\AddSingerCommand.cs",
+              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SingerUseCases\\Commands\\AddSingerCommand.cs",
+              "RelativeToolTip": "MLWD5.Application\\SingerUseCases\\Commands\\AddSingerCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T17:54:58.207Z",
+              "WhenOpened": "2024-04-22T01:06:25.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Singer.cs",
+              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Domain\\Entities\\Singer.cs",
+              "RelativeDocumentMoniker": "MLWD5.Domain\\Entities\\Singer.cs",
+              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Domain\\Entities\\Singer.cs",
+              "RelativeToolTip": "MLWD5.Domain\\Entities\\Singer.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAuwBYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T00:59:20.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetAllSingersRequest.cs",
+              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SingerUseCases\\Queries\\GetAllSingersRequest.cs",
+              "RelativeDocumentMoniker": "MLWD5.Application\\SingerUseCases\\Queries\\GetAllSingersRequest.cs",
+              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SingerUseCases\\Queries\\GetAllSingersRequest.cs",
+              "RelativeToolTip": "MLWD5.Application\\SingerUseCases\\Queries\\GetAllSingersRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T00:46:47.133Z",
               "EditorCaption": ""
             }
           ]

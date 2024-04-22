@@ -1,0 +1,16 @@
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Application\bin\Debug\net8.0\MLWD5.Application.deps.json
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Application\bin\Debug\net8.0\MLWD5.Application.dll
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Application\bin\Debug\net8.0\MLWD5.Application.pdb
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Application\obj\Debug\net8.0\MLWD5.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Application\obj\Debug\net8.0\MLWD5.Application.AssemblyInfoInputs.cache
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Application\obj\Debug\net8.0\MLWD5.Application.AssemblyInfo.cs
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Application\obj\Debug\net8.0\MLWD5.Application.csproj.CoreCompileInputs.cache
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Application\obj\Debug\net8.0\MLWD5.Application.sourcelink.json
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Application\obj\Debug\net8.0\MLWD5.Application.dll
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Application\obj\Debug\net8.0\refint\MLWD5.Application.dll
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Application\obj\Debug\net8.0\MLWD5.Application.pdb
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Application\obj\Debug\net8.0\ref\MLWD5.Application.dll
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Application\bin\Debug\net8.0\MLWD5.Domain.dll
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Application\bin\Debug\net8.0\MLWD5.Domain.pdb
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Application\obj\Debug\net8.0\MLWD5.Application.csproj.AssemblyReference.cache
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Application\obj\Debug\net8.0\MLWD5.Ap.CE7A2AD0.Up2Date

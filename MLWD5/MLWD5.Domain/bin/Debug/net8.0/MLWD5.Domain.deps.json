@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MLWD5.Domain/1.0.0": {
+        "runtime": {
+          "MLWD5.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MLWD5.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
