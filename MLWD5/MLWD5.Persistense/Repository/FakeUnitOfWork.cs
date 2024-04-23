@@ -1,4 +1,4 @@
-﻿using MLWD5.Persistense.Data;
+﻿/*using MLWD5.Persistense.Data;
 
 namespace Persistense.Repository
 {
@@ -10,7 +10,7 @@ namespace Persistense.Repository
 
         public FakeUnitOfWork(AppDbContext context)
         {
-            /*_context = context;*/
+            *//*_context = context;*//*
             _singerRepository = new Lazy<IRepository<Singer>>(() =>
             new EfRepository<Singer>(context));
             _songRepository = new Lazy<IRepository<Song>>(() =>
@@ -37,3 +37,4 @@ namespace Persistense.Repository
         }
     }
 }
+*/

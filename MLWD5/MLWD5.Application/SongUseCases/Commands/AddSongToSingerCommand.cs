@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MLWD5.Application.SongUseCases.Commands
+﻿namespace MLWD5.Aplication.SongUseCases.Commands
 {
     public sealed record AddSongToSingerCommand(int Id,
         string Name,

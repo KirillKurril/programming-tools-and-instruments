@@ -1,4 +1,4 @@
-﻿namespace MLWD5.Application.SongUseCases.Commands
+﻿namespace MLWD5.Aplication.SongUseCases.Commands
 {
     public class EditSongCommandHandler : IRequestHandler<EditSongCommand, Song>
     {

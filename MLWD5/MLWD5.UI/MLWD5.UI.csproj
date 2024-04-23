@@ -57,9 +57,21 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="ViewModel\" />
+	  <Folder Include="Pages\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\MLWD5.Application\MLWD5.Application.csproj" />
+	  <ProjectReference Include="..\MLWD5.Domain\MLWD5.Domain.csproj" />
+	  <ProjectReference Include="..\MLWD5.Persistense\MLWD5.Persistense.csproj" />
 	</ItemGroup>
 
 </Project>

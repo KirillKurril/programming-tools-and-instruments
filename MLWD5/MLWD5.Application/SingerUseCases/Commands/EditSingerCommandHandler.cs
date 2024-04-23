@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MLWD5.Application.SingerUseCases.Commands
+﻿namespace MLWD5.Aplication.SingerUseCases.Commands
 {
     public class EditSingerCommandHandler : IRequestHandler<EditSingerCommand, Singer>
     {

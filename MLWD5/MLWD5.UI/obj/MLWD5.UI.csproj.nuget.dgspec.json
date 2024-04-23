@@ -4,13 +4,232 @@
     "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\MLWD5.UI.csproj": {}
   },
   "projects": {
+    "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\MLWD5.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\MLWD5.Application.csproj",
+        "projectName": "MLWD5.Application",
+        "projectPath": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\MLWD5.Application.csproj",
+        "packagesPath": "C:\\Users\\natak\\.nuget\\packages\\",
+        "outputPath": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\natak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Domain\\MLWD5.Domain.csproj": {
+                "projectPath": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Domain\\MLWD5.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Domain\\MLWD5.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Domain\\MLWD5.Domain.csproj",
+        "projectName": "MLWD5.Domain",
+        "projectPath": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Domain\\MLWD5.Domain.csproj",
+        "packagesPath": "C:\\Users\\natak\\.nuget\\packages\\",
+        "outputPath": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\natak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Persistense\\MLWD5.Persistense.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Persistense\\MLWD5.Persistense.csproj",
+        "projectName": "MLWD5.Persistense",
+        "projectPath": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Persistense\\MLWD5.Persistense.csproj",
+        "packagesPath": "C:\\Users\\natak\\.nuget\\packages\\",
+        "outputPath": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Persistense\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\natak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Domain\\MLWD5.Domain.csproj": {
+                "projectPath": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Domain\\MLWD5.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\MLWD5.UI.csproj": {
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\MLWD5.UI.csproj",
         "projectName": "MLWD5.UI",
         "projectPath": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\MLWD5.UI.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\natak\\.nuget\\packages\\",
         "outputPath": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
@@ -18,7 +237,7 @@
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\natak\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -36,19 +255,59 @@
         "frameworks": {
           "net8.0-android34.0": {
             "targetAlias": "net8.0-android",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\MLWD5.Application.csproj": {
+                "projectPath": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\MLWD5.Application.csproj"
+              },
+              "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Domain\\MLWD5.Domain.csproj": {
+                "projectPath": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Domain\\MLWD5.Domain.csproj"
+              },
+              "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Persistense\\MLWD5.Persistense.csproj": {
+                "projectPath": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Persistense\\MLWD5.Persistense.csproj"
+              }
+            }
           },
           "net8.0-ios17.2": {
             "targetAlias": "net8.0-ios",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\MLWD5.Application.csproj": {
+                "projectPath": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\MLWD5.Application.csproj"
+              },
+              "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Domain\\MLWD5.Domain.csproj": {
+                "projectPath": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Domain\\MLWD5.Domain.csproj"
+              },
+              "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Persistense\\MLWD5.Persistense.csproj": {
+                "projectPath": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Persistense\\MLWD5.Persistense.csproj"
+              }
+            }
           },
           "net8.0-maccatalyst17.2": {
             "targetAlias": "net8.0-maccatalyst",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\MLWD5.Application.csproj": {
+                "projectPath": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\MLWD5.Application.csproj"
+              },
+              "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Domain\\MLWD5.Domain.csproj": {
+                "projectPath": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Domain\\MLWD5.Domain.csproj"
+              },
+              "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Persistense\\MLWD5.Persistense.csproj": {
+                "projectPath": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Persistense\\MLWD5.Persistense.csproj"
+              }
+            }
           },
           "net8.0-windows10.0.19041": {
             "targetAlias": "net8.0-windows10.0.19041.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\MLWD5.Application.csproj": {
+                "projectPath": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\MLWD5.Application.csproj"
+              },
+              "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Domain\\MLWD5.Domain.csproj": {
+                "projectPath": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Domain\\MLWD5.Domain.csproj"
+              },
+              "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Persistense\\MLWD5.Persistense.csproj": {
+                "projectPath": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Persistense\\MLWD5.Persistense.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -66,6 +325,10 @@
         "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
           "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -81,7 +344,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.3, )",
+              "version": "[8.0.4, )",
               "autoReferenced": true
             }
           },
@@ -104,11 +367,15 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-ios17.2": {
           "targetAlias": "net8.0-ios",
           "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -124,7 +391,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.3, )",
+              "version": "[8.0.4, )",
               "autoReferenced": true
             }
           },
@@ -147,11 +414,15 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-maccatalyst17.2": {
           "targetAlias": "net8.0-maccatalyst",
           "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -167,7 +438,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.3, )",
+              "version": "[8.0.4, )",
               "autoReferenced": true
             }
           },
@@ -191,11 +462,15 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
           "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -234,7 +509,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

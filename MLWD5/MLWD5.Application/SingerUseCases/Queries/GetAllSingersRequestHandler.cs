@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MLWD5.Application.SingerUseCases.Queries
+﻿namespace MLWD5.Aplication.SingerUseCases.Queries
 {
     public class GetAllSingersRequestHandler : IRequestHandler<GetAllSingersRequest, IEnumerable<Singer>>
     {

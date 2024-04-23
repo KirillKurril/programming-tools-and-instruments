@@ -1,4 +1,4 @@
-﻿namespace MLWD5.Application.SongUseCases.Queries
+﻿namespace MLWD5.Aplication.SongUseCases.Queries
 {
     public class GetSongsBySingerHandler(IUnitOfWork unitOfWork) : IRequestHandler<GetSongsBySingerRequest, IEnumerable<Song>>
     {

@@ -1,4 +1,4 @@
-﻿namespace MLWD5.Application.SongUseCases.Commands
+﻿namespace MLWD5.Aplication.SongUseCases.Commands
 {
     public class AddSongToSingerCommandHandler : IRequestHandler<AddSongToSingerCommand, Song>
     {
@@ -10,7 +10,7 @@
         }
         public async Task<Song> Handle(AddSongToSingerCommand request, CancellationToken cancellationToken)
         {
-            Song newSong = new Song(request.Id, request.Name, request.Description, request.Text, request.ChartPosition);
+            Song newSong = new Song(request.Name, request.Description, request.Text, request.ChartPosition, request.Id);
             await _unitOfWork.SongRepository.AddAsync(newSong);
             await _unitOfWork.SaveAllAsync();
             return newSong;

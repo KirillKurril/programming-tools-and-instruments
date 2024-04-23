@@ -1,4 +1,4 @@
-﻿namespace MLWD5.Application.SingerUseCases.Commands
+﻿namespace MLWD5.Aplication.SingerUseCases.Commands
 {
     public class DeleteSingerCommandHandler : IRequestHandler<DeleteSingerCommand, Singer>
     {

@@ -1,20 +1,38 @@
-﻿namespace MLWD5.Domain.Entities
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace MLWD5.Domain.Entities
 {
     public class Song : Entity
     {
         public Song() { }
 
-        public Song(int id,
+        public Song(
             string name = "not definded", 
             string description = "not definded",
             string text = "not definded",
             int chartPosition = -1)
         {
-            Id = id;
             Name = name;
             Description = description;
             Text = text;
             ChartPosition = chartPosition;
+        }
+        public Song(string name, string description, string text, int chartPosition, int id)
+        {
+            Name = name;
+            Description = description;
+            Text = text;
+            ChartPosition = chartPosition;
+            Id = id;
+        }
+
+        public Song(string name, string description, string text, int chartPosition, int id, int singerId)
+        {
+            Name = name;
+            Description = description;
+            Text = text;
+            ChartPosition = chartPosition;
+            SingerId = singerId;
         }
         public void ChangeInfo(string? name = null,
             string? description = null,
@@ -30,7 +48,7 @@
             if (chartPosition != null)
                 ChartPosition = chartPosition;
         }
-
+        public int Id { get; set; }
         public int? ChartPosition { get; set; }
         public string? Name { get; set; }
         public string? Description { get; set; }
