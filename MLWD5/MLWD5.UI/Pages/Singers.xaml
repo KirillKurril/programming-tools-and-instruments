@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MLWD5.UI.Pages.Singers"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:models="clr-namespace:MLWD5.UI.ViewModels"
+             x:DataType="models:SingersViewModel"
+             Title="Singers">
+    <ScrollView>
+        <StackLayout>
+
+            <Picker 
+                 Title="Select singer"
+                 ItemsSource="{Binding Singers}"
+                 SelectedItem="{Binding SelectedSinger}"
+                 x:Name="SingersPicker">
+
+                <!--<Picker.Behaviors>
+                    <toolkit:EventToCommandBehavior EventName="SelectedIndexChanged"
+                                         Command="{Binding UpdateSongsListCommand}" />
+                    <toolkit:EventToCommandBehavior EventName="Focused"
+                         Command="{Binding UpdateSingersListCommand}" />
+
+                </Picker.Behaviors>
+
+                <Picker.Shadow>
+                    <Shadow Brush="Black"
+                 Offset="1,1"
+                 Radius="10"
+                 Opacity="1" />
+                </Picker.Shadow>-->
+
+            </Picker>
+            <!--<Grid></Grid>
+            <StackLayout></StackLayout>-->
+
+        </StackLayout>
+    </ScrollView>
+    
+    
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Loaded"
+            Command="{Binding UpdateSingersListCommand}"/>
+    </ContentPage.Behaviors>
+</ContentPage>

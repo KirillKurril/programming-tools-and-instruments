@@ -34,6 +34,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MLWD5.UI.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
+[C:/Uni/programming-tools-and-instruments/MLWD5/MLWD5.UI/Pages/Singers.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MLWD5.UI.Pages.Singers.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Singers.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Singers.xaml
+
 [C:/Uni/programming-tools-and-instruments/MLWD5/MLWD5.UI/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MLWD5.UI.Resources.Styles.Colors.xaml

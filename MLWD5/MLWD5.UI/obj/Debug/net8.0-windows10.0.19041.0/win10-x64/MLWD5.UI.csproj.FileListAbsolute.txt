@@ -37,7 +37,6 @@ C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Projection.dll
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Widgets.Projection.dll
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
-C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Release.Net.dll
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ar\Microsoft.Maui.Controls.resources.dll
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ca\Microsoft.Maui.Controls.resources.dll
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\cs\Microsoft.Maui.Controls.resources.dll
@@ -189,3 +188,7 @@ C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MLWD5.Application.pdb
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MLWD5.Domain.pdb
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MLWD5.Persistense.pdb
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.dll
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.Core.dll
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Management.Deployment.Projection.dll
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Speech.dll

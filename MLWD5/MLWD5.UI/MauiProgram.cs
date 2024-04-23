@@ -1,12 +1,12 @@
 ﻿using Microsoft.Extensions.Logging;
 using MLWD5.Aplication;
-using MLWD5.Persistense;
 using Persistense;
-using Microsoft.Extensions.Logging;
 using CommunityToolkit.Maui;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System.Reflection;
+using MLWD5.UI.Pages;
+using MLWD5.UI.ViewModels;
 
 namespace MLWD5.UI
 {
@@ -25,7 +25,9 @@ namespace MLWD5.UI
                 });
             builder.Services
                 .AddApplication()
-                .AddPersistence();
+                .AddPersistence()
+                .RegisterPages()
+                .RegisterViewModels();
                 
 
 #if DEBUG
@@ -33,6 +35,17 @@ namespace MLWD5.UI
 #endif
 
             return builder.Build();
+        }
+
+        static IServiceCollection RegisterPages(this IServiceCollection services)
+        {
+            services.AddTransient<Singers>();
+            return services;
+        }
+        static IServiceCollection RegisterViewModels(this IServiceCollection services)
+        {
+            services.AddTransient<SingersViewModel>();
+            return services;
         }
     }
 }
