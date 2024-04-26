@@ -53,21 +53,28 @@ namespace Persistense.Repository
             return await query.ToListAsync();
         }
 
+        //NOT ASYNC!!!
         public Task AddAsync(T entity, CancellationToken cancellationToken = default)
         {
             _context.AddAsync(entity);
             return Task.CompletedTask;
         }
+
+        //NOT ASYNC!!!
         public Task UpdateAsync(T entity, CancellationToken cancellationToken = default)
         {
             _context.Entry(entity).State = EntityState.Modified;
             return Task.CompletedTask;
         }
+
+        //NOT ASYNC!!!
         public Task DeleteAsync(T entity, CancellationToken cancellationToken = default)
         {
             _context.Remove(entity);
             return Task.CompletedTask;
         }
+
+        //NOT ASYNC!!!
         public Task<T> FirstOrDefaultAsync(Expression<Func<T, bool>> filter, CancellationToken cancellationToken = default)
         {
             IQueryable<T>? query = _entities.AsQueryable();

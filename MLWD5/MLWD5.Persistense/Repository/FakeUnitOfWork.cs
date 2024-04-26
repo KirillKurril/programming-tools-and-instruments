@@ -1,20 +1,20 @@
-﻿/*using MLWD5.Persistense.Data;
+﻿using MLWD5.Persistense.Data;
 
 namespace Persistense.Repository
 {
     public class FakeUnitOfWork : IUnitOfWork
     {
-        //private readonly AppDbContext _context;
+        private readonly AppDbContext _context;
         private readonly Lazy<IRepository<Singer>> _singerRepository;
         private readonly Lazy<IRepository<Song>> _songRepository;
 
         public FakeUnitOfWork(AppDbContext context)
         {
-            *//*_context = context;*//*
+            _context = context;
             _singerRepository = new Lazy<IRepository<Singer>>(() =>
-            new EfRepository<Singer>(context));
+            new FakeSingerRepository());
             _songRepository = new Lazy<IRepository<Song>>(() =>
-             new EfRepository<Song>(context));
+             new FakeSongRepository());
         }
         public IRepository<Singer> SingerRepository
         => _singerRepository.Value;
@@ -37,4 +37,3 @@ namespace Persistense.Repository
         }
     }
 }
-*/

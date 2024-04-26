@@ -3,131 +3,16 @@
   "WorkspaceRootPath": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\viewmodels\\singersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\viewmodels\\singersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\valueconverters\\ratetocolorvalueconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\valueconverters\\ratetocolorvalueconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\pages\\singers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\pages\\singers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\pages\\singers.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\pages\\singers.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MLWD5.UI\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B94C2C97-6C09-4B4A-A3F4-67524F3C25BA}|MLWD5.Domain\\MLWD5.Domain.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.domain\\entities\\singer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B94C2C97-6C09-4B4A-A3F4-67524F3C25BA}|MLWD5.Domain\\MLWD5.Domain.csproj|solutionrelative:mlwd5.domain\\entities\\singer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\mlwd5.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\mlwd5.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\singerusecases\\commands\\deletesingercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\singerusecases\\commands\\deletesingercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\singerusecases\\commands\\editsingercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\singerusecases\\commands\\editsingercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\songusecases\\queries\\getsongsbysingerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\songusecases\\queries\\getsongsbysingerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\songusecases\\queries\\getsongsbysingerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\songusecases\\queries\\getsongsbysingerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\singerusecases\\queries\\getallsingersrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\singerusecases\\queries\\getallsingersrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\.nuget\\packages\\communitytoolkit.maui\\8.0.1\\ReadMe.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\songusecases\\commands\\editsongcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\songusecases\\commands\\editsongcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\songusecases\\commands\\editsongcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\songusecases\\commands\\editsongcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\songusecases\\commands\\deletesongcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\songusecases\\commands\\deletesongcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\songusecases\\commands\\deletesongcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\songusecases\\commands\\deletesongcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\songusecases\\commands\\addsongtosingercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\songusecases\\commands\\addsongtosingercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\songusecases\\commands\\addsongtosingercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\songusecases\\commands\\addsongtosingercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\singerusecases\\queries\\getallsingersrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\singerusecases\\queries\\getallsingersrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\singerusecases\\commands\\editsingercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\singerusecases\\commands\\editsingercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\singerusecases\\commands\\deletesingercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\singerusecases\\commands\\deletesingercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\singerusecases\\commands\\addsingercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\singerusecases\\commands\\addsingercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\singerusecases\\commands\\addsingercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\singerusecases\\commands\\addsingercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\viewmodels\\singersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\viewmodels\\singersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -141,418 +26,41 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.g.i.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "RelativeDocumentMoniker": "MLWD5.UI\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "RelativeToolTip": "MLWD5.UI\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAmwEoAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T23:28:46.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SingersViewModel.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\ViewModels\\SingersViewModel.cs",
-              "RelativeDocumentMoniker": "MLWD5.UI\\ViewModels\\SingersViewModel.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\ViewModels\\SingersViewModel.cs",
-              "RelativeToolTip": "MLWD5.UI\\ViewModels\\SingersViewModel.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAswCUAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T20:02:10.443Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Singers.xaml",
               "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\Pages\\Singers.xaml",
               "RelativeDocumentMoniker": "MLWD5.UI\\Pages\\Singers.xaml",
               "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\Pages\\Singers.xaml",
               "RelativeToolTip": "MLWD5.UI\\Pages\\Singers.xaml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAArAAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFUAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-23T19:54:15.484Z",
+              "WhenOpened": "2024-04-26T21:53:05.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RateToColorValueConverter.cs",
+              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\ValueConverters\\RateToColorValueConverter.cs",
+              "RelativeDocumentMoniker": "MLWD5.UI\\ValueConverters\\RateToColorValueConverter.cs",
+              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\ValueConverters\\RateToColorValueConverter.cs",
+              "RelativeToolTip": "MLWD5.UI\\ValueConverters\\RateToColorValueConverter.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAswBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T21:49:32.227Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\AppShell.xaml",
-              "RelativeDocumentMoniker": "MLWD5.UI\\AppShell.xaml",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\AppShell.xaml",
-              "RelativeToolTip": "MLWD5.UI\\AppShell.xaml",
-              "ViewState": "AQIAAAMAAAAAAAAAAIAwwBAAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-23T19:57:52.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\App.xaml.cs",
-              "RelativeDocumentMoniker": "MLWD5.UI\\App.xaml.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\App.xaml.cs",
-              "RelativeToolTip": "MLWD5.UI\\App.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAOAAAA",
+              "Title": "SingersViewModel.cs",
+              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\ViewModels\\SingersViewModel.cs",
+              "RelativeDocumentMoniker": "MLWD5.UI\\ViewModels\\SingersViewModel.cs",
+              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\ViewModels\\SingersViewModel.cs",
+              "RelativeToolTip": "MLWD5.UI\\ViewModels\\SingersViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:17:44.098Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MLWD5.UI.csproj",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\MLWD5.UI.csproj",
-              "RelativeDocumentMoniker": "MLWD5.UI\\MLWD5.UI.csproj",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\MLWD5.UI.csproj",
-              "RelativeToolTip": "MLWD5.UI\\MLWD5.UI.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-22T12:15:13.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Singers.xaml.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\Pages\\Singers.xaml.cs",
-              "RelativeDocumentMoniker": "MLWD5.UI\\Pages\\Singers.xaml.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\Pages\\Singers.xaml.cs",
-              "RelativeToolTip": "MLWD5.UI\\Pages\\Singers.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T20:03:12.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Singer.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Domain\\Entities\\Singer.cs",
-              "RelativeDocumentMoniker": "MLWD5.Domain\\Entities\\Singer.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Domain\\Entities\\Singer.cs",
-              "RelativeToolTip": "MLWD5.Domain\\Entities\\Singer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T23:12:40.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DeleteSingerCommandHandler.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SingerUseCases\\Commands\\DeleteSingerCommandHandler.cs",
-              "RelativeDocumentMoniker": "MLWD5.Application\\SingerUseCases\\Commands\\DeleteSingerCommandHandler.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SingerUseCases\\Commands\\DeleteSingerCommandHandler.cs",
-              "RelativeToolTip": "MLWD5.Application\\SingerUseCases\\Commands\\DeleteSingerCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:23:39.291Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\MainPage.xaml",
-              "RelativeDocumentMoniker": "MLWD5.UI\\MainPage.xaml",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\MainPage.xaml",
-              "RelativeToolTip": "MLWD5.UI\\MainPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-23T22:20:59.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EditSingerCommandHandler.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SingerUseCases\\Commands\\EditSingerCommandHandler.cs",
-              "RelativeDocumentMoniker": "MLWD5.Application\\SingerUseCases\\Commands\\EditSingerCommandHandler.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SingerUseCases\\Commands\\EditSingerCommandHandler.cs",
-              "RelativeToolTip": "MLWD5.Application\\SingerUseCases\\Commands\\EditSingerCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:23:55.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MLWD5.UI\\MauiProgram.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\MauiProgram.cs",
-              "RelativeToolTip": "MLWD5.UI\\MauiProgram.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAswB0AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:17:59.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GetSongsBySingerHandler.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Queries\\GetSongsBySingerHandler.cs",
-              "RelativeDocumentMoniker": "MLWD5.Application\\SongUseCases\\Queries\\GetSongsBySingerHandler.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Queries\\GetSongsBySingerHandler.cs",
-              "RelativeToolTip": "MLWD5.Application\\SongUseCases\\Queries\\GetSongsBySingerHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:25:01.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "GetSongsBySingerRequest.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Queries\\GetSongsBySingerRequest.cs",
-              "RelativeDocumentMoniker": "MLWD5.Application\\SongUseCases\\Queries\\GetSongsBySingerRequest.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Queries\\GetSongsBySingerRequest.cs",
-              "RelativeToolTip": "MLWD5.Application\\SongUseCases\\Queries\\GetSongsBySingerRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:25:07.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GetAllSingersRequest.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SingerUseCases\\Queries\\GetAllSingersRequest.cs",
-              "RelativeDocumentMoniker": "MLWD5.Application\\SingerUseCases\\Queries\\GetAllSingersRequest.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SingerUseCases\\Queries\\GetAllSingersRequest.cs",
-              "RelativeToolTip": "MLWD5.Application\\SingerUseCases\\Queries\\GetAllSingersRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:24:04.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "GlobalUsings.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\GlobalUsings.cs",
-              "RelativeDocumentMoniker": "MLWD5.UI\\GlobalUsings.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\GlobalUsings.cs",
-              "RelativeToolTip": "MLWD5.UI\\GlobalUsings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T19:44:50.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ReadMe.txt",
-              "DocumentMoniker": "C:\\Users\\user\\.nuget\\packages\\communitytoolkit.maui\\8.0.1\\ReadMe.txt",
-              "RelativeDocumentMoniker": "..\\..\\..\\Users\\user\\.nuget\\packages\\communitytoolkit.maui\\8.0.1\\ReadMe.txt",
-              "ToolTip": "C:\\Users\\user\\.nuget\\packages\\communitytoolkit.maui\\8.0.1\\ReadMe.txt",
-              "RelativeToolTip": "..\\..\\..\\Users\\user\\.nuget\\packages\\communitytoolkit.maui\\8.0.1\\ReadMe.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-04-23T19:28:35.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "MLWD5.Application\\DbInitializer.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\DbInitializer.cs",
-              "RelativeToolTip": "MLWD5.Application\\DbInitializer.cs",
-              "ViewState": "AQIAABEAAAAAMzMzMzPzvwIAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:25:17.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "GlobalUsings.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\GlobalUsings.cs",
-              "RelativeDocumentMoniker": "MLWD5.Application\\GlobalUsings.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\GlobalUsings.cs",
-              "RelativeToolTip": "MLWD5.Application\\GlobalUsings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:25:29.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "EditSongCommandHandler.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Commands\\EditSongCommandHandler.cs",
-              "RelativeDocumentMoniker": "MLWD5.Application\\SongUseCases\\Commands\\EditSongCommandHandler.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Commands\\EditSongCommandHandler.cs",
-              "RelativeToolTip": "MLWD5.Application\\SongUseCases\\Commands\\EditSongCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:24:56.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "MLWD5.Application\\DependencyInjection.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\DependencyInjection.cs",
-              "RelativeToolTip": "MLWD5.Application\\DependencyInjection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T11:53:32.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "EditSongCommand.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Commands\\EditSongCommand.cs",
-              "RelativeDocumentMoniker": "MLWD5.Application\\SongUseCases\\Commands\\EditSongCommand.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Commands\\EditSongCommand.cs",
-              "RelativeToolTip": "MLWD5.Application\\SongUseCases\\Commands\\EditSongCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:24:50.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "DeleteSongCommandHandler.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Commands\\DeleteSongCommandHandler.cs",
-              "RelativeDocumentMoniker": "MLWD5.Application\\SongUseCases\\Commands\\DeleteSongCommandHandler.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Commands\\DeleteSongCommandHandler.cs",
-              "RelativeToolTip": "MLWD5.Application\\SongUseCases\\Commands\\DeleteSongCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:24:42.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "DeleteSongCommand.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Commands\\DeleteSongCommand.cs",
-              "RelativeDocumentMoniker": "MLWD5.Application\\SongUseCases\\Commands\\DeleteSongCommand.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Commands\\DeleteSongCommand.cs",
-              "RelativeToolTip": "MLWD5.Application\\SongUseCases\\Commands\\DeleteSongCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:24:36.963Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AddSongToSingerCommandHandler.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Commands\\AddSongToSingerCommandHandler.cs",
-              "RelativeDocumentMoniker": "MLWD5.Application\\SongUseCases\\Commands\\AddSongToSingerCommandHandler.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Commands\\AddSongToSingerCommandHandler.cs",
-              "RelativeToolTip": "MLWD5.Application\\SongUseCases\\Commands\\AddSongToSingerCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:24:31.473Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "AddSongToSingerCommand.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Commands\\AddSongToSingerCommand.cs",
-              "RelativeDocumentMoniker": "MLWD5.Application\\SongUseCases\\Commands\\AddSongToSingerCommand.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SongUseCases\\Commands\\AddSongToSingerCommand.cs",
-              "RelativeToolTip": "MLWD5.Application\\SongUseCases\\Commands\\AddSongToSingerCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:24:22.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "GetAllSingersRequestHandler.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SingerUseCases\\Queries\\GetAllSingersRequestHandler.cs",
-              "RelativeDocumentMoniker": "MLWD5.Application\\SingerUseCases\\Queries\\GetAllSingersRequestHandler.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SingerUseCases\\Queries\\GetAllSingersRequestHandler.cs",
-              "RelativeToolTip": "MLWD5.Application\\SingerUseCases\\Queries\\GetAllSingersRequestHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:24:13.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "EditSingerCommand.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SingerUseCases\\Commands\\EditSingerCommand.cs",
-              "RelativeDocumentMoniker": "MLWD5.Application\\SingerUseCases\\Commands\\EditSingerCommand.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SingerUseCases\\Commands\\EditSingerCommand.cs",
-              "RelativeToolTip": "MLWD5.Application\\SingerUseCases\\Commands\\EditSingerCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:23:45.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "DeleteSingerCommand.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SingerUseCases\\Commands\\DeleteSingerCommand.cs",
-              "RelativeDocumentMoniker": "MLWD5.Application\\SingerUseCases\\Commands\\DeleteSingerCommand.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SingerUseCases\\Commands\\DeleteSingerCommand.cs",
-              "RelativeToolTip": "MLWD5.Application\\SingerUseCases\\Commands\\DeleteSingerCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:23:27.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "AddSingerCommandHandler.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SingerUseCases\\Commands\\AddSingerCommandHandler.cs",
-              "RelativeDocumentMoniker": "MLWD5.Application\\SingerUseCases\\Commands\\AddSingerCommandHandler.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SingerUseCases\\Commands\\AddSingerCommandHandler.cs",
-              "RelativeToolTip": "MLWD5.Application\\SingerUseCases\\Commands\\AddSingerCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:23:22.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "AddSingerCommand.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SingerUseCases\\Commands\\AddSingerCommand.cs",
-              "RelativeDocumentMoniker": "MLWD5.Application\\SingerUseCases\\Commands\\AddSingerCommand.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SingerUseCases\\Commands\\AddSingerCommand.cs",
-              "RelativeToolTip": "MLWD5.Application\\SingerUseCases\\Commands\\AddSingerCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:22:23.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\AppShell.xaml.cs",
-              "RelativeDocumentMoniker": "MLWD5.UI\\AppShell.xaml.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\AppShell.xaml.cs",
-              "RelativeToolTip": "MLWD5.UI\\AppShell.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:17:52.401Z",
+              "WhenOpened": "2024-04-23T20:02:10.443Z",
               "EditorCaption": ""
             }
           ]

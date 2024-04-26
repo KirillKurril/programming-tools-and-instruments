@@ -13,7 +13,8 @@ namespace MLWD5.Aplication
 
             for (int i = 1; i <= 7; i++)
             {
-                var singer = new Singer(i, $"Singer {i}", i * 10, $"Biography {i}", $"PhotoReference {i}");
+                //var singer = new Singer(i, $"Singer {i}", i * 10, $"Biography {i}", $"PhotoReference {i}");
+                var singer = new Singer($"Singer {i}", i * 10, $"Biography {i}", $"PhotoReference {i}");
 
                 for (int j = 1; j <= 3; j++)
                 {

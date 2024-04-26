@@ -192,3 +192,17 @@ C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.Core.dll
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Management.Deployment.Projection.dll
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Speech.dll
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Data.Sqlite.dll
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.DependencyModel.dll
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.batteries_v2.dll
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.core.dll
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\e_sqlite3.dll
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.Json.dll
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.FileSystemGlobbing.dll

@@ -5,7 +5,7 @@
         public async Task<IEnumerable<Song>> Handle(GetSongsBySingerRequest request, CancellationToken cancellationToken)
         {
             return await unitOfWork.SongRepository
-            .ListAsync(song => song.SingerId.Equals(request.SingerId),
+            .ListAsync(song => song.SingerId == request.SingerId,//vsong.SingerId.Equals(request.SingerId),
            cancellationToken);
         }
     }

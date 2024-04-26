@@ -1,9 +1,18 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace MLWD5.Domain.Entities
 {
     public class Song : Entity
     {
+        public int? ChartPosition { get; set; }
+        public string? Name { get; set; }
+        public string? Description { get; set; }
+        public string? Text { get; set; }
+
+        public int SingerId { get; set; }
+        public Singer? Singer { get; set; }
         public Song() { }
 
         public Song(
@@ -48,15 +57,7 @@ namespace MLWD5.Domain.Entities
             if (chartPosition != null)
                 ChartPosition = chartPosition;
         }
-        public int Id { get; set; }
-        public int? ChartPosition { get; set; }
-        public string? Name { get; set; }
-        public string? Description { get; set; }
-        public string? Text { get; set; }
-
-        public int SingerId { get; set; }
-        public Singer? Singer { get; set; }
-
+        
         public void AddToSinger(int singerId)
             => SingerId = singerId;
         public void RemoveSinger()

@@ -1,45 +1,106 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MLWD5.UI.Pages.Singers"
-             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              xmlns:models="clr-namespace:MLWD5.UI.ViewModels"
+             xmlns:converters="clr-namespace:MLWD5.UI.Converters"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:entities="clr-namespace:MLWD5.Domain.Entities;assembly=MLWD5.Domain"
              x:DataType="models:SingersViewModel"
+             x:Class="MLWD5.UI.Pages.Singers"
              Title="Singers">
+    
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Loaded"
+           Command="{Binding UpdateSingersListCommand}"/>
+    </ContentPage.Behaviors>
+    
+    <ContentPage.Resources>
+        <converters:RateToColorValueConverter x:Key="rateToColorValueConverter"/>
+    </ContentPage.Resources>
+    
     <ScrollView>
         <StackLayout>
 
             <Picker 
                  Title="Select singer"
-                 ItemsSource="{Binding Singers}"
+                 ItemsSource="{Binding SingersNames}"
                  SelectedItem="{Binding SelectedSinger}"
                  x:Name="SingersPicker">
 
-                <!--<Picker.Behaviors>
+                <Picker.Behaviors>
                     <toolkit:EventToCommandBehavior EventName="SelectedIndexChanged"
                                          Command="{Binding UpdateSongsListCommand}" />
-                    <toolkit:EventToCommandBehavior EventName="Focused"
-                         Command="{Binding UpdateSingersListCommand}" />
+                    <!--<toolkit:EventToCommandBehavior EventName="Focused"
+                         Command="{Binding UpdateSingersListCommand}" />-->
 
                 </Picker.Behaviors>
 
-                <Picker.Shadow>
-                    <Shadow Brush="Black"
-                 Offset="1,1"
-                 Radius="10"
-                 Opacity="1" />
-                </Picker.Shadow>-->
 
             </Picker>
-            <!--<Grid></Grid>
-            <StackLayout></StackLayout>-->
+            <Frame Margin="5,0,5,0">
+                <StackLayout>
+                    <Label>
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Name: " FontAttributes="Bold" />
+                                <Span Text="{Binding SelectedSinger.Name}" />
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Label>
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Age: " FontAttributes="Bold" />
+                                <Span Text="{Binding SelectedSinger.Age}" />
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Label>
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Biography: " FontAttributes="Bold" />
+                                <Span Text="{Binding SelectedSinger.Biography}" />
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <!--<Image Source="{Binding SelectedSinger.PhotoReference}" Aspect="AspectFill" CornerRadius="20"/>-->
+                </StackLayout>
+            </Frame>
+            <CollectionView
+                 ItemsSource="{Binding Songs}">
+                <!--HeightRequest="400"-->
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="entities:Song">
+                        <Frame CornerRadius="10" Padding="10" 
+                            HorizontalOptions="FillAndExpand" 
+                            VerticalOptions="Center">
+                            <HorizontalStackLayout>
+                                <!--<Image
+                                Aspect="AspectFill"
+                                HeightRequest="70"
+                                WidthRequest="70"
+                                Source="{Binding Id, Converter={StaticResource IdToImageSource}}"></Image>-->
+                                <Label Text="{Binding Name}" 
+                                     Padding="10"
+                                     HorizontalOptions="FillAndExpand"
+                                     HeightRequest="50">
+                                    <!--<Label.GestureRecognizers>
+                                        <TapGestureRecognizer
+                                        Command="{Binding Source={RelativeSource 
+                                            AncestorType={x:Type models:AuthorsViewModel}},
+                                            Path=ShowDetailsCommand}"
+                                        CommandParameter="{Binding Title}" />
+                                    </Label.GestureRecognizers>-->
+                                </Label>
+                            </HorizontalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
 
         </StackLayout>
     </ScrollView>
     
     
-    <ContentPage.Behaviors>
-        <toolkit:EventToCommandBehavior EventName="Loaded"
-            Command="{Binding UpdateSingersListCommand}"/>
-    </ContentPage.Behaviors>
+ 
 </ContentPage>

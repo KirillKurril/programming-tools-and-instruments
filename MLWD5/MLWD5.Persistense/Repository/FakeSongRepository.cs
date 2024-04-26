@@ -1,8 +1,9 @@
-﻿/*using System.Linq.Expressions;
+﻿using MLWD5.Domain.Entities;
+using System.Linq.Expressions;
 
 namespace Persistense.Repository
 {
-    internal class FakeSongRepository
+    internal class FakeSongRepository : IRepository<Song>
     {
         List<Song> _songs = new List<Song>();
         public FakeSongRepository()
@@ -31,30 +32,29 @@ namespace Persistense.Repository
 
         public async Task<IReadOnlyList<Song>> ListAllAsync(CancellationToken
         cancellationToken = default)
-            => await Task.Run(() => _songs);
+             => await Task.Run(() => _songs);
 
-        Task<IReadOnlyList<Song>> ListAsync(Expression<Func<Song, bool>>
+        public async Task<IReadOnlyList<Song>> ListAsync(Expression<Func<Song, bool>>
         filter,
         CancellationToken cancellationToken = default,
         params Expression<Func<Song, object>>[]?
         includesProperties)
-            => throw new NotImplementedException();
+            => await Task.Run(() => _songs);
 
-        Task AddAsync(Song entity, CancellationToken cancellationToken
+        public async Task AddAsync(Song entity, CancellationToken cancellationToken
         = default)
             => throw new NotImplementedException();
 
-        Task UpdateAsync(Song entity, CancellationToken
+        public async Task UpdateAsync(Song entity, CancellationToken
         cancellationToken = default)
             => throw new NotImplementedException();
 
-        Task DeleteAsync(Song entity, CancellationToken
+        public async Task DeleteAsync(Song entity, CancellationToken
         cancellationToken = default)
             => throw new NotImplementedException();
 
-        Task<Song> FirstOrDefaultAsync(Expression<Func<Song, bool>>
+        public async Task<Song> FirstOrDefaultAsync(Expression<Func<Song, bool>>
         filter, CancellationToken cancellationToken = default)
             => throw new NotImplementedException();
     }
 }
-*/

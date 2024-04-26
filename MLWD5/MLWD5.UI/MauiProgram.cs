@@ -1,12 +1,13 @@
 ﻿using Microsoft.Extensions.Logging;
-using MLWD5.Aplication;
-using Persistense;
 using CommunityToolkit.Maui;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System.Reflection;
+using MLWD5.Aplication;
 using MLWD5.UI.Pages;
 using MLWD5.UI.ViewModels;
+using MLWD5.Persistense;
+using MLWD5.Persistense.Data;
 
 namespace MLWD5.UI
 {
@@ -14,7 +15,27 @@ namespace MLWD5.UI
     {
         public static MauiApp CreateMauiApp()
         {
+/*          string settingsStream = "MLWD5.UI.appsettings.json";
+            string dataDirectory = FileSystem.Current.AppDataDirectory + "/";
+*/
             var builder = MauiApp.CreateBuilder();
+           
+
+ /*           var a = Assembly.GetExecutingAssembly();
+            using var stream = a.GetManifestResourceStream(settingsStream);
+            builder.Configuration.AddJsonStream(stream);
+
+
+            var connStr = builder.Configuration
+                .GetConnectionString("SqliteConnection");
+
+            connStr = string.Format(connStr, dataDirectory);
+            var options = new DbContextOptionsBuilder<AppDbContext>()
+                .UseSqlite(connStr)
+                .Options;
+
+*/
+
             builder
                 .UseMauiApp<App>()
                 .UseMauiCommunityToolkit()
@@ -25,7 +46,7 @@ namespace MLWD5.UI
                 });
             builder.Services
                 .AddApplication()
-                .AddPersistence()
+                .AddPersistence()//(options)
                 .RegisterPages()
                 .RegisterViewModels();
                 

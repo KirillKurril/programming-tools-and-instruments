@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MLWD5.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65e5ae5d162810857bdf5f92a3b832b4a2f9463e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+695f62812d3f720eda6a3009d59bc2118a8475e4")]
 [assembly: System.Reflection.AssemblyProductAttribute("MLWD5.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MLWD5.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

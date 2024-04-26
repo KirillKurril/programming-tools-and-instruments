@@ -9,11 +9,10 @@
         public List<Song> Songs { get; set;} = new ();
         public Singer() { }
 
-        public Singer(int id, string name = "not definded",
+        public Singer(string name = "not definded",
             int age = -1, string biography = "not definded",
             string photoReference = "not definded")
         {
-            Id = id;
             Name = name;
             Age = age;
             Biography = biography;
@@ -35,5 +34,8 @@
             => Songs.Add(song);
         public void AddSong(string songName)
            => Songs.Add(new Song(songName));
+
+        public void SetId(int id)
+            => Id = id;
     }
 }

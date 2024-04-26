@@ -2,7 +2,9 @@
 using CommunityToolkit.Mvvm.Input;
 using MLWD5.Aplication.SingerUseCases.Queries;
 using MLWD5.Aplication.SongUseCases.Queries;
+using MLWD5.UI.Pages;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 
 namespace MLWD5.UI.ViewModels
 {
@@ -14,7 +16,10 @@ namespace MLWD5.UI.ViewModels
             _mediator = mediator;
         }
         public ObservableCollection<Singer> Singers { get; set; } = new();
+        public ObservableCollection<string> SingersNames { get; set; } = new();
         public ObservableCollection<Song> Songs{ get; set; } = new();
+        public ObservableCollection<string> SongNames { get; set; } = new();
+
         // Выбранный в списке курс
         [ObservableProperty]
         Singer selectedSinger;
@@ -30,10 +35,10 @@ namespace MLWD5.UI.ViewModels
             }
         }
 
-        // Команда обновления списка курсов
+        
         [RelayCommand]
         async Task UpdateSingersList() => await GetSingers();
-        // Команда обновления списка слушателей курса
+        
         [RelayCommand]
         async Task UpdateSongsList() => await GetSongs();
 
@@ -41,23 +46,48 @@ namespace MLWD5.UI.ViewModels
 
         public async Task GetSingers()
         {
-            var singers = await _mediator.Send(new GetAllSingersRequest());
-            await MainThread.InvokeOnMainThreadAsync(() =>
+            try
             {
-                Singers.Clear();
-                foreach (var singer in singers)
-                    Singers.Add(singer);
-            });
+                var singers = await _mediator.Send(new GetAllSingersRequest());
+                await MainThread.InvokeOnMainThreadAsync(() =>
+                {
+                    SingersNames.Clear();
+                    Singers.Clear();
+                    foreach (var singer in singers)
+                    {
+                        SingersNames.Add(singer.Name);
+                        Singers.Add(singer);
+                    }
+                });
+                selectedSinger = Singers.FirstOrDefault();
+                SelectedSingerName = selectedSinger.Name;
+
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.ToString());
+            }
         }
         public async Task GetSongs()
         {
-            var songs = await _mediator.Send(new GetSongsBySingerRequest(selectedSinger.Id));
-            await MainThread.InvokeOnMainThreadAsync(() =>
+            try
             {
-                Songs.Clear();
-                foreach (var song in songs)
-                    Songs.Add(song);
-            });
+                var songs = await _mediator.Send(new GetSongsBySingerRequest(selectedSinger.Id));
+                await MainThread.InvokeOnMainThreadAsync(() =>
+                {
+                    Songs.Clear();
+                    SongNames.Clear();
+                    foreach (var song in songs)
+                    {
+                        SongNames.Add(song.Name);
+                        Songs.Add(song);
+                    }
+                });
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.ToString());
+            }
         }
 }
 }

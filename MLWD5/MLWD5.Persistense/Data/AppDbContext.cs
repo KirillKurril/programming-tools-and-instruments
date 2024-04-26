@@ -1,5 +1,4 @@
-﻿using MLWD5.Domain.Entities;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace MLWD5.Persistense.Data
 {
@@ -8,7 +7,7 @@ namespace MLWD5.Persistense.Data
         public DbSet<Song> Songs {  get; set; }
         public DbSet<Singer> Singers { get; set; }
 
-        public AppDbContext(DbContextOptions<AppDbContext> dbContextOptions)
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
             Database.EnsureCreated();
         }
