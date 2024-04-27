@@ -12,11 +12,9 @@ public static class DependencyInjection
     public static IServiceCollection AddPersistence(this IServiceCollection services)
     {
         //services.AddScoped<IUnitOfWork, EfUnitOfWork>();
-        services.AddScoped<IUnitOfWork, FakeUnitOfWork>();
-        /*services.AddTransient<IRepository<Singer>, EfRepository<Singer>>();*/
-        services.AddTransient<IRepository<Singer>, FakeSingerRepository>();
-        /*services.AddTransient<IRepository<Song>, EfRepository<Song>>();*/
-        services.AddTransient<IRepository<Song>, FakeSongRepository>();
+        services.AddSingleton<IUnitOfWork, EfUnitOfWork>();
+        services.AddTransient<IRepository<Singer>, EfRepository<Singer>>();
+        services.AddTransient<IRepository<Song>, EfRepository<Song>>();
         services.AddScoped<AppDbContext>();
         services.AddDbContext<AppDbContext>(opts =>
         {

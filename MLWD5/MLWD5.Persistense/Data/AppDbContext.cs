@@ -11,5 +11,14 @@ namespace MLWD5.Persistense.Data
         {
             Database.EnsureCreated();
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Singer>()
+                .HasMany(e => e.Songs)
+                .WithOne(e => e.Singer)
+                .HasForeignKey(e => e.SingerId)
+                .IsRequired();
+        }
     }
 }

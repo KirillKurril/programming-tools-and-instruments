@@ -5,7 +5,7 @@
         public string? Name { get; set; }
         public int? Age {  get; set; }
         public string? Biography { get; set; }
-        public string? PhotoReference { get; set; }
+        public string? PhotoSource { get; set; }
         public List<Song> Songs { get; set;} = new ();
         public Singer() { }
 
@@ -16,7 +16,7 @@
             Name = name;
             Age = age;
             Biography = biography;
-            PhotoReference = photoReference;
+            PhotoSource = photoReference;
         }
 
         public void ChangeInfo(string? name = null, int? age = null, string? biography = null, string? photoReference = null)
@@ -28,7 +28,7 @@
             if (biography != null)
                 Biography = biography;
             if(photoReference != null)
-                PhotoReference = photoReference;
+                PhotoSource = photoReference;
         }
         public void AddSong(Song song)
             => Songs.Add(song);
@@ -37,5 +37,7 @@
 
         public void SetId(int id)
             => Id = id;
+        public void SetPhotoSource(string photoSource)
+            => PhotoSource = photoSource;
     }
 }

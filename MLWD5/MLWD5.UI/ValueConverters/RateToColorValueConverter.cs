@@ -7,8 +7,8 @@ namespace MLWD5.UI.Converters
         public object Convert(object value, Type targetType, object parameter,
         CultureInfo culture)
         {
-            if ((double)value > 6)
-                return Colors.LightYellow;
+            if ((int)value < 6)
+                return Colors.Yellow;
 
             return Colors.WhiteSmoke;
         }

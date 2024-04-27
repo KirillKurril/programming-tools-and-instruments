@@ -7,6 +7,7 @@ namespace MLWD5.Domain.Entities
     public class Song : Entity
     {
         public int? ChartPosition { get; set; }
+        public string? PhotoSource { get; set; }
         public string? Name { get; set; }
         public string? Description { get; set; }
         public string? Text { get; set; }
@@ -57,10 +58,13 @@ namespace MLWD5.Domain.Entities
             if (chartPosition != null)
                 ChartPosition = chartPosition;
         }
-        
+        public void SetId(int id)
+            => Id = id;
         public void AddToSinger(int singerId)
             => SingerId = singerId;
         public void RemoveSinger()
             => SingerId = 0;
+        public void SetPhotoSource(string photoSource)
+           => PhotoSource = photoSource;
     }
 }

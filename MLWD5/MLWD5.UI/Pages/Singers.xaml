@@ -23,7 +23,8 @@
 
             <Picker 
                  Title="Select singer"
-                 ItemsSource="{Binding SingersNames}"
+                 ItemsSource="{Binding Singers}"
+                 ItemDisplayBinding="{Binding Name}"
                  SelectedItem="{Binding SelectedSinger}"
                  x:Name="SingersPicker">
 
@@ -38,48 +39,56 @@
 
             </Picker>
             <Frame Margin="5,0,5,0">
-                <StackLayout>
-                    <Label>
-                        <Label.FormattedText>
-                            <FormattedString>
-                                <Span Text="Name: " FontAttributes="Bold" />
-                                <Span Text="{Binding SelectedSinger.Name}" />
-                            </FormattedString>
-                        </Label.FormattedText>
-                    </Label>
-                    <Label>
-                        <Label.FormattedText>
-                            <FormattedString>
-                                <Span Text="Age: " FontAttributes="Bold" />
-                                <Span Text="{Binding SelectedSinger.Age}" />
-                            </FormattedString>
-                        </Label.FormattedText>
-                    </Label>
-                    <Label>
-                        <Label.FormattedText>
-                            <FormattedString>
-                                <Span Text="Biography: " FontAttributes="Bold" />
-                                <Span Text="{Binding SelectedSinger.Biography}" />
-                            </FormattedString>
-                        </Label.FormattedText>
-                    </Label>
-                    <!--<Image Source="{Binding SelectedSinger.PhotoReference}" Aspect="AspectFill" CornerRadius="20"/>-->
-                </StackLayout>
+                <HorizontalStackLayout>
+                    <Image 
+                         Aspect="AspectFill"
+                         HeightRequest="70"
+                         WidthRequest="70"
+                        Margin="0,0,10,0"
+                         Source="{Binding SelectedSinger.PhotoSource}"/>
+                    <StackLayout>
+                        <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Name: " FontAttributes="Bold" />
+                                    <Span Text="{Binding SelectedSinger.Name}" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Age: " FontAttributes="Bold" />
+                                    <Span Text="{Binding SelectedSinger.Age}" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Biography: " FontAttributes="Bold" />
+                                    <Span Text="{Binding SelectedSinger.Biography}" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </StackLayout>
+                </HorizontalStackLayout>
             </Frame>
             <CollectionView
                  ItemsSource="{Binding Songs}">
-                <!--HeightRequest="400"-->
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="entities:Song">
                         <Frame CornerRadius="10" Padding="10" 
+                            BorderColor="{Binding ChartPosition, Converter={StaticResource rateToColorValueConverter}}"
                             HorizontalOptions="FillAndExpand" 
                             VerticalOptions="Center">
                             <HorizontalStackLayout>
-                                <!--<Image
+                                <Image 
                                 Aspect="AspectFill"
                                 HeightRequest="70"
                                 WidthRequest="70"
-                                Source="{Binding Id, Converter={StaticResource IdToImageSource}}"></Image>-->
+                                Source="{Binding PhotoSource}"/>
+                                <!--"C:/Uni/programming-tools-and-instruments/MLWD5/MLWD5.UI/Resources/Images/default_singer_photo.png"/>-->
                                 <Label Text="{Binding Name}" 
                                      Padding="10"
                                      HorizontalOptions="FillAndExpand"
