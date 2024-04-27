@@ -47,7 +47,8 @@ namespace MLWD5.Domain.Entities
         public void ChangeInfo(string? name = null,
             string? description = null,
             string? text = null,
-            int? chartPosition = null)
+            int? chartPosition = null,
+            int? singerId = null)
         {
             if (name != null)
                 Name = name;
@@ -57,6 +58,8 @@ namespace MLWD5.Domain.Entities
                 Text = text;
             if (chartPosition != null)
                 ChartPosition = chartPosition;
+            if (singerId != null)
+                SingerId = singerId??-1;
         }
         public void SetId(int id)
             => Id = id;

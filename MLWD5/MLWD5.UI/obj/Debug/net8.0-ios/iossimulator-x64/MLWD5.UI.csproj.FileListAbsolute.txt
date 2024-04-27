@@ -326,7 +326,6 @@ C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-ios\ios
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-ios\iossimulator-x64\MLWD5.Persistense.pdb
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-ios\iossimulator-x64\CommunityToolkit.Maui.dll
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-ios\iossimulator-x64\CommunityToolkit.Maui.Core.dll
-C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-ios\iossimulator-x64\build-signature\signature
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.Data.Sqlite.dll
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.EntityFrameworkCore.Sqlite.dll
@@ -341,4 +340,5 @@ C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-ios\ios
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-ios\iossimulator-x64\SQLitePCLRaw.core.dll
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-ios\iossimulator-x64\SQLitePCLRaw.lib.e_sqlite3.ios.dll
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-ios\iossimulator-x64\SQLitePCLRaw.provider.internal.dll
-C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\default_singer_photo.png
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\singer.png
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\song.jpg

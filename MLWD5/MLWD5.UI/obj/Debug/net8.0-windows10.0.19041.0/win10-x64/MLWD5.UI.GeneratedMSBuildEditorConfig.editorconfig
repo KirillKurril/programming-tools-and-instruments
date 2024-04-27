@@ -30,11 +30,35 @@ build_metadata.AdditionalFiles.ManifestResourceName = MLWD5.UI.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
+[C:/Uni/programming-tools-and-instruments/MLWD5/MLWD5.UI/Pages/CreateSingerView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MLWD5.UI.Pages.CreateSingerView.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\CreateSingerView.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\CreateSingerView.xaml
+
+[C:/Uni/programming-tools-and-instruments/MLWD5/MLWD5.UI/Pages/CreateSongView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MLWD5.UI.Pages.CreateSongView.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\CreateSongView.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\CreateSongView.xaml
+
+[C:/Uni/programming-tools-and-instruments/MLWD5/MLWD5.UI/Pages/EditSingerView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MLWD5.UI.Pages.EditSingerView.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\EditSingerView.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\EditSingerView.xaml
+
 [C:/Uni/programming-tools-and-instruments/MLWD5/MLWD5.UI/Pages/Singers.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MLWD5.UI.Pages.Singers.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Singers.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Singers.xaml
+
+[C:/Uni/programming-tools-and-instruments/MLWD5/MLWD5.UI/Pages/SongsDetails.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MLWD5.UI.Pages.SongsDetails.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SongsDetails.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SongsDetails.xaml
 
 [C:/Uni/programming-tools-and-instruments/MLWD5/MLWD5.UI/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

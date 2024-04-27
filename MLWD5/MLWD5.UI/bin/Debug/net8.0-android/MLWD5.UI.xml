@@ -8,6 +8,7 @@
             <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:MLWD5.UI.ViewModels.SingersViewModel.SelectedSinger">
             <inheritdoc cref="F:MLWD5.UI.ViewModels.SingersViewModel.selectedSinger"/>
@@ -23,6 +24,35 @@
         </member>
         <member name="P:MLWD5.UI.ViewModels.SingersViewModel.UpdateSongsListCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MLWD5.UI.ViewModels.SingersViewModel.UpdateSongsList"/>.</summary>
+        </member>
+        <member name="F:MLWD5.UI.ViewModels.SingersViewModel.showDetailsCommand">
+            <summary>The backing field for <see cref="P:MLWD5.UI.ViewModels.SingersViewModel.ShowDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:MLWD5.UI.ViewModels.SingersViewModel.ShowDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:MLWD5.UI.ViewModels.SingersViewModel.ShowDetails(MLWD5.Domain.Entities.Song)"/>.</summary>
+        </member>
+        <member name="T:MLWD5.UI.ViewModels.SongsDetailsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:MLWD5.UI.ViewModels.SongsDetailsViewModel.editSongsDetailesCommand">
+            <summary>The backing field for <see cref="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.EditSongsDetailesCommand"/>.</summary>
+        </member>
+        <member name="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.EditSongsDetailesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MLWD5.UI.ViewModels.SongsDetailsViewModel.EditSongsDetailes"/>.</summary>
+        </member>
+        <member name="F:MLWD5.UI.ViewModels.SongsDetailsViewModel.saveSongsDetailesEditsCommand">
+            <summary>The backing field for <see cref="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.SaveSongsDetailesEditsCommand"/>.</summary>
+        </member>
+        <member name="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.SaveSongsDetailesEditsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MLWD5.UI.ViewModels.SongsDetailsViewModel.SaveSongsDetailesEdits"/>.</summary>
+        </member>
+        <member name="F:MLWD5.UI.ViewModels.SongsDetailsViewModel.deleteSongsDetailesCommand">
+            <summary>The backing field for <see cref="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.DeleteSongsDetailesCommand"/>.</summary>
+        </member>
+        <member name="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.DeleteSongsDetailesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MLWD5.UI.ViewModels.SongsDetailsViewModel.DeleteSongsDetailes"/>.</summary>
         </member>
         <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
             <summary>

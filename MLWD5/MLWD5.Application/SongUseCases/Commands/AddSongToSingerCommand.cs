@@ -4,5 +4,6 @@
         string Name,
         string Description,
         string Text,
-        int ChartPosition) : IRequest<Song>;
+        int ChartPosition,
+        int SingerId) : IRequest<Song>;
 }

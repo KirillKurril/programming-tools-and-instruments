@@ -83,6 +83,13 @@
                             HorizontalOptions="FillAndExpand" 
                             VerticalOptions="Center">
                             <HorizontalStackLayout>
+                                <HorizontalStackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding
+                                        Source={RelativeSource
+                                        AncestorType={x:Type models:SingersViewModel} },
+                                        Path=ShowDetailsCommand}"
+                                        CommandParameter="{Binding}"/>
+                                </HorizontalStackLayout.GestureRecognizers>
                                 <Image 
                                 Aspect="AspectFill"
                                 HeightRequest="70"
@@ -106,6 +113,14 @@
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
+            <VerticalStackLayout>
+                <Button
+                    Text="Create Singer"/>
+                <Button
+                    Text="Edit selected singer"/>
+                <Button
+                    Text="Create Song"/>
+            </VerticalStackLayout>
 
         </StackLayout>
     </ScrollView>

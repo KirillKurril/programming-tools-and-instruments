@@ -62,11 +62,13 @@ namespace MLWD5.UI
         static IServiceCollection RegisterPages(this IServiceCollection services)
         {
             services.AddTransient<Singers>();
+            services.AddTransient<SongsDetails>();
             return services;
         }
         static IServiceCollection RegisterViewModels(this IServiceCollection services)
         {
             services.AddTransient<SingersViewModel>();
+            services.AddTransient<SongsDetailsViewModel>();
             return services;
         }
     }

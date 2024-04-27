@@ -42,7 +42,8 @@ namespace MLWD5.UI.ViewModels
         [RelayCommand]
         async Task UpdateSongsList() => await GetSongs();
 
-
+        [RelayCommand]
+        async void ShowDetails(Song song) => await GotoDetailsPage(song);
 
         public async Task GetSingers()
         {
@@ -89,5 +90,13 @@ namespace MLWD5.UI.ViewModels
                 Debug.WriteLine(ex.ToString());
             }
         }
-}
+
+        private async Task GotoDetailsPage(Song song)
+        {
+            IDictionary<string, object> parameters =
+                new Dictionary<string, object>() {{ "SelectedSong", song}};
+            
+            await Shell.Current.GoToAsync(nameof(SongsDetails), parameters);
+        }
+    }
 }

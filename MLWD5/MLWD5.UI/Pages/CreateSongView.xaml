@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:MLWD5.UI.ViewModels"
+             xmlns:converters="clr-namespace:MLWD5.UI.Converters"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:entities="clr-namespace:MLWD5.Domain.Entities;assembly=MLWD5.Domain"
+             x:DataType="models:CreateSongViewModel"
+             x:Class="MLWD5.UI.Pages.CreateSongView"
+             Title="Create Song">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Frame
+                HorizontalOptions="Center">
+                <Image Aspect="AspectFit" />
+            </Frame>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label 
+                    Grid.Row="0" 
+                    Grid.Column="0"
+                    Text="Name"
+                    HorizontalOptions="Start"/>
+                <Entry 
+                    Grid.Row="0" 
+                    Grid.Column="1"/>
+                <Label 
+                    Grid.Row="1" 
+                    Grid.Column="0"
+                    Text="Singer Name"/>
+                <Picker 
+                    Grid.Row="1" 
+                    Grid.Column="1"/>
+                <Label 
+                    Grid.Row="2" 
+                    Grid.Column="0"
+                     Text="Chart position"/>
+                <Entry 
+                    Grid.Row="2" 
+                    Grid.Column="1"/>
+                <Label 
+                    Grid.Row="3" 
+                    Grid.Column="0"
+                     Text="Description"/>
+                <Editor 
+                    Grid.Row="3" 
+                    Grid.Column="1"/>
+                <Label 
+                    Grid.Row="4" 
+                    Grid.Column="0"
+                    Text="Lyrics"/>
+                <Editor 
+                    Grid.Row="4" 
+                    Grid.Column="1"/>
+            </Grid>
+            <VerticalStackLayout>
+                <Button 
+                    Text="Go back to menu"/>
+                <Button
+                    Text="Set Picture"/>
+                <Button
+                    Text="Create Song"/>
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -14,7 +14,7 @@
             Song changingSong =
                 await _unitOfWork.SongRepository.GetByIdAsync(request.Id, cancellationToken);
 
-            changingSong.ChangeInfo(request.Name, request.Description, request.Text, request.ChartPosition);
+            changingSong.ChangeInfo(request.Name, request.Description, request.Text, request.ChartPosition, request.SingerId);
 
             await _unitOfWork.SongRepository.UpdateAsync(changingSong, cancellationToken);
             await _unitOfWork.SaveAllAsync();
