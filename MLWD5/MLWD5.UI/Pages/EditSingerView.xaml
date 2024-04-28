@@ -62,11 +62,11 @@
                     Grid.Row="3" 
                     Grid.Column="1"
                     Text="{Binding SingerBiography}"/>
-                <Label 
+                <!--<Label 
                     Grid.Row="4" 
                     Grid.Column="0"
                     Text="Songs"/>
-                <!--<Picker 
+                <Picker 
                     Grid.Row="4" 
                     Grid.Column="1"
                     ItemsSource="{Binding SingerSongs}"

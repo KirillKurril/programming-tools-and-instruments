@@ -210,3 +210,4 @@ C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-windows
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\singers.scale-100.png
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\comic_sans.ttf

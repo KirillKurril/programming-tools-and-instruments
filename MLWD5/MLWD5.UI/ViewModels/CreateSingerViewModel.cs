@@ -46,18 +46,14 @@ namespace MLWD5.UI.ViewModels
         
         private async Task SelectAnotherImage()
         {
-            var result = await FilePicker.PickAsync(new PickOptions
+           var result = await FilePicker.PickAsync(new PickOptions
             {
                 FileTypes = FilePickerFileType.Images,
                 PickerTitle = "Choose the Image"
             });
 
             if (result != null)
-            {
-                string newImareRef = $"Resources/Images/{Id}_singer.jpg";
-                File.Copy(result.FullPath, newImareRef);
-                SingerPhotoSource = $"{Id}_singer.jpg";
-            }
+                SingerPhotoSource = result.FullPath;
         }
         public async Task SaveEdits()
         {

@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\viewmodels\\createsongviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\viewmodels\\createsongviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\pages\\editsingerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\pages\\editsingerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MLWD5.UI\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\pages\\createsingerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\pages\\createsingerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\viewmodels\\createsingerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\viewmodels\\createsingerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\pages\\singers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\pages\\singers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\viewmodels\\songsdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\viewmodels\\songsdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\viewmodels\\editsingerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\viewmodels\\editsingerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\viewmodels\\songsdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\viewmodels\\songsdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\viewmodels\\createsingerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\viewmodels\\createsingerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\viewmodels\\createsongviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\viewmodels\\createsongviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MLWD5.UI\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -47,10 +63,6 @@
       "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\pages\\editsingerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\pages\\editsingerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\singerusecases\\commands\\addsingercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\singerusecases\\commands\\addsingercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -67,10 +79,6 @@
       "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\singerusecases\\commands\\addsingercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\pages\\createsingerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\pages\\createsingerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\pages\\createsongview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\pages\\createsongview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -83,16 +91,8 @@
       "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\valueconverters\\stringtointconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\pages\\singers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\pages\\singers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.application\\singerusecases\\commands\\deletesingercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C09D680A-3919-4E62-AC9F-BBC02AFF1D24}|MLWD5.Application\\MLWD5.Application.csproj|solutionrelative:mlwd5.application\\singerusecases\\commands\\deletesingercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|c:\\uni\\programming-tools-and-instruments\\mlwd5\\mlwd5.ui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F293CC56-8500-4D57-946F-54C35C0B85F4}|MLWD5.UI\\MLWD5.UI.csproj|solutionrelative:mlwd5.ui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -102,24 +102,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.g.i.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "RelativeDocumentMoniker": "MLWD5.UI\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "RelativeToolTip": "MLWD5.UI\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAAAEoAAABEAAAA",
+              "DocumentIndex": 3,
+              "Title": "SongsDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\ViewModels\\SongsDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "MLWD5.UI\\ViewModels\\SongsDetailsViewModel.cs",
+              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\ViewModels\\SongsDetailsViewModel.cs",
+              "RelativeToolTip": "MLWD5.UI\\ViewModels\\SongsDetailsViewModel.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAqwJIAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T17:06:41.051Z",
+              "WhenOpened": "2024-04-28T16:51:24.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MLWD5.UI\\MauiProgram.cs",
+              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\MauiProgram.cs",
+              "RelativeToolTip": "MLWD5.UI\\MauiProgram.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACoAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T15:25:18.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Singers.xaml",
+              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\Pages\\Singers.xaml",
+              "RelativeDocumentMoniker": "MLWD5.UI\\Pages\\Singers.xaml",
+              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\Pages\\Singers.xaml",
+              "RelativeToolTip": "MLWD5.UI\\Pages\\Singers.xaml",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAcwGMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-28T14:02:40.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateSingerView.xaml",
+              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\Pages\\CreateSingerView.xaml",
+              "RelativeDocumentMoniker": "MLWD5.UI\\Pages\\CreateSingerView.xaml",
+              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\Pages\\CreateSingerView.xaml",
+              "RelativeToolTip": "MLWD5.UI\\Pages\\CreateSingerView.xaml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-28T16:06:46.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditSingerView.xaml",
+              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\Pages\\EditSingerView.xaml",
+              "RelativeDocumentMoniker": "MLWD5.UI\\Pages\\EditSingerView.xaml",
+              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\Pages\\EditSingerView.xaml",
+              "RelativeToolTip": "MLWD5.UI\\Pages\\EditSingerView.xaml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-28T14:29:51.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateSingerViewModel.cs",
+              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\ViewModels\\CreateSingerViewModel.cs",
+              "RelativeDocumentMoniker": "MLWD5.UI\\ViewModels\\CreateSingerViewModel.cs",
+              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\ViewModels\\CreateSingerViewModel.cs",
+              "RelativeToolTip": "MLWD5.UI\\ViewModels\\CreateSingerViewModel.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAwDcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T15:53:45.702Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "EditSingerViewModel.cs",
+              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\ViewModels\\EditSingerViewModel.cs",
+              "RelativeDocumentMoniker": "MLWD5.UI\\ViewModels\\EditSingerViewModel.cs",
+              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\ViewModels\\EditSingerViewModel.cs",
+              "RelativeToolTip": "MLWD5.UI\\ViewModels\\EditSingerViewModel.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAA9wG0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T14:04:52.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateSongViewModel.cs",
+              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\ViewModels\\CreateSongViewModel.cs",
+              "RelativeDocumentMoniker": "MLWD5.UI\\ViewModels\\CreateSongViewModel.cs",
+              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\ViewModels\\CreateSongViewModel.cs",
+              "RelativeToolTip": "MLWD5.UI\\ViewModels\\CreateSongViewModel.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAQwGAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T14:53:24.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\AppShell.xaml",
               "RelativeDocumentMoniker": "MLWD5.UI\\AppShell.xaml",
@@ -132,59 +223,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EditSingerViewModel.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\ViewModels\\EditSingerViewModel.cs",
-              "RelativeDocumentMoniker": "MLWD5.UI\\ViewModels\\EditSingerViewModel.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\ViewModels\\EditSingerViewModel.cs",
-              "RelativeToolTip": "MLWD5.UI\\ViewModels\\EditSingerViewModel.cs",
-              "ViewState": "AQIAAGIAAAAAAAAAAAAwwGwAAAAfAAAA",
+              "DocumentIndex": 8,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "MLWD5.UI\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "MLWD5.UI\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAIBJwEoAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T14:04:52.364Z",
+              "WhenOpened": "2024-04-28T17:06:41.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CreateSongViewModel.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\ViewModels\\CreateSongViewModel.cs",
-              "RelativeDocumentMoniker": "MLWD5.UI\\ViewModels\\CreateSongViewModel.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\ViewModels\\CreateSongViewModel.cs",
-              "RelativeToolTip": "MLWD5.UI\\ViewModels\\CreateSongViewModel.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAowGAAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T14:53:24.499Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateSingerViewModel.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\ViewModels\\CreateSingerViewModel.cs",
-              "RelativeDocumentMoniker": "MLWD5.UI\\ViewModels\\CreateSingerViewModel.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\ViewModels\\CreateSingerViewModel.cs",
-              "RelativeToolTip": "MLWD5.UI\\ViewModels\\CreateSingerViewModel.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAkwDcAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T15:53:45.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SongsDetailsViewModel.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\ViewModels\\SongsDetailsViewModel.cs",
-              "RelativeDocumentMoniker": "MLWD5.UI\\ViewModels\\SongsDetailsViewModel.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\ViewModels\\SongsDetailsViewModel.cs",
-              "RelativeToolTip": "MLWD5.UI\\ViewModels\\SongsDetailsViewModel.cs",
-              "ViewState": "AQIAAIIAAAAAAAAAAAAowJUAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T16:51:24.831Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "MLWD5.Application\\DependencyInjection.cs",
@@ -197,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "DbInitializer.cs",
               "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\DbInitializer.cs",
               "RelativeDocumentMoniker": "MLWD5.Application\\DbInitializer.cs",
@@ -210,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Persistense\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "MLWD5.Persistense\\Data\\AppDbContext.cs",
@@ -223,20 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EditSingerView.xaml",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\Pages\\EditSingerView.xaml",
-              "RelativeDocumentMoniker": "MLWD5.UI\\Pages\\EditSingerView.xaml",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\Pages\\EditSingerView.xaml",
-              "RelativeToolTip": "MLWD5.UI\\Pages\\EditSingerView.xaml",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAAEoAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-28T14:29:51.652Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "MLWD5.UI\\AppShell.xaml.cs",
@@ -249,20 +288,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "SingersViewModel.cs",
               "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\ViewModels\\SingersViewModel.cs",
               "RelativeDocumentMoniker": "MLWD5.UI\\ViewModels\\SingersViewModel.cs",
               "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\ViewModels\\SingersViewModel.cs",
               "RelativeToolTip": "MLWD5.UI\\ViewModels\\SingersViewModel.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAIAywGIAAABEAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAD4v2IAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T09:42:21.691Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "AddSingerCommandHandler.cs",
               "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SingerUseCases\\Commands\\AddSingerCommandHandler.cs",
               "RelativeDocumentMoniker": "MLWD5.Application\\SingerUseCases\\Commands\\AddSingerCommandHandler.cs",
@@ -275,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "AddSingerCommand.cs",
               "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SingerUseCases\\Commands\\AddSingerCommand.cs",
               "RelativeDocumentMoniker": "MLWD5.Application\\SingerUseCases\\Commands\\AddSingerCommand.cs",
@@ -288,20 +327,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Singer.cs",
               "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Domain\\Entities\\Singer.cs",
               "RelativeDocumentMoniker": "MLWD5.Domain\\Entities\\Singer.cs",
               "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Domain\\Entities\\Singer.cs",
               "RelativeToolTip": "MLWD5.Domain\\Entities\\Singer.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAA5wBwAAAAIAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA1wBwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T16:02:18.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Song.cs",
               "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Domain\\Entities\\Song.cs",
               "RelativeDocumentMoniker": "MLWD5.Domain\\Entities\\Song.cs",
@@ -314,33 +353,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CreateSingerView.xaml",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\Pages\\CreateSingerView.xaml",
-              "RelativeDocumentMoniker": "MLWD5.UI\\Pages\\CreateSingerView.xaml",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\Pages\\CreateSingerView.xaml",
-              "RelativeToolTip": "MLWD5.UI\\Pages\\CreateSingerView.xaml",
-              "ViewState": "AQIAAC0AAAAAAAAAAIBJwDEAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-28T16:06:46.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "SongsDetails.xaml",
               "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\Pages\\SongsDetails.xaml",
               "RelativeDocumentMoniker": "MLWD5.UI\\Pages\\SongsDetails.xaml",
               "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\Pages\\SongsDetails.xaml",
               "RelativeToolTip": "MLWD5.UI\\Pages\\SongsDetails.xaml",
-              "ViewState": "AQIAACcAAAAAAAAAAIBJwEMAAAAUAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAIBZwEMAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-04-28T10:33:46.666Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "StringToIntConverter.cs",
               "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\ValueConverters\\StringToIntConverter.cs",
               "RelativeDocumentMoniker": "MLWD5.UI\\ValueConverters\\StringToIntConverter.cs",
@@ -353,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "CreateSongView.xaml",
               "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\Pages\\CreateSongView.xaml",
               "RelativeDocumentMoniker": "MLWD5.UI\\Pages\\CreateSongView.xaml",
@@ -366,20 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Singers.xaml",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\Pages\\Singers.xaml",
-              "RelativeDocumentMoniker": "MLWD5.UI\\Pages\\Singers.xaml",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\Pages\\Singers.xaml",
-              "RelativeToolTip": "MLWD5.UI\\Pages\\Singers.xaml",
-              "ViewState": "AQIAAF0AAAAAAAAAAIBJwG4AAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-28T14:02:40.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "DeleteSingerCommandHandler.cs",
               "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.Application\\SingerUseCases\\Commands\\DeleteSingerCommandHandler.cs",
               "RelativeDocumentMoniker": "MLWD5.Application\\SingerUseCases\\Commands\\DeleteSingerCommandHandler.cs",
@@ -389,18 +402,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T15:50:35.954Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MLWD5.UI\\MauiProgram.cs",
-              "ToolTip": "C:\\Uni\\programming-tools-and-instruments\\MLWD5\\MLWD5.UI\\MauiProgram.cs",
-              "RelativeToolTip": "MLWD5.UI\\MauiProgram.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAAAEIAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T15:25:18.973Z"
             }
           ]
         }

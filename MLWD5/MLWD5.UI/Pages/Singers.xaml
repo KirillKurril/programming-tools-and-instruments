@@ -26,6 +26,7 @@
                  ItemsSource="{Binding Singers}"
                  ItemDisplayBinding="{Binding Name}"
                  SelectedItem="{Binding SelectedSinger}"
+                 FontFamily="ComicSans"
                  x:Name="SingersPicker">
 
                 <Picker.Behaviors>
@@ -96,6 +97,7 @@
                                 WidthRequest="70"
                                 Source="{Binding PhotoSource}"/>
                                 <Label Text="{Binding Name}" 
+                                     FontFamily="ComicSans"
                                      Padding="10"
                                      HorizontalOptions="FillAndExpand"
                                      HeightRequest="50">
@@ -108,17 +110,20 @@
             <VerticalStackLayout>
                 <Button
                     Text="Create Singer"
+                    FontFamily="ComicSans"
                     Command="{Binding GoToCreateSingerCommand}"/>
                 <Button
                     Text="Edit selected singer"
+                    FontFamily="ComicSans"
                     Command="{Binding EditSelectedSingerCommand}"/>
                 <Button
                     Text="Create Song"
+                    FontFamily="ComicSans"
                     Command="{Binding GoToCreateSongCommand}"/>
             </VerticalStackLayout>
         </StackLayout>
     </ScrollView>
-    
-    
- 
+
+
+
 </ContentPage>

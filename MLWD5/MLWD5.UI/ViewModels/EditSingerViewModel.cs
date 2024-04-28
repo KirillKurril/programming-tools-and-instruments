@@ -107,11 +107,7 @@ namespace MLWD5.UI.ViewModels
             });
 
             if (result != null)
-            {
-                string newImareRef = $"Resources/Images/{SelectedSinger.Id}_singer.jpg";
-                File.Copy(result.FullPath, newImareRef);
-                SingerPhotoSource = $"{SelectedSinger.Id}_singer.jpg";
-            }
+                SingerPhotoSource = result.FullPath;
         }
         public async Task SaveEdits()
         {

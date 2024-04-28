@@ -55,6 +55,9 @@
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\comic_sans.ttf">
+      <PackagePath>comic_sans.ttf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
     </AppxPackagedFile>
