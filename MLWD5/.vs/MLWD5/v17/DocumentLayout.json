@@ -114,8 +114,7 @@
               "RelativeToolTip": "MLWD5.UI\\ViewModels\\SongsDetailsViewModel.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAAqwJIAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T16:51:24.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T16:51:24.831Z"
             },
             {
               "$type": "Document",
@@ -127,8 +126,7 @@
               "RelativeToolTip": "MLWD5.UI\\MauiProgram.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAAACoAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T15:25:18.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T15:25:18.973Z"
             },
             {
               "$type": "Document",
@@ -140,8 +138,7 @@
               "RelativeToolTip": "MLWD5.UI\\Pages\\Singers.xaml",
               "ViewState": "AQIAAFQAAAAAAAAAAAAcwGMAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-28T14:02:40.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T14:02:40.235Z"
             },
             {
               "$type": "Document",
@@ -153,8 +150,7 @@
               "RelativeToolTip": "MLWD5.UI\\Pages\\CreateSingerView.xaml",
               "ViewState": "AQIAADAAAAAAAAAAAAAAADEAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-28T16:06:46.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T16:06:46.783Z"
             },
             {
               "$type": "Document",
@@ -179,8 +175,7 @@
               "RelativeToolTip": "MLWD5.UI\\ViewModels\\CreateSingerViewModel.cs",
               "ViewState": "AQIAACUAAAAAAAAAAAAAwDcAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T15:53:45.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T15:53:45.702Z"
             },
             {
               "$type": "Document",
@@ -192,8 +187,7 @@
               "RelativeToolTip": "MLWD5.UI\\ViewModels\\EditSingerViewModel.cs",
               "ViewState": "AQIAAF8AAAAAAAAAAAA9wG0AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T14:04:52.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T14:04:52.364Z"
             },
             {
               "$type": "Document",
@@ -205,8 +199,7 @@
               "RelativeToolTip": "MLWD5.UI\\ViewModels\\CreateSongViewModel.cs",
               "ViewState": "AQIAAE8AAAAAAAAAAAAQwGAAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T14:53:24.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T14:53:24.499Z"
             },
             {
               "$type": "Document",
@@ -218,8 +211,7 @@
               "RelativeToolTip": "MLWD5.UI\\AppShell.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-28T16:32:23.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T16:32:23.447Z"
             },
             {
               "$type": "Document",
@@ -231,8 +223,7 @@
               "RelativeToolTip": "MLWD5.UI\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
               "ViewState": "AQIAADoAAAAAAAAAAIBJwEoAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T17:06:41.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T17:06:41.051Z"
             },
             {
               "$type": "Document",
@@ -244,8 +235,7 @@
               "RelativeToolTip": "MLWD5.Application\\DependencyInjection.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T16:54:24.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T16:54:24.011Z"
             },
             {
               "$type": "Document",
@@ -257,8 +247,7 @@
               "RelativeToolTip": "MLWD5.Application\\DbInitializer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T16:52:49.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T16:52:49.766Z"
             },
             {
               "$type": "Document",
@@ -270,8 +259,7 @@
               "RelativeToolTip": "MLWD5.Persistense\\Data\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T16:52:41.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T16:52:41.077Z"
             },
             {
               "$type": "Document",
@@ -283,8 +271,7 @@
               "RelativeToolTip": "MLWD5.UI\\AppShell.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T15:25:12.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T15:25:12.832Z"
             },
             {
               "$type": "Document",
@@ -296,8 +283,7 @@
               "RelativeToolTip": "MLWD5.UI\\ViewModels\\SingersViewModel.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAD4v2IAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T09:42:21.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T09:42:21.691Z"
             },
             {
               "$type": "Document",
@@ -309,8 +295,7 @@
               "RelativeToolTip": "MLWD5.Application\\SingerUseCases\\Commands\\AddSingerCommandHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAB0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T16:22:25.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T16:22:25.97Z"
             },
             {
               "$type": "Document",
@@ -322,8 +307,7 @@
               "RelativeToolTip": "MLWD5.Application\\SingerUseCases\\Commands\\AddSingerCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T16:25:17.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T16:25:17.845Z"
             },
             {
               "$type": "Document",
@@ -335,8 +319,7 @@
               "RelativeToolTip": "MLWD5.Domain\\Entities\\Singer.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAA1wBwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T16:02:18.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T16:02:18.494Z"
             },
             {
               "$type": "Document",
@@ -348,8 +331,7 @@
               "RelativeToolTip": "MLWD5.Domain\\Entities\\Song.cs",
               "ViewState": "AQIAABsAAAAAAAAAAADgvy8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T14:14:57.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T14:14:57.3Z"
             },
             {
               "$type": "Document",
@@ -361,8 +343,7 @@
               "RelativeToolTip": "MLWD5.UI\\Pages\\SongsDetails.xaml",
               "ViewState": "AQIAACQAAAAAAAAAAIBZwEMAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-28T10:33:46.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T10:33:46.666Z"
             },
             {
               "$type": "Document",
@@ -374,8 +355,7 @@
               "RelativeToolTip": "MLWD5.UI\\ValueConverters\\StringToIntConverter.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T16:14:40.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T16:14:40.319Z"
             },
             {
               "$type": "Document",
@@ -387,8 +367,7 @@
               "RelativeToolTip": "MLWD5.UI\\Pages\\CreateSongView.xaml",
               "ViewState": "AQIAAC4AAAAAAAAAAAAUwF0AAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-28T10:27:59.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T10:27:59.653Z"
             },
             {
               "$type": "Document",
@@ -400,8 +379,7 @@
               "RelativeToolTip": "MLWD5.Application\\SingerUseCases\\Commands\\DeleteSingerCommandHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T15:50:35.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T15:50:35.954Z"
             }
           ]
         }

@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-28T17:36:52.839</Modified>
+      <Modified>2024-04-28T21:04:59.985</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MLWD5.UI.dll">
       <PackagePath>MLWD5.UI.dll</PackagePath>
-      <Modified>2024-04-28T17:36:51.766</Modified>
+      <Modified>2024-04-28T21:04:57.392</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MLWD5.UI.exe</PackagePath>
-      <Modified>2024-04-28T17:36:51.778</Modified>
+      <Modified>2024-04-28T21:04:57.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
