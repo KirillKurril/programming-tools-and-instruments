@@ -12,10 +12,15 @@
         <VerticalStackLayout>
             <Frame
                 HorizontalOptions="Center">
-                <Image Aspect="AspectFit" />
+                <Image 
+                     Source="{Binding SingerPhotoSource}" 
+                     Aspect="AspectFit" 
+                     HeightRequest="200"
+                     WidthRequest="200"/>
             </Frame>
             <Grid>
                 <Grid.RowDefinitions>
+                    <RowDefinition/>
                     <RowDefinition/>
                     <RowDefinition/>
                     <RowDefinition/>
@@ -27,46 +32,45 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
                 <Label 
-                    Grid.Row="0" 
-                    Grid.Column="0"
-                    Text="Name"
-                    HorizontalOptions="Start"/>
+                     Grid.Row="0" 
+                     Grid.Column="0"
+                     Text="Name"
+                     HorizontalOptions="Start"/>
                 <Entry 
-                    Grid.Row="0" 
-                    Grid.Column="1"/>
+                     Grid.Row="0" 
+                     Grid.Column="1"
+                     Text="{Binding SingerName}"/>
                 <Label 
-                    Grid.Row="1" 
-                    Grid.Column="0"
-                    Text="Age"/>
+                        Grid.Row="1" 
+                        Grid.Column="0"
+                        Text="Age"/>
                 <Entry 
-                    Grid.Row="1" 
-                    Grid.Column="1"/>
+                        Grid.Row="1" 
+                        Grid.Column="1"
+                        Text="{Binding SingerAge, Converter={StaticResource StringToIntConverter}}"/>
                 <Label 
-                    Grid.Row="2" 
-                    Grid.Column="0"
-                     Text="Biography"/>
+                        Grid.Row="2" 
+                        Grid.Column="0"
+                        Text="Biography"/>
                 <Editor 
-                    Grid.Row="3" 
-                    Grid.Column="1"/>
+                        Grid.Row="3" 
+                        Grid.Column="1"
+                        Text="{Binding SingerBiography}"/>
                 <Label 
-                    Grid.Row="4" 
-                    Grid.Column="0"
-                    Text="Songs"/>
-                <Picker 
-                    Grid.Row="4" 
-                    Grid.Column="1"/>
+                        Grid.Row="4" 
+                        Grid.Column="0"
+                        Text="Songs"/>
             </Grid>
             <VerticalStackLayout>
                 <Button 
-                    Text="Go back"/>
+                        Text="Go back"
+                        Command="{Binding GoToPreviousPageCommand}"/>  
                 <Button
-                    Text="Add another song"/>
+                        Text="Change Picture"
+                        Command="{Binding ChangePictureCommand}"/>
                 <Button
-                    Text="Delete selected song"/>
-                <Button
-                    Text="Change Picture"/>
-                <Button
-                    Text="Create Singer"/>
+                        Text="Confirm Changes"
+                        Command="{Binding ConfirmChangesCommand}"/>
             </VerticalStackLayout>
         </VerticalStackLayout>
     </ScrollView>

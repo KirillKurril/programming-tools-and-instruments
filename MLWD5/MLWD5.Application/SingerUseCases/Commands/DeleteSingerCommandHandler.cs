@@ -14,6 +14,7 @@
             var removableSingerSongs = await _unitOfWork.SongRepository.ListAsync(song => song.SingerId.Equals(request.Id), cancellationToken);
             foreach (var song in removableSingerSongs)
                 await _unitOfWork.SongRepository.DeleteAsync(song);
+            await _unitOfWork.SingerRepository.DeleteAsync(removableSinger);
 
             await _unitOfWork.SaveAllAsync();
             return removableSinger;

@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-28T13:46:48.530</Modified>
+      <Modified>2024-04-28T16:26:57.160</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MLWD5.UI.dll">
       <PackagePath>MLWD5.UI.dll</PackagePath>
-      <Modified>2024-04-28T13:46:47.466</Modified>
+      <Modified>2024-04-28T16:26:56.074</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MLWD5.UI.exe</PackagePath>
-      <Modified>2024-04-28T13:46:47.475</Modified>
+      <Modified>2024-04-28T16:26:56.084</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -675,15 +675,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Application\bin\Debug\net8.0\MLWD5.Application.dll">
       <PackagePath>MLWD5.Application.dll</PackagePath>
-      <Modified>2024-04-28T13:00:05.278</Modified>
+      <Modified>2024-04-28T16:26:47.155</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Domain\bin\Debug\net8.0\MLWD5.Domain.dll">
       <PackagePath>MLWD5.Domain.dll</PackagePath>
-      <Modified>2024-04-28T13:00:03.308</Modified>
+      <Modified>2024-04-28T16:26:46.331</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Persistense\bin\Debug\net8.0\MLWD5.Persistense.dll">
       <PackagePath>MLWD5.Persistense.dll</PackagePath>
-      <Modified>2024-04-28T13:00:04.018</Modified>
+      <Modified>2024-04-28T16:26:46.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\.nuget\packages\microsoft.maui.controls.compatibility\8.0.21\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

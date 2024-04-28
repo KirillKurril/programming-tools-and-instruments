@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MLWD5.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+c74cff2f3f21b3eadb273f2fe05bd46d83f448c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+042d86d84c6afe52d6ad194050531aac6688585b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MLWD5.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MLWD5.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

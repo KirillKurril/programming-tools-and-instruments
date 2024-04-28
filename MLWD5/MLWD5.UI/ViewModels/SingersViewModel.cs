@@ -25,7 +25,10 @@ namespace MLWD5.UI.ViewModels
         
         [RelayCommand]
         async Task UpdateSingersList() => await GetSingers();
-        
+
+        [RelayCommand]
+        async Task EditSelectedSinger() => GoToEditSinger();
+
         [RelayCommand]
         async Task UpdateSongsList() => await GetSongs();
 
@@ -34,6 +37,9 @@ namespace MLWD5.UI.ViewModels
 
         [RelayCommand]
         async Task GoToCreateSong() => await AddAnotherSong();
+        
+        [RelayCommand]
+        async Task GoToCreateSinger() => await AddAnotherSinger();
 
         public async Task GetSingers()
         {
@@ -87,6 +93,23 @@ namespace MLWD5.UI.ViewModels
         private async Task AddAnotherSong()
         {
             await Shell.Current.GoToAsync(nameof(CreateSongView));
+        }
+        private async Task AddAnotherSinger()
+        {
+            await Shell.Current.GoToAsync(nameof(CreateSingerView));
+        }
+
+        private async Task GoToEditSinger()
+        {
+            if (selectedSinger != null)
+            {
+                IDictionary<string, object> parameters =
+                new Dictionary<string, object>() { { "SelectedSinger", SelectedSinger } };
+
+                await Shell.Current.GoToAsync(nameof(EditSingerView), parameters);
+            }
+            else
+                await Shell.Current.GoToAsync(nameof(CreateSingerView));
         }
     }
 }

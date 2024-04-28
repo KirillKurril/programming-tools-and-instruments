@@ -19,6 +19,15 @@
             PhotoSource = photoReference;
         }
 
+        public Singer(int id, string name, int age, string biography, string photoSource)
+        {
+            Id = id;
+            Name = name;
+            Age = age;
+            Biography = biography;
+            PhotoSource = photoSource;
+        }
+
         public void ChangeInfo(string? name = null, int? age = null, string? biography = null, string? photoReference = null)
         {
             if (name != null)

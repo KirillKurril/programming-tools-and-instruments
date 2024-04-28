@@ -85,10 +85,10 @@
                             <HorizontalStackLayout>
                                 <HorizontalStackLayout.GestureRecognizers>
                                     <TapGestureRecognizer Command="{Binding
-                                        Source={RelativeSource
-                                        AncestorType={x:Type models:SingersViewModel} },
-                                        Path=ShowDetailsCommand}"
-                                        CommandParameter="{Binding}"/>
+                                                                            Source={RelativeSource
+                                                                            AncestorType={x:Type models:SingersViewModel} },
+                                                                            Path=ShowDetailsCommand}"
+                                                                            CommandParameter="{Binding}"/>      
                                 </HorizontalStackLayout.GestureRecognizers>
                                 <Image 
                                 Aspect="AspectFill"
@@ -107,14 +107,15 @@
             </CollectionView>
             <VerticalStackLayout>
                 <Button
-                    Text="Create Singer"/>
+                    Text="Create Singer"
+                    Command="{Binding GoToCreateSingerCommand}"/>
                 <Button
-                    Text="Edit selected singer"/>
+                    Text="Edit selected singer"
+                    Command="{Binding EditSelectedSingerCommand}"/>
                 <Button
                     Text="Create Song"
                     Command="{Binding GoToCreateSongCommand}"/>
             </VerticalStackLayout>
-
         </StackLayout>
     </ScrollView>
     

@@ -12,7 +12,7 @@
         public async Task<Singer> Handle(AddSingerCommand request, CancellationToken cancellationToken)
         {
             //Singer newSinger = new Singer(request.Id, request.Name, request.Age, request.Biography, request.PhotoRef);
-            Singer newSinger = new Singer(request.Name, request.Age, request.Biography, request.PhotoRef);
+            Singer newSinger = new Singer(request.Id ,request.Name, request.Age, request.Biography, request.PhotoRef);
             await _unitOfWork.SingerRepository.AddAsync(newSinger);
             await _unitOfWork.SaveAllAsync();
             return newSinger;
