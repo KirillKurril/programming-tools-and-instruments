@@ -1,11 +1,11 @@
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Domain\bin\Debug\net8.0\MLWD5.Domain.deps.json
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Domain\bin\Debug\net8.0\MLWD5.Domain.dll
+C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Domain\bin\Debug\net8.0\MLWD5.Domain.pdb
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Domain\obj\Debug\net8.0\MLWD5.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Domain\obj\Debug\net8.0\MLWD5.Domain.AssemblyInfoInputs.cache
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Domain\obj\Debug\net8.0\MLWD5.Domain.AssemblyInfo.cs
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Domain\obj\Debug\net8.0\MLWD5.Domain.csproj.CoreCompileInputs.cache
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Domain\obj\Debug\net8.0\MLWD5.Domain.sourcelink.json
-C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Domain\bin\Debug\net8.0\MLWD5.Domain.deps.json
-C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Domain\bin\Debug\net8.0\MLWD5.Domain.dll
-C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Domain\bin\Debug\net8.0\MLWD5.Domain.pdb
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Domain\obj\Debug\net8.0\MLWD5.Domain.dll
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Domain\obj\Debug\net8.0\refint\MLWD5.Domain.dll
 C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Domain\obj\Debug\net8.0\MLWD5.Domain.pdb

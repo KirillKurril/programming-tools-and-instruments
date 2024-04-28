@@ -20,21 +20,8 @@ namespace MLWD5.UI.ViewModels
         public ObservableCollection<Song> Songs{ get; set; } = new();
         public ObservableCollection<string> SongNames { get; set; } = new();
 
-        // Выбранный в списке курс
         [ObservableProperty]
         Singer selectedSinger;
-
-        string _selectedSingerName;
-        public string SelectedSingerName
-        {
-            get { return _selectedSingerName; }
-            set
-            {
-                SetProperty(ref _selectedSingerName, value);
-                UpdateSongsList();
-            }
-        }
-
         
         [RelayCommand]
         async Task UpdateSingersList() => await GetSingers();
@@ -44,6 +31,9 @@ namespace MLWD5.UI.ViewModels
 
         [RelayCommand]
         async void ShowDetails(Song song) => await GotoDetailsPage(song);
+
+        [RelayCommand]
+        async Task GoToCreateSong() => await AddAnotherSong();
 
         public async Task GetSingers()
         {
@@ -60,8 +50,7 @@ namespace MLWD5.UI.ViewModels
                         Singers.Add(singer);
                     }
                 });
-                selectedSinger = Singers.FirstOrDefault();
-                SelectedSingerName = selectedSinger.Name;
+                SelectedSinger = Singers.FirstOrDefault();
 
             }
             catch (Exception ex)
@@ -71,7 +60,7 @@ namespace MLWD5.UI.ViewModels
         }
         public async Task GetSongs()
         {
-            try
+            if(selectedSinger != null)
             {
                 var songs = await _mediator.Send(new GetSongsBySingerRequest(selectedSinger.Id));
                 await MainThread.InvokeOnMainThreadAsync(() =>
@@ -85,10 +74,6 @@ namespace MLWD5.UI.ViewModels
                     }
                 });
             }
-            catch (Exception ex)
-            {
-                Debug.WriteLine(ex.ToString());
-            }
         }
 
         private async Task GotoDetailsPage(Song song)
@@ -97,6 +82,11 @@ namespace MLWD5.UI.ViewModels
                 new Dictionary<string, object>() {{ "SelectedSong", song}};
             
             await Shell.Current.GoToAsync(nameof(SongsDetails), parameters);
+        }
+
+        private async Task AddAnotherSong()
+        {
+            await Shell.Current.GoToAsync(nameof(CreateSongView));
         }
     }
 }

@@ -8,11 +8,21 @@
              x:DataType="models:CreateSongViewModel"
              x:Class="MLWD5.UI.Pages.CreateSongView"
              Title="Create Song">
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Loaded"
+       Command="{Binding UpdateSingersListCommand}"/>
+    </ContentPage.Behaviors>
+
     <ScrollView>
         <VerticalStackLayout>
             <Frame
                 HorizontalOptions="Center">
-                <Image Aspect="AspectFit" />
+                <Image 
+                    Source="{Binding SongPhotoSource}" 
+                    Aspect="AspectFit" 
+                    HeightRequest="200"
+                    WidthRequest="200"/>
             </Frame>
             <Grid>
                 <Grid.RowDefinitions>
@@ -33,43 +43,55 @@
                     HorizontalOptions="Start"/>
                 <Entry 
                     Grid.Row="0" 
-                    Grid.Column="1"/>
+                    Grid.Column="1"
+                    Text="{Binding SongName}"/>
                 <Label 
                     Grid.Row="1" 
                     Grid.Column="0"
                     Text="Singer Name"/>
                 <Picker 
                     Grid.Row="1" 
-                    Grid.Column="1"/>
+                    Grid.Column="1"
+                    ItemsSource="{Binding Singers}"
+                    SelectedItem="{Binding SongSinger}"
+                    ItemDisplayBinding="{Binding Name}"
+                    x:Name="SingersPicker"/>
+                <!--IsEnabled="{Binding IsNotEditable}"-->
                 <Label 
                     Grid.Row="2" 
                     Grid.Column="0"
-                     Text="Chart position"/>
+                    Text="Chart position"/>
                 <Entry 
                     Grid.Row="2" 
-                    Grid.Column="1"/>
+                    Grid.Column="1"
+                    Text="{Binding SongChartPosition, Converter={StaticResource StringToIntConverter}}"/>
                 <Label 
                     Grid.Row="3" 
                     Grid.Column="0"
-                     Text="Description"/>
+                    Text="Description"/>
                 <Editor 
                     Grid.Row="3" 
-                    Grid.Column="1"/>
+                    Grid.Column="1"
+                    Text="{Binding SongDescription}"/>
                 <Label 
                     Grid.Row="4" 
                     Grid.Column="0"
                     Text="Lyrics"/>
                 <Editor 
                     Grid.Row="4" 
-                    Grid.Column="1"/>
+                    Grid.Column="1"
+                    Text="{Binding SongText}"/>
             </Grid>
             <VerticalStackLayout>
                 <Button 
-                    Text="Go back to menu"/>
+                    Text="Go back"
+                    Command="{Binding GoToPreviousPageCommand}"/>
                 <Button
-                    Text="Set Picture"/>
+                    Text="Set Picture"
+                    Command="{Binding ChangePictureCommand}"/>
                 <Button
-                    Text="Create Song"/>
+                    Text="Create Song"
+                    Command="{Binding ConfirmChangesCommand}"/>
             </VerticalStackLayout>
         </VerticalStackLayout>
     </ScrollView>

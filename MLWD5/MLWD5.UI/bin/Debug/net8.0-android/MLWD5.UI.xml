@@ -4,6 +4,40 @@
         <name>MLWD5.UI</name>
     </assembly>
     <members>
+        <member name="T:MLWD5.UI.ViewModels.CreateSongViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MLWD5.UI.ViewModels.CreateSongViewModel.SongSinger">
+            <inheritdoc cref="F:MLWD5.UI.ViewModels.CreateSongViewModel.songSinger"/>
+        </member>
+        <member name="F:MLWD5.UI.ViewModels.CreateSongViewModel.goToPreviousPageCommand">
+            <summary>The backing field for <see cref="P:MLWD5.UI.ViewModels.CreateSongViewModel.GoToPreviousPageCommand"/>.</summary>
+        </member>
+        <member name="P:MLWD5.UI.ViewModels.CreateSongViewModel.GoToPreviousPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MLWD5.UI.ViewModels.CreateSongViewModel.GoToPreviousPage"/>.</summary>
+        </member>
+        <member name="F:MLWD5.UI.ViewModels.CreateSongViewModel.changePictureCommand">
+            <summary>The backing field for <see cref="P:MLWD5.UI.ViewModels.CreateSongViewModel.ChangePictureCommand"/>.</summary>
+        </member>
+        <member name="P:MLWD5.UI.ViewModels.CreateSongViewModel.ChangePictureCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MLWD5.UI.ViewModels.CreateSongViewModel.ChangePicture"/>.</summary>
+        </member>
+        <member name="F:MLWD5.UI.ViewModels.CreateSongViewModel.confirmChangesCommand">
+            <summary>The backing field for <see cref="P:MLWD5.UI.ViewModels.CreateSongViewModel.ConfirmChangesCommand"/>.</summary>
+        </member>
+        <member name="P:MLWD5.UI.ViewModels.CreateSongViewModel.ConfirmChangesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MLWD5.UI.ViewModels.CreateSongViewModel.ConfirmChanges"/>.</summary>
+        </member>
+        <member name="F:MLWD5.UI.ViewModels.CreateSongViewModel.updateSingersListCommand">
+            <summary>The backing field for <see cref="P:MLWD5.UI.ViewModels.CreateSongViewModel.UpdateSingersListCommand"/>.</summary>
+        </member>
+        <member name="P:MLWD5.UI.ViewModels.CreateSongViewModel.UpdateSingersListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MLWD5.UI.ViewModels.CreateSongViewModel.UpdateSingersList"/>.</summary>
+        </member>
         <member name="T:MLWD5.UI.ViewModels.SingersViewModel">
             <inheritdoc/>
             <inheritdoc/>
@@ -35,24 +69,59 @@
             <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
         </member>
-        <member name="F:MLWD5.UI.ViewModels.SongsDetailsViewModel.editSongsDetailesCommand">
-            <summary>The backing field for <see cref="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.EditSongsDetailesCommand"/>.</summary>
+        <member name="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.ConfimChangesVisibility">
+            <inheritdoc cref="F:MLWD5.UI.ViewModels.SongsDetailsViewModel.confimChangesVisibility"/>
         </member>
-        <member name="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.EditSongsDetailesCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MLWD5.UI.ViewModels.SongsDetailsViewModel.EditSongsDetailes"/>.</summary>
+        <member name="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.SongSinger">
+            <inheritdoc cref="F:MLWD5.UI.ViewModels.SongsDetailsViewModel.songSinger"/>
         </member>
-        <member name="F:MLWD5.UI.ViewModels.SongsDetailsViewModel.saveSongsDetailesEditsCommand">
-            <summary>The backing field for <see cref="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.SaveSongsDetailesEditsCommand"/>.</summary>
+        <member name="F:MLWD5.UI.ViewModels.SongsDetailsViewModel.goToPreviousPageCommand">
+            <summary>The backing field for <see cref="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.GoToPreviousPageCommand"/>.</summary>
         </member>
-        <member name="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.SaveSongsDetailesEditsCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MLWD5.UI.ViewModels.SongsDetailsViewModel.SaveSongsDetailesEdits"/>.</summary>
+        <member name="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.GoToPreviousPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MLWD5.UI.ViewModels.SongsDetailsViewModel.GoToPreviousPage"/>.</summary>
         </member>
-        <member name="F:MLWD5.UI.ViewModels.SongsDetailsViewModel.deleteSongsDetailesCommand">
-            <summary>The backing field for <see cref="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.DeleteSongsDetailesCommand"/>.</summary>
+        <member name="F:MLWD5.UI.ViewModels.SongsDetailsViewModel.goToCreateSongCommand">
+            <summary>The backing field for <see cref="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.GoToCreateSongCommand"/>.</summary>
         </member>
-        <member name="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.DeleteSongsDetailesCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MLWD5.UI.ViewModels.SongsDetailsViewModel.DeleteSongsDetailes"/>.</summary>
+        <member name="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.GoToCreateSongCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MLWD5.UI.ViewModels.SongsDetailsViewModel.GoToCreateSong"/>.</summary>
+        </member>
+        <member name="F:MLWD5.UI.ViewModels.SongsDetailsViewModel.deleteSelectedSongCommand">
+            <summary>The backing field for <see cref="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.DeleteSelectedSongCommand"/>.</summary>
+        </member>
+        <member name="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.DeleteSelectedSongCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MLWD5.UI.ViewModels.SongsDetailsViewModel.DeleteSelectedSong"/>.</summary>
+        </member>
+        <member name="F:MLWD5.UI.ViewModels.SongsDetailsViewModel.changePictureCommand">
+            <summary>The backing field for <see cref="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.ChangePictureCommand"/>.</summary>
+        </member>
+        <member name="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.ChangePictureCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MLWD5.UI.ViewModels.SongsDetailsViewModel.ChangePicture"/>.</summary>
+        </member>
+        <member name="F:MLWD5.UI.ViewModels.SongsDetailsViewModel.editSelectedSongCommand">
+            <summary>The backing field for <see cref="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.EditSelectedSongCommand"/>.</summary>
+        </member>
+        <member name="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.EditSelectedSongCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MLWD5.UI.ViewModels.SongsDetailsViewModel.EditSelectedSong"/>.</summary>
+        </member>
+        <member name="F:MLWD5.UI.ViewModels.SongsDetailsViewModel.confirmChangesCommand">
+            <summary>The backing field for <see cref="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.ConfirmChangesCommand"/>.</summary>
+        </member>
+        <member name="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.ConfirmChangesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MLWD5.UI.ViewModels.SongsDetailsViewModel.ConfirmChanges"/>.</summary>
+        </member>
+        <member name="F:MLWD5.UI.ViewModels.SongsDetailsViewModel.updateSingersListCommand">
+            <summary>The backing field for <see cref="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.UpdateSingersListCommand"/>.</summary>
+        </member>
+        <member name="P:MLWD5.UI.ViewModels.SongsDetailsViewModel.UpdateSingersListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MLWD5.UI.ViewModels.SongsDetailsViewModel.UpdateSingersList"/>.</summary>
         </member>
         <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
             <summary>
@@ -180,8 +249,14 @@
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SongSinger">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SongSinger" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedSinger">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedSinger" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ConfimChangesVisibility">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ConfimChangesVisibility" generated properties.</summary>
         </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
@@ -189,8 +264,14 @@
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SongSinger">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SongSinger" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedSinger">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedSinger" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ConfimChangesVisibility">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ConfimChangesVisibility" generated properties.</summary>
         </member>
     </members>
 </doc>

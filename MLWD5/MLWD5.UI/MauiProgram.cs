@@ -63,12 +63,18 @@ namespace MLWD5.UI
         {
             services.AddTransient<Singers>();
             services.AddTransient<SongsDetails>();
+            services.AddTransient<EditSingerView>();
+            services.AddTransient<CreateSingerView>();
+            services.AddTransient<CreateSongView>();
             return services;
         }
         static IServiceCollection RegisterViewModels(this IServiceCollection services)
         {
             services.AddTransient<SingersViewModel>();
             services.AddTransient<SongsDetailsViewModel>();
+            services.AddTransient<EditSingerViewModel>();
+            services.AddTransient<CreateSongViewModel>();
+            services.AddTransient<CreateSingerViewModel>();
             return services;
         }
     }

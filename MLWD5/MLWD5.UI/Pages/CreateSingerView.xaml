@@ -58,7 +58,7 @@
             </Grid>
             <VerticalStackLayout>
                 <Button 
-                    Text="Go back to menu"/>
+                    Text="Go back"/>
                 <Button
                     Text="Add another song"/>
                 <Button

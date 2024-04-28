@@ -36,18 +36,21 @@ namespace MLWD5.Domain.Entities
             Id = id;
         }
 
-        public Song(string name, string description, string text, int chartPosition, int id, int singerId)
+        public Song(string name, string description, string text, int chartPosition, int id, string photoSource, int singerId)
         {
             Name = name;
             Description = description;
             Text = text;
             ChartPosition = chartPosition;
+            PhotoSource = photoSource;
+            Id = id;
             SingerId = singerId;
         }
         public void ChangeInfo(string? name = null,
             string? description = null,
             string? text = null,
             int? chartPosition = null,
+            string? photoSource = null,
             int? singerId = null)
         {
             if (name != null)
@@ -58,6 +61,8 @@ namespace MLWD5.Domain.Entities
                 Text = text;
             if (chartPosition != null)
                 ChartPosition = chartPosition;
+            if(photoSource != null)
+                PhotoSource = photoSource;
             if (singerId != null)
                 SingerId = singerId??-1;
         }

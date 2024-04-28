@@ -5,5 +5,6 @@
         string Description,
         string Text,
         int ChartPosition,
+        string PhotoSource,
         int SingerId) : IRequest<Song>;
 }

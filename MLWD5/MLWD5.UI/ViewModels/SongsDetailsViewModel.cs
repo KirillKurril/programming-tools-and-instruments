@@ -1,6 +1,9 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using MLWD5.Aplication.SingerUseCases.Queries;
 using MLWD5.Aplication.SongUseCases.Commands;
+using MLWD5.UI.Pages;
+using System.Collections.ObjectModel;
 
 namespace MLWD5.UI.ViewModels
 {
@@ -8,15 +11,18 @@ namespace MLWD5.UI.ViewModels
     public partial class SongsDetailsViewModel : ObservableObject
     {
         private readonly IMediator _mediator;
-        private bool _isEditable;
+        private bool _isNotEditable;
         private Song _selectedSong;
         private string _songName;
         private string _songPhotoSource;
-        private string _songPhotoTitle;
         private string _songText;
         private string _songDescription;
         private int? _songChartPosition;
         private int? _songSingerId;
+        public bool IsReadOnly => IsNotEditable;
+
+        [ObservableProperty]
+        bool confimChangesVisibility;
 
         public Song SelectedSong
         {
@@ -29,9 +35,14 @@ namespace MLWD5.UI.ViewModels
                 SongName = SelectedSong.Name;
                 SongDescription = SelectedSong.Description;
                 SongText = SelectedSong.Text;
-                SongSingerId = SelectedSong.SingerId;
             }
         }
+
+        public ObservableCollection<Singer> Singers { get; set; } = new();
+        public ObservableCollection<string> SingersNames { get; set; } = new();
+
+        [ObservableProperty]
+        Singer songSinger;
 
         public string SongName
         {
@@ -69,12 +80,12 @@ namespace MLWD5.UI.ViewModels
             set => SetProperty(ref _songSingerId, value);
         }
 
-        public bool IsEditable
+        public bool IsNotEditable
         {
-            get => _isEditable;
+            get => _isNotEditable;
             set
             {
-                SetProperty(ref _isEditable, value);
+                SetProperty(ref _isNotEditable, value);
                 OnPropertyChanged(nameof(IsReadOnly));
             }
         }
@@ -82,38 +93,86 @@ namespace MLWD5.UI.ViewModels
         public SongsDetailsViewModel(IMediator mediator)
         {
             _mediator = mediator;
+            IsNotEditable = true;
         }
 
 
         [RelayCommand]
-        async Task EditSongsDetailes() => await EditSong();
+        async Task GoToPreviousPage() => await GoBack();
 
         [RelayCommand]
-        async Task SaveSongsDetailesEdits() => await SaveEdits();
+        async Task GoToCreateSong() => await AddAnotherSong();
 
         [RelayCommand]
-        async Task DeleteSongsDetailes() => await DeleteSong();
+        async Task DeleteSelectedSong() => await DeleteSong();
 
-        public bool IsReadOnly => !IsEditable;
+        [RelayCommand]
+        async Task ChangePicture() => await SelectAnotherImage();
 
+        [RelayCommand]
+        async Task EditSelectedSong() => await EditSong();
+
+        [RelayCommand]
+        async Task ConfirmChanges() => await SaveEdits();
+
+        [RelayCommand]
+        async Task UpdateSingersList() => await GetSingers();
+
+
+        private async Task GoBack()
+        {
+            await Shell.Current.Navigation.PopAsync();
+        }
+
+        private async Task AddAnotherSong()
+        {
+            await Shell.Current.GoToAsync(nameof(CreateSongView));
+        }
+        public async Task DeleteSong()
+        {
+            await _mediator.Send(new DeleteSongCommand(SelectedSong.Id));
+            await Shell.Current.Navigation.PopAsync();
+        }
+        private async Task SelectAnotherImage()
+        {
+            var result = await FilePicker.PickAsync(new PickOptions
+            {
+                FileTypes = FilePickerFileType.Images,
+                PickerTitle = "Choose the Image"
+            });
+
+            if (result != null)
+                SongPhotoSource = result.FullPath;
+        }
         public async Task EditSong()
         {
-            IsEditable = true;
+            IsNotEditable = false;
+            ConfimChangesVisibility = true;
         }
 
         public async Task SaveEdits()
         {
             { 
-                await _mediator.Send(new EditSongCommand(SelectedSong.Id, SongName, SongDescription, SongText, SongChartPosition?? -1, SongSingerId??-1));
+                await _mediator.Send(new EditSongCommand(SelectedSong.Id, SongName, SongDescription, SongText, SongChartPosition?? -1, SongPhotoSource, SongSinger.Id));
             }
-
-            IsEditable = false;
+            IsNotEditable = true;
+            ConfimChangesVisibility = false;
         }
 
-        public async Task DeleteSong()
+        public async Task GetSingers()
         {
-            await _mediator.Send(new DeleteSongCommand(SelectedSong.Id));
-            await App.Current.MainPage.Navigation.PopAsync();
+                var singers = await _mediator.Send(new GetAllSingersRequest());
+                await MainThread.InvokeOnMainThreadAsync(() =>
+                {
+                    SingersNames.Clear();
+                    Singers.Clear();
+                    foreach (var singer in singers)
+                    {
+                        SingersNames.Add(singer.Name);
+                        Singers.Add(singer);
+                    }
+                });
+            SongSinger = singers.FirstOrDefault(singer => singer.Songs.Contains(SelectedSong));
         }
     }
 }

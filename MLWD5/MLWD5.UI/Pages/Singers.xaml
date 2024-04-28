@@ -44,7 +44,7 @@
                          Aspect="AspectFill"
                          HeightRequest="70"
                          WidthRequest="70"
-                        Margin="0,0,10,0"
+                         Margin="0,0,10,0"
                          Source="{Binding SelectedSinger.PhotoSource}"/>
                     <StackLayout>
                         <Label>
@@ -95,18 +95,10 @@
                                 HeightRequest="70"
                                 WidthRequest="70"
                                 Source="{Binding PhotoSource}"/>
-                                <!--"C:/Uni/programming-tools-and-instruments/MLWD5/MLWD5.UI/Resources/Images/default_singer_photo.png"/>-->
                                 <Label Text="{Binding Name}" 
                                      Padding="10"
                                      HorizontalOptions="FillAndExpand"
                                      HeightRequest="50">
-                                    <!--<Label.GestureRecognizers>
-                                        <TapGestureRecognizer
-                                        Command="{Binding Source={RelativeSource 
-                                            AncestorType={x:Type models:AuthorsViewModel}},
-                                            Path=ShowDetailsCommand}"
-                                        CommandParameter="{Binding Title}" />
-                                    </Label.GestureRecognizers>-->
                                 </Label>
                             </HorizontalStackLayout>
                         </Frame>
@@ -119,7 +111,8 @@
                 <Button
                     Text="Edit selected singer"/>
                 <Button
-                    Text="Create Song"/>
+                    Text="Create Song"
+                    Command="{Binding GoToCreateSongCommand}"/>
             </VerticalStackLayout>
 
         </StackLayout>
