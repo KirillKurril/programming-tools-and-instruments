@@ -2,8 +2,10 @@
 using CommunityToolkit.Mvvm.Input;
 using MLWD5.Aplication.SingerUseCases.Queries;
 using MLWD5.Aplication.SongUseCases.Commands;
+using MLWD5.Domain.Entities;
 using MLWD5.UI.Pages;
 using System.Collections.ObjectModel;
+using System.Resources;
 
 namespace MLWD5.UI.ViewModels
 {
@@ -142,7 +144,11 @@ namespace MLWD5.UI.ViewModels
             });
 
             if (result != null)
-                SongPhotoSource = result.FullPath;
+            {
+                string newImareRef = $"Resources/Images/{SelectedSong.Id}_song.jpg";
+                File.Copy(result.FullPath, newImareRef);
+                SongPhotoSource = $"{SelectedSong.Id}_song.jpg";
+            }    
         }
         public async Task EditSong()
         {
@@ -173,6 +179,7 @@ namespace MLWD5.UI.ViewModels
                     }
                 });
             SongSinger = singers.FirstOrDefault(singer => singer.Songs.Contains(SelectedSong));
+                
         }
     }
 }

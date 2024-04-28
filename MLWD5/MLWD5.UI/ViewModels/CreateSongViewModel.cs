@@ -17,6 +17,7 @@ namespace MLWD5.UI.ViewModels
         private string _songDescription;
         private int? _songChartPosition;
         private int _songSingerId;
+        private readonly int Id;
         public ObservableCollection<Singer> Singers { get; set; } = new();
         public ObservableCollection<string> SingersNames { get; set; } = new();
 
@@ -62,6 +63,7 @@ namespace MLWD5.UI.ViewModels
         public CreateSongViewModel(IMediator mediator)
         {
             _mediator = mediator;
+            Id = new Random().Next();
         }
 
 
@@ -92,28 +94,31 @@ namespace MLWD5.UI.ViewModels
             });
 
             if (result != null)
-                SongPhotoSource = result.FullPath;
+            {
+                string newImareRef = $"Resources/Images/{Id}_song.jpg";
+                File.Copy(result.FullPath, Path.GetDirectoryName(newImareRef));
+
+                SongPhotoSource = $"{Id}_song.jpg";
+            }
         }
         public async Task SaveEdits()
         {
             try
             {
-                int id = new Random().Next();
-                {
-                    await _mediator.Send(new AddSongToSingerCommand
-                        (id,
-                        SongName ?? "Not definded",
-                        SongDescription ?? "Not definded",
-                        SongText ?? "Not definded",
-                        SongChartPosition ?? -1,
-                        SongPhotoSource,
-                        SongSinger.Id));
-                }
+                await _mediator.Send(new AddSongToSingerCommand
+                    (Id,
+                    SongName ?? "Not definded",
+                    SongDescription ?? "Not definded",
+                    SongText ?? "Not definded",
+                    SongChartPosition ?? -1,
+                    SongPhotoSource,
+                    SongSinger.Id));
+                
                 var song = new Song(SongName ?? "Not definded",
                                     SongDescription ?? "Not definded",
                                     SongText ?? "Not definded",
                                     SongChartPosition ?? -1,
-                                    id,
+                                    Id,
                                     SongPhotoSource,
                                     SongSingerId);
 

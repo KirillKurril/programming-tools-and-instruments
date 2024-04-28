@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-28T16:26:57.160</Modified>
+      <Modified>2024-04-28T17:06:04.144</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-04-28T13:00:37.837</Modified>
+      <Modified>2024-04-28T16:42:56.993</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MLWD5.UI.runtimeconfig.json">
       <PackagePath>MLWD5.UI.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MLWD5.UI.dll">
       <PackagePath>MLWD5.UI.dll</PackagePath>
-      <Modified>2024-04-28T16:26:56.074</Modified>
+      <Modified>2024-04-28T17:06:02.744</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MLWD5.UI.exe</PackagePath>
-      <Modified>2024-04-28T16:26:56.084</Modified>
+      <Modified>2024-04-28T17:06:02.755</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -267,27 +267,35 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-04-28T13:00:33.124</Modified>
+      <Modified>2024-04-28T16:41:21.717</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-04-28T13:00:33.142</Modified>
+      <Modified>2024-04-28T16:41:21.743</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-04-28T13:00:33.167</Modified>
+      <Modified>2024-04-28T16:41:21.777</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-04-28T13:00:33.204</Modified>
+      <Modified>2024-04-28T16:41:21.819</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-04-28T13:00:33.323</Modified>
+      <Modified>2024-04-28T16:41:21.943</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png">
+      <PackagePath>home.scale-100.png</PackagePath>
+      <Modified>2024-04-28T16:40:01.893</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\singer.scale-100.png">
       <PackagePath>singer.scale-100.png</PackagePath>
       <Modified>2024-04-26T17:41:05.560</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\singers.scale-100.png">
+      <PackagePath>singers.scale-100.png</PackagePath>
+      <Modified>2024-04-28T16:38:17.411</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\song.scale-100.jpg">
       <PackagePath>song.scale-100.jpg</PackagePath>
@@ -295,7 +303,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MLWD5.UI.deps.json">
       <PackagePath>MLWD5.UI.deps.json</PackagePath>
-      <Modified>2024-04-28T13:07:02.078</Modified>
+      <Modified>2024-04-28T16:42:56.579</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -675,7 +683,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Application\bin\Debug\net8.0\MLWD5.Application.dll">
       <PackagePath>MLWD5.Application.dll</PackagePath>
-      <Modified>2024-04-28T16:26:47.155</Modified>
+      <Modified>2024-04-28T16:53:29.148</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.Domain\bin\Debug\net8.0\MLWD5.Domain.dll">
       <PackagePath>MLWD5.Domain.dll</PackagePath>

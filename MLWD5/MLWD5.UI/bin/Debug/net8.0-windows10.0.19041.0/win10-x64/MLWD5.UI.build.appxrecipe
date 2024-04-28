@@ -214,8 +214,14 @@
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png">
+      <PackagePath>home.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\singer.scale-100.png">
       <PackagePath>singer.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\singers.scale-100.png">
+      <PackagePath>singers.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Uni\programming-tools-and-instruments\MLWD5\MLWD5.UI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\song.scale-100.jpg">
       <PackagePath>song.scale-100.jpg</PackagePath>

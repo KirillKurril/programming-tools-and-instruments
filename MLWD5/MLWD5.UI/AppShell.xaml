@@ -6,16 +6,18 @@
     xmlns:local="clr-namespace:MLWD5.UI"
     xmlns:pages="clr-namespace:MLWD5.UI.Pages"
     Title="MLWD5.UI">
-
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-
+         Icon="home.png"
+         Title="Home"
+         ContentTemplate="{DataTemplate local:MainPage}"
+         Route="MainPage" />
+    
     <ShellContent
-        Title="NiGgErS"
-        ContentTemplate="{DataTemplate pages:Singers}"
-        Route="Singers" />
+         Icon="singers.png"
+         Title="Singers"
+         ContentTemplate="{DataTemplate pages:Singers}"
+         Route="Singers" />
+    
    
     
     
